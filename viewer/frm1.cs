@@ -15,5 +15,20 @@ namespace DentalSys
         {
             InitializeComponent();            
         }
+
+        private void frm1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            this.panelControl3.Visible = false;
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            this.panelControl2.Visible = false;
+        }
     }
 }

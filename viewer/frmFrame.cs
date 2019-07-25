@@ -18,7 +18,6 @@ using DevExpress.Skins;
 using DevExpress.Utils.Colors;
 using DevExpress.XtraEditors.ColorWheel;
 using DevExpress.XtraEditors.Popup;
-using System.Collections.Generic;
 using DevExpress.Utils.Helpers;
 using DevExpress.XtraPrinting;
 using System.Drawing.Imaging;
@@ -104,5 +103,10 @@ namespace DentalSys
 
         #endregion
 
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmNewPatient frm = new frmNewPatient();
+            frm.ShowDialog();
+        }
     }
 }

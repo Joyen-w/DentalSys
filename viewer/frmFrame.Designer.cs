@@ -120,6 +120,7 @@
             this.barStaticItem12 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem13 = new DevExpress.XtraBars.BarStaticItem();
             this.barStaticItem14 = new DevExpress.XtraBars.BarStaticItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.imageCollection4 = new DevExpress.Utils.ImageCollection(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -274,10 +275,11 @@
             this.bbiExit,
             this.barStaticItem12,
             this.barStaticItem13,
-            this.barStaticItem14});
+            this.barStaticItem14,
+            this.barButtonItem1});
             this.ribbonControl.LargeImages = this.imageCollection4;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 438;
+            this.ribbonControl.MaxItemId = 439;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorInQAT = true;
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorVisibilityItemInQATMenu = true;
@@ -303,7 +305,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1359, 134);
+            this.ribbonControl.Size = new System.Drawing.Size(1351, 130);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -1125,6 +1127,13 @@
             this.barStaticItem14.Name = "barStaticItem14";
             this.barStaticItem14.TextAlignment = System.Drawing.StringAlignment.Near;
             // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "新增患者";
+            this.barButtonItem1.Id = 438;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
+            // 
             // imageCollection4
             // 
             this.imageCollection4.ImageSize = new System.Drawing.Size(32, 32);
@@ -1244,6 +1253,7 @@
             // 
             // ribbonPageGroup18
             // 
+            this.ribbonPageGroup18.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup18.Name = "ribbonPageGroup18";
             this.ribbonPageGroup18.Text = "ribbonPageGroup18";
             // 
@@ -1326,10 +1336,10 @@
             // ribbonStatusBar1
             // 
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem13);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 790);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 780);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1359, 21);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1351, 31);
             // 
             // xtraTabbedMdiManager
             // 
@@ -1339,7 +1349,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1359, 811);
+            this.ClientSize = new System.Drawing.Size(1351, 811);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -1481,5 +1491,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup18;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup19;
         public DevExpress.LookAndFeel.DefaultLookAndFeel defaultLookAndFeel;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }

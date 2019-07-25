@@ -3,22 +3,18 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
+using System.Linq;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class frm2 : frmBase
+    public partial class frmPaitentNoRule :frmBase
     {
-        public frm2()
+        public frmPaitentNoRule()
         {
-            InitializeComponent();           
-        }
-
-        private void frm2_Load(object sender, EventArgs e)
-        {
-
+            InitializeComponent();
         }
     }
 }
