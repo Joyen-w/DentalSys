@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPaitentNoRule));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton19 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnClose = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
@@ -54,7 +54,8 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.simpleButton19);
+            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.panelControl1.Controls.Add(this.btnClose);
             this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(2, 2);
@@ -62,24 +63,29 @@
             this.panelControl1.Size = new System.Drawing.Size(558, 35);
             this.panelControl1.TabIndex = 0;
             // 
-            // simpleButton19
+            // btnClose
             // 
-            this.simpleButton19.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton19.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton19.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton19.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton19.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton19.Appearance.Options.UseBackColor = true;
-            this.simpleButton19.Appearance.Options.UseBorderColor = true;
-            this.simpleButton19.Appearance.Options.UseFont = true;
-            this.simpleButton19.Appearance.Options.UseForeColor = true;
-            this.simpleButton19.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton19.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton19.Image")));
-            this.simpleButton19.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton19.Location = new System.Drawing.Point(529, 3);
-            this.simpleButton19.Name = "simpleButton19";
-            this.simpleButton19.Size = new System.Drawing.Size(26, 27);
-            this.simpleButton19.TabIndex = 78;
+            this.btnClose.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnClose.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnClose.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnClose.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnClose.Appearance.Options.UseBackColor = true;
+            this.btnClose.Appearance.Options.UseBorderColor = true;
+            this.btnClose.Appearance.Options.UseFont = true;
+            this.btnClose.Appearance.Options.UseForeColor = true;
+            this.btnClose.AppearanceHovered.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnClose.AppearanceHovered.Options.UseBackColor = true;
+            this.btnClose.AppearancePressed.BackColor = System.Drawing.Color.LightCoral;
+            this.btnClose.AppearancePressed.Options.UseBackColor = true;
+            this.btnClose.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
+            this.btnClose.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnClose.Location = new System.Drawing.Point(529, 3);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(26, 27);
+            this.btnClose.TabIndex = 78;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
             // labelControl2
             // 
@@ -165,7 +171,7 @@
         private DevExpress.XtraEditors.RadioGroup radioGroup1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton19;
+        private DevExpress.XtraEditors.SimpleButton btnClose;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
     }

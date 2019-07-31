@@ -25,5 +25,10 @@ namespace DentalSys
         {
             this.Close();
         }
+
+        private void respItemBtnDelete_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

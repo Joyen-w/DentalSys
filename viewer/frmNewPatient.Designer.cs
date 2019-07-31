@@ -66,15 +66,15 @@
             this.btnPatNoRule = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton17 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton16 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton15 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton14 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton13 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton12 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatBrushTeeth = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatNationality = new DevExpress.XtraEditors.SimpleButton();
+            this.btnImpression = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatMedicalHistory = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatAllergies = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatAddress = new DevExpress.XtraEditors.SimpleButton();
             this.btnPatSource = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatClassify = new DevExpress.XtraEditors.SimpleButton();
+            this.btnPatVip = new DevExpress.XtraEditors.SimpleButton();
             this.textEdit15 = new DevExpress.XtraEditors.TextEdit();
             this.labelControl31 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit14 = new DevExpress.XtraEditors.TextEdit();
@@ -166,6 +166,7 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl1.Controls.Add(this.btnClose);
             this.panelControl1.Controls.Add(this.simpleButton18);
             this.panelControl1.Controls.Add(this.labelControl1);
@@ -622,15 +623,15 @@
             // 
             // panelControl3
             // 
-            this.panelControl3.Controls.Add(this.simpleButton17);
-            this.panelControl3.Controls.Add(this.simpleButton16);
-            this.panelControl3.Controls.Add(this.simpleButton15);
-            this.panelControl3.Controls.Add(this.simpleButton14);
-            this.panelControl3.Controls.Add(this.simpleButton13);
-            this.panelControl3.Controls.Add(this.simpleButton12);
+            this.panelControl3.Controls.Add(this.btnPatBrushTeeth);
+            this.panelControl3.Controls.Add(this.btnPatNationality);
+            this.panelControl3.Controls.Add(this.btnImpression);
+            this.panelControl3.Controls.Add(this.btnPatMedicalHistory);
+            this.panelControl3.Controls.Add(this.btnPatAllergies);
+            this.panelControl3.Controls.Add(this.btnPatAddress);
             this.panelControl3.Controls.Add(this.btnPatSource);
-            this.panelControl3.Controls.Add(this.simpleButton7);
-            this.panelControl3.Controls.Add(this.simpleButton9);
+            this.panelControl3.Controls.Add(this.btnPatClassify);
+            this.panelControl3.Controls.Add(this.btnPatVip);
             this.panelControl3.Controls.Add(this.textEdit15);
             this.panelControl3.Controls.Add(this.labelControl31);
             this.panelControl3.Controls.Add(this.textEdit14);
@@ -695,143 +696,149 @@
             this.panelControl3.Size = new System.Drawing.Size(700, 588);
             this.panelControl3.TabIndex = 33;
             // 
-            // simpleButton17
+            // btnPatBrushTeeth
             // 
-            this.simpleButton17.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton17.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton17.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton17.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton17.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton17.Appearance.Options.UseBackColor = true;
-            this.simpleButton17.Appearance.Options.UseBorderColor = true;
-            this.simpleButton17.Appearance.Options.UseFont = true;
-            this.simpleButton17.Appearance.Options.UseForeColor = true;
-            this.simpleButton17.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton17.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton17.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton17.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton17.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton17.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton17.Image")));
-            this.simpleButton17.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton17.Location = new System.Drawing.Point(665, 501);
-            this.simpleButton17.Name = "simpleButton17";
-            this.simpleButton17.Size = new System.Drawing.Size(26, 27);
-            this.simpleButton17.TabIndex = 79;
+            this.btnPatBrushTeeth.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatBrushTeeth.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatBrushTeeth.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatBrushTeeth.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatBrushTeeth.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatBrushTeeth.Appearance.Options.UseBackColor = true;
+            this.btnPatBrushTeeth.Appearance.Options.UseBorderColor = true;
+            this.btnPatBrushTeeth.Appearance.Options.UseFont = true;
+            this.btnPatBrushTeeth.Appearance.Options.UseForeColor = true;
+            this.btnPatBrushTeeth.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatBrushTeeth.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatBrushTeeth.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatBrushTeeth.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatBrushTeeth.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatBrushTeeth.Image = ((System.Drawing.Image)(resources.GetObject("btnPatBrushTeeth.Image")));
+            this.btnPatBrushTeeth.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatBrushTeeth.Location = new System.Drawing.Point(665, 501);
+            this.btnPatBrushTeeth.Name = "btnPatBrushTeeth";
+            this.btnPatBrushTeeth.Size = new System.Drawing.Size(26, 27);
+            this.btnPatBrushTeeth.TabIndex = 79;
+            this.btnPatBrushTeeth.Click += new System.EventHandler(this.btnPatBrushTeeth_Click);
             // 
-            // simpleButton16
+            // btnPatNationality
             // 
-            this.simpleButton16.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton16.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton16.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton16.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton16.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton16.Appearance.Options.UseBackColor = true;
-            this.simpleButton16.Appearance.Options.UseBorderColor = true;
-            this.simpleButton16.Appearance.Options.UseFont = true;
-            this.simpleButton16.Appearance.Options.UseForeColor = true;
-            this.simpleButton16.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton16.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton16.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton16.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton16.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton16.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton16.Image")));
-            this.simpleButton16.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton16.Location = new System.Drawing.Point(320, 460);
-            this.simpleButton16.Name = "simpleButton16";
-            this.simpleButton16.Size = new System.Drawing.Size(26, 27);
-            this.simpleButton16.TabIndex = 78;
+            this.btnPatNationality.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatNationality.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatNationality.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatNationality.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatNationality.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatNationality.Appearance.Options.UseBackColor = true;
+            this.btnPatNationality.Appearance.Options.UseBorderColor = true;
+            this.btnPatNationality.Appearance.Options.UseFont = true;
+            this.btnPatNationality.Appearance.Options.UseForeColor = true;
+            this.btnPatNationality.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatNationality.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatNationality.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatNationality.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatNationality.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatNationality.Image = ((System.Drawing.Image)(resources.GetObject("btnPatNationality.Image")));
+            this.btnPatNationality.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatNationality.Location = new System.Drawing.Point(320, 460);
+            this.btnPatNationality.Name = "btnPatNationality";
+            this.btnPatNationality.Size = new System.Drawing.Size(26, 27);
+            this.btnPatNationality.TabIndex = 78;
+            this.btnPatNationality.Click += new System.EventHandler(this.btnPatNationality_Click);
             // 
-            // simpleButton15
+            // btnImpression
             // 
-            this.simpleButton15.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton15.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton15.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton15.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton15.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton15.Appearance.Options.UseBackColor = true;
-            this.simpleButton15.Appearance.Options.UseBorderColor = true;
-            this.simpleButton15.Appearance.Options.UseFont = true;
-            this.simpleButton15.Appearance.Options.UseForeColor = true;
-            this.simpleButton15.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton15.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton15.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton15.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton15.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton15.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton15.Image")));
-            this.simpleButton15.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton15.Location = new System.Drawing.Point(320, 420);
-            this.simpleButton15.Name = "simpleButton15";
-            this.simpleButton15.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton15.TabIndex = 77;
+            this.btnImpression.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnImpression.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnImpression.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnImpression.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnImpression.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnImpression.Appearance.Options.UseBackColor = true;
+            this.btnImpression.Appearance.Options.UseBorderColor = true;
+            this.btnImpression.Appearance.Options.UseFont = true;
+            this.btnImpression.Appearance.Options.UseForeColor = true;
+            this.btnImpression.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnImpression.AppearanceHovered.Options.UseBackColor = true;
+            this.btnImpression.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnImpression.AppearancePressed.Options.UseBackColor = true;
+            this.btnImpression.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnImpression.Image = ((System.Drawing.Image)(resources.GetObject("btnImpression.Image")));
+            this.btnImpression.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnImpression.Location = new System.Drawing.Point(320, 420);
+            this.btnImpression.Name = "btnImpression";
+            this.btnImpression.Size = new System.Drawing.Size(26, 26);
+            this.btnImpression.TabIndex = 77;
+            this.btnImpression.Click += new System.EventHandler(this.btnImpression_Click);
             // 
-            // simpleButton14
+            // btnPatMedicalHistory
             // 
-            this.simpleButton14.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton14.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton14.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton14.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton14.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton14.Appearance.Options.UseBackColor = true;
-            this.simpleButton14.Appearance.Options.UseBorderColor = true;
-            this.simpleButton14.Appearance.Options.UseFont = true;
-            this.simpleButton14.Appearance.Options.UseForeColor = true;
-            this.simpleButton14.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton14.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton14.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton14.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton14.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton14.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton14.Image")));
-            this.simpleButton14.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton14.Location = new System.Drawing.Point(665, 343);
-            this.simpleButton14.Name = "simpleButton14";
-            this.simpleButton14.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton14.TabIndex = 76;
+            this.btnPatMedicalHistory.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatMedicalHistory.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatMedicalHistory.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatMedicalHistory.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatMedicalHistory.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatMedicalHistory.Appearance.Options.UseBackColor = true;
+            this.btnPatMedicalHistory.Appearance.Options.UseBorderColor = true;
+            this.btnPatMedicalHistory.Appearance.Options.UseFont = true;
+            this.btnPatMedicalHistory.Appearance.Options.UseForeColor = true;
+            this.btnPatMedicalHistory.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatMedicalHistory.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatMedicalHistory.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatMedicalHistory.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatMedicalHistory.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatMedicalHistory.Image = ((System.Drawing.Image)(resources.GetObject("btnPatMedicalHistory.Image")));
+            this.btnPatMedicalHistory.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatMedicalHistory.Location = new System.Drawing.Point(665, 343);
+            this.btnPatMedicalHistory.Name = "btnPatMedicalHistory";
+            this.btnPatMedicalHistory.Size = new System.Drawing.Size(26, 26);
+            this.btnPatMedicalHistory.TabIndex = 76;
+            this.btnPatMedicalHistory.Click += new System.EventHandler(this.btnPatMedicalHistory_Click);
             // 
-            // simpleButton13
+            // btnPatAllergies
             // 
-            this.simpleButton13.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton13.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton13.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton13.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton13.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton13.Appearance.Options.UseBackColor = true;
-            this.simpleButton13.Appearance.Options.UseBorderColor = true;
-            this.simpleButton13.Appearance.Options.UseFont = true;
-            this.simpleButton13.Appearance.Options.UseForeColor = true;
-            this.simpleButton13.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton13.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton13.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton13.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton13.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton13.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton13.Image")));
-            this.simpleButton13.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton13.Location = new System.Drawing.Point(663, 301);
-            this.simpleButton13.Name = "simpleButton13";
-            this.simpleButton13.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton13.TabIndex = 75;
+            this.btnPatAllergies.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatAllergies.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatAllergies.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatAllergies.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatAllergies.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatAllergies.Appearance.Options.UseBackColor = true;
+            this.btnPatAllergies.Appearance.Options.UseBorderColor = true;
+            this.btnPatAllergies.Appearance.Options.UseFont = true;
+            this.btnPatAllergies.Appearance.Options.UseForeColor = true;
+            this.btnPatAllergies.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatAllergies.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatAllergies.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatAllergies.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatAllergies.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatAllergies.Image = ((System.Drawing.Image)(resources.GetObject("btnPatAllergies.Image")));
+            this.btnPatAllergies.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatAllergies.Location = new System.Drawing.Point(663, 301);
+            this.btnPatAllergies.Name = "btnPatAllergies";
+            this.btnPatAllergies.Size = new System.Drawing.Size(26, 26);
+            this.btnPatAllergies.TabIndex = 75;
+            this.btnPatAllergies.Click += new System.EventHandler(this.btnPatAllergies_Click);
             // 
-            // simpleButton12
+            // btnPatAddress
             // 
-            this.simpleButton12.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton12.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton12.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton12.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton12.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton12.Appearance.Options.UseBackColor = true;
-            this.simpleButton12.Appearance.Options.UseBorderColor = true;
-            this.simpleButton12.Appearance.Options.UseFont = true;
-            this.simpleButton12.Appearance.Options.UseForeColor = true;
-            this.simpleButton12.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton12.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton12.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton12.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton12.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton12.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton12.Image")));
-            this.simpleButton12.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton12.Location = new System.Drawing.Point(663, 261);
-            this.simpleButton12.Name = "simpleButton12";
-            this.simpleButton12.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton12.TabIndex = 74;
+            this.btnPatAddress.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatAddress.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatAddress.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatAddress.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatAddress.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatAddress.Appearance.Options.UseBackColor = true;
+            this.btnPatAddress.Appearance.Options.UseBorderColor = true;
+            this.btnPatAddress.Appearance.Options.UseFont = true;
+            this.btnPatAddress.Appearance.Options.UseForeColor = true;
+            this.btnPatAddress.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatAddress.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatAddress.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatAddress.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatAddress.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatAddress.Image = ((System.Drawing.Image)(resources.GetObject("btnPatAddress.Image")));
+            this.btnPatAddress.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatAddress.Location = new System.Drawing.Point(663, 261);
+            this.btnPatAddress.Name = "btnPatAddress";
+            this.btnPatAddress.Size = new System.Drawing.Size(26, 26);
+            this.btnPatAddress.TabIndex = 74;
+            this.btnPatAddress.Click += new System.EventHandler(this.btnPatAddress_Click);
             // 
             // btnPatSource
             // 
@@ -857,51 +864,53 @@
             this.btnPatSource.TabIndex = 73;
             this.btnPatSource.Click += new System.EventHandler(this.btnPatSource_Click);
             // 
-            // simpleButton7
+            // btnPatClassify
             // 
-            this.simpleButton7.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton7.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton7.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton7.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton7.Appearance.Options.UseBackColor = true;
-            this.simpleButton7.Appearance.Options.UseBorderColor = true;
-            this.simpleButton7.Appearance.Options.UseFont = true;
-            this.simpleButton7.Appearance.Options.UseForeColor = true;
-            this.simpleButton7.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton7.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton7.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton7.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton7.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton7.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton7.Image")));
-            this.simpleButton7.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton7.Location = new System.Drawing.Point(320, 173);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton7.TabIndex = 72;
+            this.btnPatClassify.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatClassify.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatClassify.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatClassify.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatClassify.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatClassify.Appearance.Options.UseBackColor = true;
+            this.btnPatClassify.Appearance.Options.UseBorderColor = true;
+            this.btnPatClassify.Appearance.Options.UseFont = true;
+            this.btnPatClassify.Appearance.Options.UseForeColor = true;
+            this.btnPatClassify.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatClassify.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatClassify.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatClassify.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatClassify.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatClassify.Image = ((System.Drawing.Image)(resources.GetObject("btnPatClassify.Image")));
+            this.btnPatClassify.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatClassify.Location = new System.Drawing.Point(320, 173);
+            this.btnPatClassify.Name = "btnPatClassify";
+            this.btnPatClassify.Size = new System.Drawing.Size(26, 26);
+            this.btnPatClassify.TabIndex = 72;
+            this.btnPatClassify.Click += new System.EventHandler(this.btnPatClassify_Click);
             // 
-            // simpleButton9
+            // btnPatVip
             // 
-            this.simpleButton9.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton9.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton9.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton9.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton9.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton9.Appearance.Options.UseBackColor = true;
-            this.simpleButton9.Appearance.Options.UseBorderColor = true;
-            this.simpleButton9.Appearance.Options.UseFont = true;
-            this.simpleButton9.Appearance.Options.UseForeColor = true;
-            this.simpleButton9.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton9.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton9.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton9.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton9.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton9.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton9.Image")));
-            this.simpleButton9.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton9.Location = new System.Drawing.Point(320, 218);
-            this.simpleButton9.Name = "simpleButton9";
-            this.simpleButton9.Size = new System.Drawing.Size(26, 26);
-            this.simpleButton9.TabIndex = 71;
+            this.btnPatVip.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.btnPatVip.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.btnPatVip.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.btnPatVip.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPatVip.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.btnPatVip.Appearance.Options.UseBackColor = true;
+            this.btnPatVip.Appearance.Options.UseBorderColor = true;
+            this.btnPatVip.Appearance.Options.UseFont = true;
+            this.btnPatVip.Appearance.Options.UseForeColor = true;
+            this.btnPatVip.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.btnPatVip.AppearanceHovered.Options.UseBackColor = true;
+            this.btnPatVip.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.btnPatVip.AppearancePressed.Options.UseBackColor = true;
+            this.btnPatVip.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.btnPatVip.Image = ((System.Drawing.Image)(resources.GetObject("btnPatVip.Image")));
+            this.btnPatVip.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnPatVip.Location = new System.Drawing.Point(320, 218);
+            this.btnPatVip.Name = "btnPatVip";
+            this.btnPatVip.Size = new System.Drawing.Size(26, 26);
+            this.btnPatVip.TabIndex = 71;
+            this.btnPatVip.Click += new System.EventHandler(this.btnPatVip_Click);
             // 
             // textEdit15
             // 
@@ -1429,15 +1438,15 @@
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.TextEdit textEdit7;
         private DevExpress.XtraEditors.LabelControl labelControl16;
-        private DevExpress.XtraEditors.SimpleButton simpleButton17;
-        private DevExpress.XtraEditors.SimpleButton simpleButton16;
-        private DevExpress.XtraEditors.SimpleButton simpleButton15;
-        private DevExpress.XtraEditors.SimpleButton simpleButton14;
-        private DevExpress.XtraEditors.SimpleButton simpleButton13;
-        private DevExpress.XtraEditors.SimpleButton simpleButton12;
+        private DevExpress.XtraEditors.SimpleButton btnPatBrushTeeth;
+        private DevExpress.XtraEditors.SimpleButton btnPatNationality;
+        private DevExpress.XtraEditors.SimpleButton btnImpression;
+        private DevExpress.XtraEditors.SimpleButton btnPatMedicalHistory;
+        private DevExpress.XtraEditors.SimpleButton btnPatAllergies;
+        private DevExpress.XtraEditors.SimpleButton btnPatAddress;
         private DevExpress.XtraEditors.SimpleButton btnPatSource;
-        private DevExpress.XtraEditors.SimpleButton simpleButton7;
-        private DevExpress.XtraEditors.SimpleButton simpleButton9;
+        private DevExpress.XtraEditors.SimpleButton btnPatClassify;
+        private DevExpress.XtraEditors.SimpleButton btnPatVip;
         private DevExpress.XtraEditors.SimpleButton btnPatNoRule;
         private DevExpress.XtraEditors.SimpleButton simpleButton10;
         private DevExpress.XtraEditors.SimpleButton simpleButton18;

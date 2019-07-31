@@ -105,8 +105,18 @@ namespace DentalSys
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmNewPatient frm = new frmNewPatient();
-            frm.ShowDialog();
+            usCtlPatCurItem usControl = new usCtlPatCurItem();
+            usControl.Dock = DockStyle.None;
+            usControl.labelControl3.Text = "黄河之水天上来，奔流到海不复回！";
+            usCtlPatRegInfo usCtl = new usCtlPatRegInfo();
+
+            frmPatInfo frm = new frmPatInfo();
+            frm.MdiParent = this;
+            frm.navBarGroupControlContainer8.Controls.Add(usControl);
+            frm.navBarGroupControlContainer9.Controls.Add(usCtl);
+            frm.Show();
+            //usControlPatCurItem frm = new usControlPatCurItem();
+            //frm.Show();
         }
     }
 }

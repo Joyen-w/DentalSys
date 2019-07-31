@@ -30,5 +30,10 @@ namespace DentalSys
         {
             this.panelControl2.Visible = false;
         }
+
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(new SqlHelper(EnumBiz.onlineDB).HospitalInfo().Hospitalname);
+        }
     }
 }

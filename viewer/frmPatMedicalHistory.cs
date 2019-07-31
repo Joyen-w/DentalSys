@@ -8,7 +8,7 @@ using System.Linq;
 using System.Windows.Forms;
 using DevExpress.XtraEditors;
 
-namespace DentalSys.viewer
+namespace DentalSys
 {
     public partial class frmPatMedicalHistory : frmBase
     {
@@ -25,6 +25,11 @@ namespace DentalSys.viewer
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void respItemBtnDelete_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

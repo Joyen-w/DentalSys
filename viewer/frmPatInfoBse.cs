@@ -10,21 +10,22 @@ using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class frmPatAllergies : DevExpress.XtraEditors.XtraForm
+    public partial class frmPatInfoBse : frmBase
     {
-        public frmPatAllergies()
+        public frmPatInfoBse()
         {
             InitializeComponent();
         }
 
-        private void btnClose_Click(object sender, EventArgs e)
+        private void frmPatInfoBse_Load(object sender, EventArgs e)
         {
-            this.Close();
+
         }
 
-        private void respItemBtnDelete_Click(object sender, EventArgs e)
+        private void btnNewPatient_Click(object sender, EventArgs e)
         {
-
+            frmNewPatient frm = new frmNewPatient();
+            frm.ShowDialog();
         }
     }
 }
