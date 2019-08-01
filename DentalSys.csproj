@@ -67,16 +67,46 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
-    <Compile Include="frmCureRecords.cs">
+    <Compile Include="frmPatEmrInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmCureRecords.Designer.cs">
-      <DependentUpon>frmCureRecords.cs</DependentUpon>
+    <Compile Include="frmPatEmrInfo.Designer.cs">
+      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlPatCureItem.cs">
+    <Compile Include="usCtlEmrInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlPatCureItem.Designer.cs">
+    <Compile Include="usCtlEmrInfo.Designer.cs">
+      <DependentUpon>usCtlEmrInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usCtlPatInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usCtlPatInfo.Designer.cs">
+      <DependentUpon>usCtlPatInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmChargeRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmChargeRecords.Designer.cs">
+      <DependentUpon>frmChargeRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPacsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPacsInfo.Designer.cs">
+      <DependentUpon>frmPacsInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmCureRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmCureRecords.Designer.cs">
+      <DependentUpon>frmCureRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlPatCureItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlPatCureItem.Designer.cs">
       <DependentUpon>usCtlPatCureItem.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatInfo.cs">
@@ -167,11 +197,11 @@
     <Compile Include="viewer\frmPatConnect.Designer.cs">
       <DependentUpon>frmPatConnect.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatCurItem.cs">
+    <Compile Include="viewer\usCtlPatCureRecord.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatCurItem.Designer.cs">
-      <DependentUpon>usCtlPatCurItem.cs</DependentUpon>
+    <Compile Include="viewer\usCtlPatCureRecord.Designer.cs">
+      <DependentUpon>usCtlPatCureRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatImpression.cs">
       <SubType>Form</SubType>
@@ -221,10 +251,25 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmCureRecords.resx">
+    <EmbeddedResource Include="frmPatEmrInfo.resx">
+      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usCtlEmrInfo.resx">
+      <DependentUpon>usCtlEmrInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usCtlPatInfo.resx">
+      <DependentUpon>usCtlPatInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmChargeRecords.resx">
+      <DependentUpon>frmChargeRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPacsInfo.resx">
+      <DependentUpon>frmPacsInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmCureRecords.resx">
       <DependentUpon>frmCureRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlPatCureItem.resx">
+    <EmbeddedResource Include="viewer\usCtlPatCureItem.resx">
       <DependentUpon>usCtlPatCureItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatInfo.resx">
@@ -254,6 +299,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="viewer\frmNewPatient.resx">
       <DependentUpon>frmNewPatient.cs</DependentUpon>
@@ -276,8 +322,8 @@
     <EmbeddedResource Include="viewer\frmPatConnect.resx">
       <DependentUpon>frmPatConnect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatCurItem.resx">
-      <DependentUpon>usCtlPatCurItem.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\usCtlPatCureRecord.resx">
+      <DependentUpon>usCtlPatCureRecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatImpression.resx">
       <DependentUpon>frmPatImpression.cs</DependentUpon>

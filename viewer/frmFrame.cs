@@ -105,7 +105,7 @@ namespace DentalSys
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            usCtlPatCurItem usControl = new usCtlPatCurItem();
+            usCtlPatCureRecord usControl = new usCtlPatCureRecord();
             usControl.Dock = DockStyle.None;
             usControl.labelControl3.Text = "黄河之水天上来，奔流到海不复回！";
             usCtlPatRegInfo usCtl = new usCtlPatRegInfo();
@@ -117,6 +117,27 @@ namespace DentalSys
             frm.Show();
             //usControlPatCurItem frm = new usControlPatCurItem();
             //frm.Show();
+        }
+
+        private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmCureRecords frm = new frmCureRecords();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmChargeRecords frm = new frmChargeRecords();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPacsInfo frm = new frmPacsInfo();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

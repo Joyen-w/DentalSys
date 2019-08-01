@@ -42,29 +42,24 @@
             this.tabPane1.SuspendLayout();
             this.tabNavigationPage1.SuspendLayout();
             this.navBarGroupControlContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).BeginInit();
+            
             this.navBarGroupControlContainer1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).BeginInit();
             this.navBarGroupControlContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             this.tabNavigationPage2.SuspendLayout();
             this.navBarGroupControlContainer4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).BeginInit();
+            
             this.navBarGroupControlContainer5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl5)).BeginInit();
             this.navBarGroupControlContainer6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             this.tabNavigationPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.SuspendLayout();
@@ -162,7 +157,6 @@
             // 
             // listBoxControl7
             // 
-            this.listBoxControl7.Size = new System.Drawing.Size(271, 491);
             // 
             // pcBase
             // 
@@ -210,7 +204,7 @@
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl4.Location = new System.Drawing.Point(0, 0);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(646, 541);
+            this.panelControl4.Size = new System.Drawing.Size(646, 585);
             this.panelControl4.TabIndex = 2;
             // 
             // frmCureRecords
@@ -231,29 +225,24 @@
             this.tabPane1.ResumeLayout(false);
             this.tabNavigationPage1.ResumeLayout(false);
             this.navBarGroupControlContainer3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl3)).EndInit();
+            
             this.navBarGroupControlContainer1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl1)).EndInit();
             this.navBarGroupControlContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             this.tabNavigationPage2.ResumeLayout(false);
             this.navBarGroupControlContainer4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl4)).EndInit();
+            
             this.navBarGroupControlContainer5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl5)).EndInit();
             this.navBarGroupControlContainer6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
             this.tabNavigationPage3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.listBoxControl7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.ResumeLayout(false);
