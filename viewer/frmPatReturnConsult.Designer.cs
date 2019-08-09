@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class frmChargeRecords
+    partial class frmPatReturnConsult
     {
         /// <summary>
         /// Required designer variable.
@@ -28,9 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmChargeRecords));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatReturnConsult));
             DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
-            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -41,15 +40,12 @@
             this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.respItemBtnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
@@ -59,47 +55,39 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
             this.tabNavigationPage1.SuspendLayout();
-            this.navBarGroupControlContainer1.SuspendLayout();
-            this.navBarGroupControlContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             this.tabNavigationPage2.SuspendLayout();
-            this.navBarGroupControlContainer5.SuspendLayout();
-            this.navBarGroupControlContainer6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
-            this.tabNavigationPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
-            this.panelControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.respItemBtnDelete)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainerControl1
             // 
-            this.splitContainerControl1.Panel2.Controls.Add(this.panelControl4);
-            this.splitContainerControl1.Size = new System.Drawing.Size(1460, 551);
+            this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1087, 552);
             // 
             // panelControl6
             // 
-            this.panelControl6.Controls.Add(this.comboBoxEdit2);
+            this.panelControl6.Controls.Add(this.simpleButton2);
+            this.panelControl6.Controls.Add(this.simpleButton1);
             this.panelControl6.Controls.Add(this.simpleButton8);
             this.panelControl6.Controls.Add(this.simpleButton6);
-            this.panelControl6.Controls.Add(this.simpleButton7);
-            this.panelControl6.Location = new System.Drawing.Point(0, 507);
-            this.panelControl6.Size = new System.Drawing.Size(1127, 44);
+            this.panelControl6.Location = new System.Drawing.Point(0, 508);
+            this.panelControl6.Size = new System.Drawing.Size(754, 44);
             // 
             // panelControl5
             // 
-            this.panelControl5.Location = new System.Drawing.Point(0, 507);
+            this.panelControl5.Location = new System.Drawing.Point(0, 508);
             // 
             // simpleButton3
             // 
@@ -117,8 +105,8 @@
             // 
             // tabPane1
             // 
-            this.tabPane1.RegularSize = new System.Drawing.Size(324, 503);
-            this.tabPane1.Size = new System.Drawing.Size(324, 503);
+            this.tabPane1.RegularSize = new System.Drawing.Size(324, 504);
+            this.tabPane1.Size = new System.Drawing.Size(324, 504);
             // 
             // navBarGroupControlContainer3
             // 
@@ -143,20 +131,25 @@
             this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
             this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             // 
-            // navBarGroupControlContainer4
+            // tabNavigationPage2
             // 
-            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
+            this.tabNavigationPage2.Size = new System.Drawing.Size(306, 458);
+            // 
+            // navBarGroupControlContainer6
+            // 
+            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
             // 
             // navBarGroupControlContainer5
             // 
             this.navBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer5.Appearance.Options.UseBackColor = true;
             // 
-            // navBarGroupControlContainer6
+            // navBarGroupControlContainer4
             // 
-            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer4.Size = new System.Drawing.Size(298, 146);
             // 
             // comboBoxEdit1
             // 
@@ -171,36 +164,20 @@
             this.dateEdit2.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
             this.dateEdit2.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             // 
-            // tabNavigationPage3
-            // 
-            this.tabNavigationPage3.Size = new System.Drawing.Size(306, 457);
-            // 
-            // listBoxControl7
-            // 
-            // 
             // pcBase
             // 
-            this.pcBase.Size = new System.Drawing.Size(1460, 551);
-            // 
-            // panelControl4
-            // 
-            this.panelControl4.Controls.Add(this.gridControl1);
-            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl4.Location = new System.Drawing.Point(0, 0);
-            this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1127, 551);
-            this.panelControl4.TabIndex = 2;
+            this.pcBase.Size = new System.Drawing.Size(1087, 552);
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(2, 2);
+            this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
             this.gridControl1.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
             this.respItemBtnDelete});
-            this.gridControl1.Size = new System.Drawing.Size(1123, 547);
-            this.gridControl1.TabIndex = 2;
+            this.gridControl1.Size = new System.Drawing.Size(754, 552);
+            this.gridControl1.TabIndex = 4;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
@@ -215,10 +192,7 @@
             this.gridColumn6,
             this.gridColumn7,
             this.gridColumn8,
-            this.gridColumn9,
-            this.gridColumn10,
-            this.gridColumn11,
-            this.gridColumn12});
+            this.gridColumn16});
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
@@ -231,15 +205,20 @@
             // 
             this.gridColumn1.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn1.AppearanceCell.Options.UseFont = true;
+            this.gridColumn1.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn1.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn1.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn1.AppearanceHeader.Options.UseFont = true;
             this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn1.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn1.Caption = "状态";
+            this.gridColumn1.Caption = "录音";
             this.gridColumn1.Name = "gridColumn1";
             this.gridColumn1.OptionsColumn.AllowEdit = false;
             this.gridColumn1.OptionsColumn.AllowFocus = false;
+            this.gridColumn1.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn1.OptionsFilter.AllowFilter = false;
             this.gridColumn1.Visible = true;
             this.gridColumn1.VisibleIndex = 0;
             this.gridColumn1.Width = 115;
@@ -248,15 +227,20 @@
             // 
             this.gridColumn2.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn2.AppearanceCell.Options.UseFont = true;
+            this.gridColumn2.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn2.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn2.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn2.AppearanceHeader.Options.UseFont = true;
             this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn2.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn2.Caption = "单据号";
+            this.gridColumn2.Caption = "回访状态";
             this.gridColumn2.Name = "gridColumn2";
             this.gridColumn2.OptionsColumn.AllowEdit = false;
             this.gridColumn2.OptionsColumn.AllowFocus = false;
+            this.gridColumn2.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn2.OptionsFilter.AllowFilter = false;
             this.gridColumn2.Visible = true;
             this.gridColumn2.VisibleIndex = 1;
             this.gridColumn2.Width = 91;
@@ -265,15 +249,20 @@
             // 
             this.gridColumn3.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn3.AppearanceCell.Options.UseFont = true;
+            this.gridColumn3.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn3.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn3.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn3.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn3.AppearanceHeader.Options.UseFont = true;
             this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn3.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn3.Caption = "收费时间";
+            this.gridColumn3.Caption = "回访人";
             this.gridColumn3.Name = "gridColumn3";
             this.gridColumn3.OptionsColumn.AllowEdit = false;
             this.gridColumn3.OptionsColumn.AllowFocus = false;
+            this.gridColumn3.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn3.OptionsFilter.AllowFilter = false;
             this.gridColumn3.Visible = true;
             this.gridColumn3.VisibleIndex = 2;
             this.gridColumn3.Width = 91;
@@ -282,15 +271,20 @@
             // 
             this.gridColumn4.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn4.AppearanceCell.Options.UseFont = true;
+            this.gridColumn4.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn4.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn4.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn4.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn4.AppearanceHeader.Options.UseFont = true;
             this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn4.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn4.Caption = "医生";
+            this.gridColumn4.Caption = "主治医生";
             this.gridColumn4.Name = "gridColumn4";
             this.gridColumn4.OptionsColumn.AllowEdit = false;
             this.gridColumn4.OptionsColumn.AllowFocus = false;
+            this.gridColumn4.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn4.OptionsFilter.AllowFilter = false;
             this.gridColumn4.Visible = true;
             this.gridColumn4.VisibleIndex = 3;
             this.gridColumn4.Width = 91;
@@ -299,15 +293,20 @@
             // 
             this.gridColumn5.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn5.AppearanceCell.Options.UseFont = true;
+            this.gridColumn5.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn5.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn5.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn5.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn5.AppearanceHeader.Options.UseFont = true;
             this.gridColumn5.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn5.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn5.Caption = "收款员";
+            this.gridColumn5.Caption = "回访时间";
             this.gridColumn5.Name = "gridColumn5";
             this.gridColumn5.OptionsColumn.AllowEdit = false;
             this.gridColumn5.OptionsColumn.AllowFocus = false;
+            this.gridColumn5.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn5.OptionsFilter.AllowFilter = false;
             this.gridColumn5.Visible = true;
             this.gridColumn5.VisibleIndex = 4;
             this.gridColumn5.Width = 91;
@@ -317,16 +316,19 @@
             this.gridColumn6.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn6.AppearanceCell.Options.UseFont = true;
             this.gridColumn6.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn6.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.gridColumn6.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn6.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn6.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn6.AppearanceHeader.Options.UseFont = true;
             this.gridColumn6.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn6.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn6.Caption = "本次费用";
+            this.gridColumn6.Caption = "回访内容";
             this.gridColumn6.Name = "gridColumn6";
             this.gridColumn6.OptionsColumn.AllowEdit = false;
             this.gridColumn6.OptionsColumn.AllowFocus = false;
+            this.gridColumn6.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn6.OptionsFilter.AllowFilter = false;
             this.gridColumn6.Visible = true;
             this.gridColumn6.VisibleIndex = 5;
             this.gridColumn6.Width = 91;
@@ -336,16 +338,19 @@
             this.gridColumn7.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn7.AppearanceCell.Options.UseFont = true;
             this.gridColumn7.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn7.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.gridColumn7.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn7.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn7.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn7.AppearanceHeader.Options.UseFont = true;
             this.gridColumn7.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn7.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn7.Caption = "实收金额";
+            this.gridColumn7.Caption = "回访结果";
             this.gridColumn7.Name = "gridColumn7";
             this.gridColumn7.OptionsColumn.AllowEdit = false;
             this.gridColumn7.OptionsColumn.AllowFocus = false;
+            this.gridColumn7.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn7.OptionsFilter.AllowFilter = false;
             this.gridColumn7.Visible = true;
             this.gridColumn7.VisibleIndex = 6;
             this.gridColumn7.Width = 91;
@@ -355,91 +360,41 @@
             this.gridColumn8.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn8.AppearanceCell.Options.UseFont = true;
             this.gridColumn8.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn8.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
+            this.gridColumn8.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn8.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
             this.gridColumn8.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gridColumn8.AppearanceHeader.Options.UseFont = true;
             this.gridColumn8.AppearanceHeader.Options.UseTextOptions = true;
             this.gridColumn8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.gridColumn8.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn8.Caption = "折扣金额";
+            this.gridColumn8.Caption = "创建时间";
             this.gridColumn8.Name = "gridColumn8";
             this.gridColumn8.OptionsColumn.AllowEdit = false;
             this.gridColumn8.OptionsColumn.AllowFocus = false;
+            this.gridColumn8.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn8.OptionsFilter.AllowFilter = false;
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 7;
             this.gridColumn8.Width = 91;
             // 
-            // gridColumn9
+            // gridColumn16
             // 
-            this.gridColumn9.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn9.AppearanceCell.ForeColor = System.Drawing.Color.Red;
-            this.gridColumn9.AppearanceCell.Options.UseFont = true;
-            this.gridColumn9.AppearanceCell.Options.UseForeColor = true;
-            this.gridColumn9.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Far;
-            this.gridColumn9.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn9.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn9.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn9.Caption = "欠费";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.OptionsColumn.AllowEdit = false;
-            this.gridColumn9.OptionsColumn.AllowFocus = false;
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 8;
-            this.gridColumn9.Width = 91;
-            // 
-            // gridColumn10
-            // 
-            this.gridColumn10.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn10.AppearanceCell.Options.UseFont = true;
-            this.gridColumn10.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn10.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn10.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn10.Caption = "账单时间";
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.OptionsColumn.AllowEdit = false;
-            this.gridColumn10.OptionsColumn.AllowFocus = false;
-            this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 9;
-            this.gridColumn10.Width = 91;
-            // 
-            // gridColumn11
-            // 
-            this.gridColumn11.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn11.AppearanceCell.Options.UseFont = true;
-            this.gridColumn11.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn11.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn11.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn11.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn11.Caption = "护士";
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.OptionsColumn.AllowEdit = false;
-            this.gridColumn11.OptionsColumn.AllowFocus = false;
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 10;
-            this.gridColumn11.Width = 91;
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn12.AppearanceCell.Options.UseFont = true;
-            this.gridColumn12.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gridColumn12.AppearanceHeader.Options.UseFont = true;
-            this.gridColumn12.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn12.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn12.Caption = "备注";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.OptionsColumn.AllowEdit = false;
-            this.gridColumn12.OptionsColumn.AllowFocus = false;
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 11;
-            this.gridColumn12.Width = 131;
+            this.gridColumn16.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn16.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn16.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn16.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn16.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn16.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn16.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn16.Caption = "就诊日期";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.OptionsColumn.AllowEdit = false;
+            this.gridColumn16.OptionsColumn.AllowFocus = false;
+            this.gridColumn16.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn16.OptionsFilter.AllowFilter = false;
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 8;
             // 
             // respItemBtnDelete
             // 
@@ -451,17 +406,29 @@
             this.respItemBtnDelete.Name = "respItemBtnDelete";
             this.respItemBtnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Appearance.Options.UseForeColor = true;
+            this.simpleButton1.Location = new System.Drawing.Point(250, 8);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(97, 31);
+            this.simpleButton1.TabIndex = 81;
+            this.simpleButton1.Text = "修改";
+            // 
             // simpleButton8
             // 
             this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton8.Appearance.ForeColor = System.Drawing.Color.Black;
             this.simpleButton8.Appearance.Options.UseFont = true;
             this.simpleButton8.Appearance.Options.UseForeColor = true;
-            this.simpleButton8.Location = new System.Drawing.Point(414, 8);
+            this.simpleButton8.Location = new System.Drawing.Point(133, 8);
             this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(127, 31);
-            this.simpleButton8.TabIndex = 74;
-            this.simpleButton8.Text = "流水单";
+            this.simpleButton8.Size = new System.Drawing.Size(100, 31);
+            this.simpleButton8.TabIndex = 80;
+            this.simpleButton8.Text = "新增回访";
             // 
             // simpleButton6
             // 
@@ -469,53 +436,32 @@
             this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
             this.simpleButton6.Appearance.Options.UseFont = true;
             this.simpleButton6.Appearance.Options.UseForeColor = true;
-            this.simpleButton6.Location = new System.Drawing.Point(286, 8);
+            this.simpleButton6.Location = new System.Drawing.Point(15, 8);
             this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(111, 31);
-            this.simpleButton6.TabIndex = 73;
-            this.simpleButton6.Text = "预交款";
+            this.simpleButton6.Size = new System.Drawing.Size(101, 31);
+            this.simpleButton6.TabIndex = 79;
+            this.simpleButton6.Text = "新增计划";
             // 
-            // simpleButton7
+            // simpleButton2
             // 
-            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton7.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton7.Appearance.Options.UseFont = true;
-            this.simpleButton7.Appearance.Options.UseForeColor = true;
-            this.simpleButton7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.simpleButton7.Location = new System.Drawing.Point(28, 8);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(111, 31);
-            this.simpleButton7.TabIndex = 72;
-            this.simpleButton7.Text = "收费";
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Appearance.Options.UseForeColor = true;
+            this.simpleButton2.Location = new System.Drawing.Point(364, 8);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(97, 31);
+            this.simpleButton2.TabIndex = 82;
+            this.simpleButton2.Text = "删除";
             // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.EditValue = "其他";
-            this.comboBoxEdit2.Location = new System.Drawing.Point(145, 11);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit2.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit2.Properties.AppearanceDropDown.Options.UseFont = true;
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Properties.Items.AddRange(new object[] {
-            "其他",
-            "收费",
-            "退费",
-            "收费设置",
-            "打印设置"});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(135, 26);
-            this.comboBoxEdit2.TabIndex = 75;
-            // 
-            // frmChargeRecords
+            // frmPatReturnConsult
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1460, 551);
-            this.Name = "frmChargeRecords";
-            this.Text = "frmChargeRecords";
-            this.Load += new System.EventHandler(this.frmChargeRecords_Load);
+            this.ClientSize = new System.Drawing.Size(1087, 552);
+            this.Name = "frmPatReturnConsult";
+            this.Text = "回访信息";
+            this.Load += new System.EventHandler(this.frmPatReturnConsult_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).EndInit();
@@ -525,35 +471,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
             this.tabPane1.ResumeLayout(false);
             this.tabNavigationPage1.ResumeLayout(false);
-            this.navBarGroupControlContainer1.ResumeLayout(false);
-            this.navBarGroupControlContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             this.tabNavigationPage2.ResumeLayout(false);
-            this.navBarGroupControlContainer5.ResumeLayout(false);
-            this.navBarGroupControlContainer6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
-            this.tabNavigationPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
-            this.panelControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.respItemBtnDelete)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private DevExpress.XtraEditors.PanelControl panelControl4;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
@@ -564,14 +501,11 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn6;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn9;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn10;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn11;
-        private DevExpress.XtraGrid.Columns.GridColumn gridColumn12;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn16;
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit respItemBtnDelete;
-        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        public DevExpress.XtraEditors.SimpleButton simpleButton2;
+        public DevExpress.XtraEditors.SimpleButton simpleButton1;
         public DevExpress.XtraEditors.SimpleButton simpleButton8;
         public DevExpress.XtraEditors.SimpleButton simpleButton6;
-        public DevExpress.XtraEditors.SimpleButton simpleButton7;
     }
 }

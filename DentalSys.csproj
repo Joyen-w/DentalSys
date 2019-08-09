@@ -39,16 +39,43 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\DevExpress 16.2\Components\Bin\Framework\DevExpress.BonusSkins.v16.2.dll</HintPath>
     </Reference>
+    <Reference Include="DevExpress.Charts.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.CodeParser.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Data.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.DataAccess.v16.2.UI, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Office.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.PivotGrid.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Printing.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.Sparkline.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.Utils.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v16.2.UI, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraBars.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.Extensions, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.UI, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v16.2.Wizard, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraEditors.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGauges.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraNavBar.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraReports.v16.2.Extensions, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraRichEdit.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraScheduler.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v16.2.Core, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraTreeList.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraVerticalGrid.v16.2, Version=16.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
@@ -67,41 +94,191 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
-    <Compile Include="frmPatEmrInfo.cs">
+    <Compile Include="viewer\frmStatOutProcess.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmPatEmrInfo.Designer.cs">
+    <Compile Include="viewer\frmStatOutProcess.Designer.cs">
+      <DependentUpon>frmStatOutProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStatPatQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStatPatQuery.Designer.cs">
+      <DependentUpon>frmStatPatQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlOutProcessDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlOutProcessDetail.Designer.cs">
+      <DependentUpon>usCtlOutProcessDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlOutProcessType.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlOutProcessType.Designer.cs">
+      <DependentUpon>usCtlOutProcessType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStaffPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStaffPerformance.Designer.cs">
+      <DependentUpon>frmStaffPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffConsultPerformance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffConsultPerformance.Designer.cs">
+      <DependentUpon>usCtlStaffConsultPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffItemCharge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffItemCharge.Designer.cs">
+      <DependentUpon>usCtlStaffItemCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffNurseCharge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffNurseCharge.Designer.cs">
+      <DependentUpon>usCtlStaffNurseCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffChargeClassify.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStaffChargeClassify.Designer.cs">
+      <DependentUpon>usCtlStaffChargeClassify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStatChargeAccout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStatChargeAccout.Designer.cs">
+      <DependentUpon>frmStatChargeAccout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatAccountDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatAccountDetail.Designer.cs">
+      <DependentUpon>usCtlStatAccountDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatAccoutDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatAccoutDate.Designer.cs">
+      <DependentUpon>usCtlStatAccoutDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatChargeAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatChargeAccount.Designer.cs">
+      <DependentUpon>usCtlStatChargeAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatCharge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatCharge.Designer.cs">
+      <DependentUpon>usCtlStatCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatOwe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatOwe.Designer.cs">
+      <DependentUpon>usCtlStatOwe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatPrePayBalance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatPrePayBalance.Designer.cs">
+      <DependentUpon>usCtlStatPrePayBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlStatPrePayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlStatPrePayment.Designer.cs">
+      <DependentUpon>usCtlStatPrePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStatBusiness.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStatBusiness.Designer.cs">
+      <DependentUpon>frmStatBusiness.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatCommunicate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatCommunicate.Designer.cs">
+      <DependentUpon>frmPatCommunicate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatConsultInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatConsultInfo.Designer.cs">
+      <DependentUpon>frmPatConsultInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatOutProcess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatOutProcess.Designer.cs">
+      <DependentUpon>frmPatOutProcess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatReturnConsult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatReturnConsult.Designer.cs">
+      <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlPatConsultInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlPatConsultInfo.Designer.cs">
+      <DependentUpon>usCtlPatConsultInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatEmrInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatEmrInfo.Designer.cs">
       <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlEmrInfo.cs">
+    <Compile Include="viewer\usCtlPatEmrCommon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlEmrInfo.Designer.cs">
-      <DependentUpon>usCtlEmrInfo.cs</DependentUpon>
+    <Compile Include="viewer\usCtlPatEmrCommon.Designer.cs">
+      <DependentUpon>usCtlPatEmrCommon.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlPatInfo.cs">
+    <Compile Include="viewer\usCtlPatEmrFirstVisit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlPatInfo.Designer.cs">
+    <Compile Include="viewer\usCtlPatEmrFirstVisit.Designer.cs">
+      <DependentUpon>usCtlPatEmrFirstVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlPatEmrReVisit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlPatEmrReVisit.Designer.cs">
+      <DependentUpon>usCtlPatEmrReVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\usCtlPatInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\usCtlPatInfo.Designer.cs">
       <DependentUpon>usCtlPatInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmChargeRecords.cs">
+    <Compile Include="viewer\frmPatChargeRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmChargeRecords.Designer.cs">
-      <DependentUpon>frmChargeRecords.cs</DependentUpon>
+    <Compile Include="viewer\frmPatChargeRecords.Designer.cs">
+      <DependentUpon>frmPatChargeRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPacsInfo.cs">
+    <Compile Include="viewer\frmPatPacsInfo.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPacsInfo.Designer.cs">
-      <DependentUpon>frmPacsInfo.cs</DependentUpon>
+    <Compile Include="viewer\frmPatPacsInfo.Designer.cs">
+      <DependentUpon>frmPatPacsInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmCureRecords.cs">
+    <Compile Include="viewer\frmPatCureRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmCureRecords.Designer.cs">
-      <DependentUpon>frmCureRecords.cs</DependentUpon>
+    <Compile Include="viewer\frmPatCureRecords.Designer.cs">
+      <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\usCtlPatCureItem.cs">
       <SubType>UserControl</SubType>
@@ -251,23 +428,98 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmPatEmrInfo.resx">
+    <EmbeddedResource Include="viewer\frmStatOutProcess.resx">
+      <DependentUpon>frmStatOutProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStatPatQuery.resx">
+      <DependentUpon>frmStatPatQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlOutProcessDetail.resx">
+      <DependentUpon>usCtlOutProcessDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlOutProcessType.resx">
+      <DependentUpon>usCtlOutProcessType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStaffPerformance.resx">
+      <DependentUpon>frmStaffPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStaffConsultPerformance.resx">
+      <DependentUpon>usCtlStaffConsultPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStaffItemCharge.resx">
+      <DependentUpon>usCtlStaffItemCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStaffNurseCharge.resx">
+      <DependentUpon>usCtlStaffNurseCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStaffChargeClassify.resx">
+      <DependentUpon>usCtlStaffChargeClassify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStatChargeAccout.resx">
+      <DependentUpon>frmStatChargeAccout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatAccountDetail.resx">
+      <DependentUpon>usCtlStatAccountDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatAccoutDate.resx">
+      <DependentUpon>usCtlStatAccoutDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatChargeAccount.resx">
+      <DependentUpon>usCtlStatChargeAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatCharge.resx">
+      <DependentUpon>usCtlStatCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatOwe.resx">
+      <DependentUpon>usCtlStatOwe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatPrePayBalance.resx">
+      <DependentUpon>usCtlStatPrePayBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlStatPrePayment.resx">
+      <DependentUpon>usCtlStatPrePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStatBusiness.resx">
+      <DependentUpon>frmStatBusiness.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatCommunicate.resx">
+      <DependentUpon>frmPatCommunicate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatConsultInfo.resx">
+      <DependentUpon>frmPatConsultInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatOutProcess.resx">
+      <DependentUpon>frmPatOutProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatReturnConsult.resx">
+      <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlPatConsultInfo.resx">
+      <DependentUpon>usCtlPatConsultInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatEmrInfo.resx">
       <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlEmrInfo.resx">
-      <DependentUpon>usCtlEmrInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\usCtlPatEmrCommon.resx">
+      <DependentUpon>usCtlPatEmrCommon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlPatInfo.resx">
+    <EmbeddedResource Include="viewer\usCtlPatEmrFirstVisit.resx">
+      <DependentUpon>usCtlPatEmrFirstVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlPatEmrReVisit.resx">
+      <DependentUpon>usCtlPatEmrReVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\usCtlPatInfo.resx">
       <DependentUpon>usCtlPatInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmChargeRecords.resx">
-      <DependentUpon>frmChargeRecords.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatChargeRecords.resx">
+      <DependentUpon>frmPatChargeRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPacsInfo.resx">
-      <DependentUpon>frmPacsInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatPacsInfo.resx">
+      <DependentUpon>frmPatPacsInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmCureRecords.resx">
-      <DependentUpon>frmCureRecords.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatCureRecords.resx">
+      <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\usCtlPatCureItem.resx">
       <DependentUpon>usCtlPatCureItem.cs</DependentUpon>

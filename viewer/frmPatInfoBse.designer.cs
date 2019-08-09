@@ -127,7 +127,7 @@
             this.tabNavigationPage2,
             this.tabNavigationPage3});
             this.tabPane1.RegularSize = new System.Drawing.Size(324, 786);
-            this.tabPane1.SelectedPage = this.tabNavigationPage3;
+            this.tabPane1.SelectedPage = this.tabNavigationPage2;
             this.tabPane1.Size = new System.Drawing.Size(324, 786);
             this.tabPane1.TabIndex = 0;
             // 

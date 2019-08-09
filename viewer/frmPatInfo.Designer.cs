@@ -122,25 +122,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
             this.tabNavigationPage1.SuspendLayout();
-            this.navBarGroupControlContainer3.SuspendLayout();
-            
-            this.navBarGroupControlContainer1.SuspendLayout();
-            this.navBarGroupControlContainer2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             this.tabNavigationPage2.SuspendLayout();
-            this.navBarGroupControlContainer4.SuspendLayout();
-           
-            this.navBarGroupControlContainer5.SuspendLayout();
-            this.navBarGroupControlContainer6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
-            this.tabNavigationPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
@@ -166,7 +157,7 @@
             this.panelControl6.Controls.Add(this.simpleButton6);
             this.panelControl6.Controls.Add(this.simpleButton7);
             this.panelControl6.Location = new System.Drawing.Point(0, 838);
-            this.panelControl6.Size = new System.Drawing.Size(836, 44);
+            this.panelControl6.Size = new System.Drawing.Size(801, 44);
             // 
             // panelControl5
             // 
@@ -188,8 +179,8 @@
             // 
             // tabPane1
             // 
-            this.tabPane1.RegularSize = new System.Drawing.Size(289, 834);
-            this.tabPane1.Size = new System.Drawing.Size(289, 834);
+            this.tabPane1.RegularSize = new System.Drawing.Size(324, 834);
+            this.tabPane1.Size = new System.Drawing.Size(324, 834);
             // 
             // tabNavigationPage1
             // 
@@ -210,6 +201,10 @@
             this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
             // 
+            // panelControl2
+            // 
+            this.panelControl2.Size = new System.Drawing.Size(271, 38);
+            // 
             // dateEdit1
             // 
             this.dateEdit1.EditValue = null;
@@ -220,22 +215,26 @@
             // 
             // tabNavigationPage2
             // 
-            this.tabNavigationPage2.Size = new System.Drawing.Size(271, 788);
+            this.tabNavigationPage2.Size = new System.Drawing.Size(306, 788);
             // 
-            // navBarGroupControlContainer4
+            // tabNavigationPage3
             // 
-            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
+            this.tabNavigationPage3.Size = new System.Drawing.Size(271, 788);
+            // 
+            // navBarGroupControlContainer6
+            // 
+            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
             // 
             // navBarGroupControlContainer5
             // 
             this.navBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer5.Appearance.Options.UseBackColor = true;
             // 
-            // navBarGroupControlContainer6
+            // navBarGroupControlContainer4
             // 
-            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
             // 
             // comboBoxEdit1
             // 
@@ -250,13 +249,6 @@
             this.dateEdit2.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
             this.dateEdit2.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             // 
-            // tabNavigationPage3
-            // 
-            this.tabNavigationPage3.Size = new System.Drawing.Size(271, 788);
-            // 
-            // listBoxControl7
-            // 
-            // 
             // pcBase
             // 
             this.pcBase.Size = new System.Drawing.Size(1299, 882);
@@ -269,7 +261,7 @@
             this.panelControl4.Controls.Add(this.simpleButton2);
             this.panelControl4.Controls.Add(this.simpleButton1);
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panelControl4.Location = new System.Drawing.Point(836, 0);
+            this.panelControl4.Location = new System.Drawing.Point(801, 0);
             this.panelControl4.Name = "panelControl4";
             this.panelControl4.Size = new System.Drawing.Size(165, 882);
             this.panelControl4.TabIndex = 2;
@@ -320,7 +312,7 @@
             this.panelControl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl7.Location = new System.Drawing.Point(0, 0);
             this.panelControl7.Name = "panelControl7";
-            this.panelControl7.Size = new System.Drawing.Size(836, 882);
+            this.panelControl7.Size = new System.Drawing.Size(801, 882);
             this.panelControl7.TabIndex = 3;
             // 
             // navBarControl3
@@ -342,8 +334,8 @@
             this.navBarSeparatorItem1});
             this.navBarControl3.Location = new System.Drawing.Point(2, 2);
             this.navBarControl3.Name = "navBarControl3";
-            this.navBarControl3.OptionsNavPane.ExpandedWidth = 832;
-            this.navBarControl3.Size = new System.Drawing.Size(832, 878);
+            this.navBarControl3.OptionsNavPane.ExpandedWidth = 797;
+            this.navBarControl3.Size = new System.Drawing.Size(797, 878);
             this.navBarControl3.TabIndex = 8;
             this.navBarControl3.Text = "navBarControl3";
             // 
@@ -428,7 +420,7 @@
             this.navBarGroupControlContainer7.Controls.Add(this.labelControl2);
             this.navBarGroupControlContainer7.Controls.Add(this.labelControl1);
             this.navBarGroupControlContainer7.Name = "navBarGroupControlContainer7";
-            this.navBarGroupControlContainer7.Size = new System.Drawing.Size(824, 542);
+            this.navBarGroupControlContainer7.Size = new System.Drawing.Size(789, 542);
             this.navBarGroupControlContainer7.TabIndex = 0;
             // 
             // labelControl64
@@ -1193,6 +1185,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1299, 882);
             this.Name = "frmPatInfo";
+            this.Text = "患者信息";
             this.Load += new System.EventHandler(this.frmPatInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
@@ -1203,25 +1196,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
             this.tabPane1.ResumeLayout(false);
             this.tabNavigationPage1.ResumeLayout(false);
-            this.navBarGroupControlContainer3.ResumeLayout(false);
-            
-            this.navBarGroupControlContainer1.ResumeLayout(false);
-            this.navBarGroupControlContainer2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             this.tabNavigationPage2.ResumeLayout(false);
-            this.navBarGroupControlContainer4.ResumeLayout(false);
-            
-            this.navBarGroupControlContainer5.ResumeLayout(false);
-            this.navBarGroupControlContainer6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
-            this.tabNavigationPage3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);

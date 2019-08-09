@@ -115,27 +115,88 @@ namespace DentalSys
             frm.navBarGroupControlContainer8.Controls.Add(usControl);
             frm.navBarGroupControlContainer9.Controls.Add(usCtl);
             frm.Show();
-            //usControlPatCurItem frm = new usControlPatCurItem();
-            //frm.Show();
+        }
+
+        private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatEmrInfo frm = new frmPatEmrInfo();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void barButtonItem2_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmCureRecords frm = new frmCureRecords();
+            frmPatCureRecords frm = new frmPatCureRecords();
             frm.MdiParent = this;
             frm.Show();
         }
 
         private void barButtonItem14_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmChargeRecords frm = new frmChargeRecords();
+            frmPatChargeRecords frm = new frmPatChargeRecords();
             frm.MdiParent = this;
             frm.Show();
         }
 
         private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPacsInfo frm = new frmPacsInfo();
+            frmPatPacsInfo frm = new frmPatPacsInfo();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem17_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatOutProcess frm = new frmPatOutProcess();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatReturnConsult frm = new frmPatReturnConsult();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatConsultInfo frm = new frmPatConsultInfo();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem20_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatCommunicate frm = new frmPatCommunicate();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem21_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStatBusiness frm = new frmStatBusiness();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem22_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStatChargeAccout frm = new frmStatChargeAccout();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem23_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStaffPerformance frm = new frmStaffPerformance();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem24_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStatOutProcess frm = new frmStatOutProcess();
             frm.MdiParent = this;
             frm.Show();
         }

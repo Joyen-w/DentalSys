@@ -1,24 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
+using System.Data;
 using System.Text;
+using System.Linq;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class frmPacsInfo : frmPatInfoBse
+    public partial class usCtlOutProcessDetail : DevExpress.XtraEditors.XtraUserControl
     {
-        public frmPacsInfo()
+        public usCtlOutProcessDetail()
         {
             InitializeComponent();
-        }
-
-        private void frmPacsInfo_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

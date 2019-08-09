@@ -45,6 +45,7 @@
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
@@ -56,6 +57,7 @@
             // 
             // panelControl1
             // 
+            this.panelControl1.Controls.Add(this.labelControl5);
             this.panelControl1.Controls.Add(this.panelControl3);
             this.panelControl1.Controls.Add(this.panelControl4);
             this.panelControl1.Controls.Add(this.panelControl2);
@@ -290,7 +292,7 @@
             // 
             // labelControl4
             // 
-            this.labelControl4.Appearance.BackColor = System.Drawing.Color.OrangeRed;
+            this.labelControl4.Appearance.BackColor = System.Drawing.Color.Firebrick;
             this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl4.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl4.Appearance.Options.UseBackColor = true;
@@ -321,6 +323,20 @@
             this.labelControl13.Size = new System.Drawing.Size(57, 23);
             this.labelControl13.TabIndex = 109;
             this.labelControl13.Text = "张小敬";
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.BackColor = System.Drawing.Color.Firebrick;
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.ForeColor = System.Drawing.Color.White;
+            this.labelControl5.Appearance.Options.UseBackColor = true;
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Appearance.Options.UseForeColor = true;
+            this.labelControl5.Location = new System.Drawing.Point(100, 10);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(14, 17);
+            this.labelControl5.TabIndex = 120;
+            this.labelControl5.Text = "史";
             // 
             // usCtlPatInfo
             // 
@@ -361,5 +377,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.SimpleButton btnFemale;
         private DevExpress.XtraEditors.SimpleButton btnMan;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
     }
 }
