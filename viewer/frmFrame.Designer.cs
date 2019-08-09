@@ -136,6 +136,12 @@
             this.barButtonItem25 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem26 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem27 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
             this.imageCollection4 = new DevExpress.Utils.ImageCollection(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -172,23 +178,17 @@
             this.ribbonPageGroup31 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage7 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup32 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup33 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup34 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup35 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup36 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage8 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup5 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage9 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup6 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
-            this.barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup32 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup33 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup34 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem31 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup35 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
-            this.ribbonPageGroup36 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            this.barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
@@ -364,7 +364,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1343, 134);
+            this.ribbonControl.Size = new System.Drawing.Size(1335, 134);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -1295,6 +1295,43 @@
             this.barButtonItem27.Id = 453;
             this.barButtonItem27.Name = "barButtonItem27";
             // 
+            // barButtonItem28
+            // 
+            this.barButtonItem28.Caption = "当前库存";
+            this.barButtonItem28.Id = 454;
+            this.barButtonItem28.Name = "barButtonItem28";
+            this.barButtonItem28.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem28_ItemClick);
+            // 
+            // barButtonItem29
+            // 
+            this.barButtonItem29.Caption = "入库";
+            this.barButtonItem29.Id = 455;
+            this.barButtonItem29.Name = "barButtonItem29";
+            // 
+            // barButtonItem30
+            // 
+            this.barButtonItem30.Caption = "出库";
+            this.barButtonItem30.Id = 456;
+            this.barButtonItem30.Name = "barButtonItem30";
+            // 
+            // barButtonItem31
+            // 
+            this.barButtonItem31.Caption = "盘点";
+            this.barButtonItem31.Id = 457;
+            this.barButtonItem31.Name = "barButtonItem31";
+            // 
+            // barButtonItem32
+            // 
+            this.barButtonItem32.Caption = "产品库";
+            this.barButtonItem32.Id = 458;
+            this.barButtonItem32.Name = "barButtonItem32";
+            // 
+            // barButtonItem33
+            // 
+            this.barButtonItem33.Caption = "供应商管理";
+            this.barButtonItem33.Id = 459;
+            this.barButtonItem33.Name = "barButtonItem33";
+            // 
             // imageCollection4
             // 
             this.imageCollection4.ImageSize = new System.Drawing.Size(32, 32);
@@ -1561,6 +1598,36 @@
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "ribbonPageGroup3";
             // 
+            // ribbonPageGroup32
+            // 
+            this.ribbonPageGroup32.ItemLinks.Add(this.barButtonItem29);
+            this.ribbonPageGroup32.Name = "ribbonPageGroup32";
+            this.ribbonPageGroup32.Text = "ribbonPageGroup32";
+            // 
+            // ribbonPageGroup33
+            // 
+            this.ribbonPageGroup33.ItemLinks.Add(this.barButtonItem30);
+            this.ribbonPageGroup33.Name = "ribbonPageGroup33";
+            this.ribbonPageGroup33.Text = "ribbonPageGroup33";
+            // 
+            // ribbonPageGroup34
+            // 
+            this.ribbonPageGroup34.ItemLinks.Add(this.barButtonItem31);
+            this.ribbonPageGroup34.Name = "ribbonPageGroup34";
+            this.ribbonPageGroup34.Text = "ribbonPageGroup34";
+            // 
+            // ribbonPageGroup35
+            // 
+            this.ribbonPageGroup35.ItemLinks.Add(this.barButtonItem32);
+            this.ribbonPageGroup35.Name = "ribbonPageGroup35";
+            this.ribbonPageGroup35.Text = "ribbonPageGroup35";
+            // 
+            // ribbonPageGroup36
+            // 
+            this.ribbonPageGroup36.ItemLinks.Add(this.barButtonItem33);
+            this.ribbonPageGroup36.Name = "ribbonPageGroup36";
+            this.ribbonPageGroup36.Text = "ribbonPageGroup36";
+            // 
             // ribbonPage8
             // 
             this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -1593,83 +1660,17 @@
             this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 790);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1343, 21);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1335, 21);
             // 
             // xtraTabbedMdiManager
             // 
             this.xtraTabbedMdiManager.MdiParent = this;
             // 
-            // barButtonItem28
-            // 
-            this.barButtonItem28.Caption = "当前库存";
-            this.barButtonItem28.Id = 454;
-            this.barButtonItem28.Name = "barButtonItem28";
-            // 
-            // ribbonPageGroup32
-            // 
-            this.ribbonPageGroup32.ItemLinks.Add(this.barButtonItem29);
-            this.ribbonPageGroup32.Name = "ribbonPageGroup32";
-            this.ribbonPageGroup32.Text = "ribbonPageGroup32";
-            // 
-            // barButtonItem29
-            // 
-            this.barButtonItem29.Caption = "入库";
-            this.barButtonItem29.Id = 455;
-            this.barButtonItem29.Name = "barButtonItem29";
-            // 
-            // ribbonPageGroup33
-            // 
-            this.ribbonPageGroup33.ItemLinks.Add(this.barButtonItem30);
-            this.ribbonPageGroup33.Name = "ribbonPageGroup33";
-            this.ribbonPageGroup33.Text = "ribbonPageGroup33";
-            // 
-            // barButtonItem30
-            // 
-            this.barButtonItem30.Caption = "出库";
-            this.barButtonItem30.Id = 456;
-            this.barButtonItem30.Name = "barButtonItem30";
-            // 
-            // ribbonPageGroup34
-            // 
-            this.ribbonPageGroup34.ItemLinks.Add(this.barButtonItem31);
-            this.ribbonPageGroup34.Name = "ribbonPageGroup34";
-            this.ribbonPageGroup34.Text = "ribbonPageGroup34";
-            // 
-            // barButtonItem31
-            // 
-            this.barButtonItem31.Caption = "盘点";
-            this.barButtonItem31.Id = 457;
-            this.barButtonItem31.Name = "barButtonItem31";
-            // 
-            // ribbonPageGroup35
-            // 
-            this.ribbonPageGroup35.ItemLinks.Add(this.barButtonItem32);
-            this.ribbonPageGroup35.Name = "ribbonPageGroup35";
-            this.ribbonPageGroup35.Text = "ribbonPageGroup35";
-            // 
-            // barButtonItem32
-            // 
-            this.barButtonItem32.Caption = "产品库";
-            this.barButtonItem32.Id = 458;
-            this.barButtonItem32.Name = "barButtonItem32";
-            // 
-            // ribbonPageGroup36
-            // 
-            this.ribbonPageGroup36.ItemLinks.Add(this.barButtonItem33);
-            this.ribbonPageGroup36.Name = "ribbonPageGroup36";
-            this.ribbonPageGroup36.Text = "ribbonPageGroup36";
-            // 
-            // barButtonItem33
-            // 
-            this.barButtonItem33.Caption = "供应商管理";
-            this.barButtonItem33.Id = 459;
-            this.barButtonItem33.Name = "barButtonItem33";
-            // 
             // frmFrame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1343, 811);
+            this.ClientSize = new System.Drawing.Size(1335, 811);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

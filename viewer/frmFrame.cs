@@ -200,5 +200,12 @@ namespace DentalSys
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void barButtonItem28_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtCurrentTotal frm = new frmStoreMgtCurrentTotal();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

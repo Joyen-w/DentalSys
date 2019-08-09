@@ -94,6 +94,30 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
+    <Compile Include="frmStoreMgtCurrentTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoreMgtCurrentTotal.Designer.cs">
+      <DependentUpon>frmStoreMgtCurrentTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentDetail.Designer.cs">
+      <DependentUpon>usCtlStoreMgtCurrentDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentTotal.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentTotal.Designer.cs">
+      <DependentUpon>usCtlStoreMgtCurrentTotal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentQuery.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="usCtlStoreMgtCurrentQuery.Designer.cs">
+      <DependentUpon>usCtlStoreMgtCurrentQuery.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewer\frmStatOutProcess.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -428,6 +452,18 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmStoreMgtCurrentTotal.resx">
+      <DependentUpon>frmStoreMgtCurrentTotal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usCtlStoreMgtCurrentDetail.resx">
+      <DependentUpon>usCtlStoreMgtCurrentDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usCtlStoreMgtCurrentQuery.resx">
+      <DependentUpon>usCtlStoreMgtCurrentQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="usCtlStoreMgtCurrentTotal.resx">
+      <DependentUpon>usCtlStoreMgtCurrentTotal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStatOutProcess.resx">
       <DependentUpon>frmStatOutProcess.cs</DependentUpon>
     </EmbeddedResource>
