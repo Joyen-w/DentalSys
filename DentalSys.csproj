@@ -94,6 +94,18 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
+    <Compile Include="viewer\frmAdministrion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmAdministrion.Designer.cs">
+      <DependentUpon>frmAdministrion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmClinicInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmClinicInfo.Designer.cs">
+      <DependentUpon>frmClinicInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewer\frmStoreMgtProducer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -554,6 +566,12 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="viewer\frmAdministrion.resx">
+      <DependentUpon>frmAdministrion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmClinicInfo.resx">
+      <DependentUpon>frmClinicInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStoreMgtProducer.resx">
       <DependentUpon>frmStoreMgtProducer.cs</DependentUpon>
     </EmbeddedResource>

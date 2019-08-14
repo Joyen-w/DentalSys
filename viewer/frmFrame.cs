@@ -249,5 +249,19 @@ namespace DentalSys
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void barButtonItem34_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmClinicInfo frm = new frmClinicInfo();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem35_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmAdministrion frm = new frmAdministrion();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
