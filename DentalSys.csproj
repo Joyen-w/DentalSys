@@ -94,29 +94,131 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
-    <Compile Include="frmStoreMgtCurrentTotal.cs">
+    <Compile Include="viewer\frmStoreMgtProducer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmStoreMgtCurrentTotal.Designer.cs">
+    <Compile Include="viewer\frmStoreMgtProducer.Designer.cs">
+      <DependentUpon>frmStoreMgtProducer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtProdut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtProdut.Designer.cs">
+      <DependentUpon>frmStoreMgtProdut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtMyProduct.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtMyProduct.Designer.cs">
+      <DependentUpon>ucStoreMgtMyProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryFirst.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryFirst.Designer.cs">
+      <DependentUpon>ucStoreMgtInventoryFirst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryLoss.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryLoss.Designer.cs">
+      <DependentUpon>ucStoreMgtInventoryLoss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryOverage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInventoryOverage.Designer.cs">
+      <DependentUpon>ucStoreMgtInventoryOverage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtInStorage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtInStorage.Designer.cs">
+      <DependentUpon>frmStoreMgtInStorage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtOutStorage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtOutStorage.Designer.cs">
+      <DependentUpon>frmStoreMgtOutStorage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInDetail.Designer.cs">
+      <DependentUpon>ucStoreMgtInDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInStat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInStat.Designer.cs">
+      <DependentUpon>ucStoreMgtInStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutDetail.Designer.cs">
+      <DependentUpon>ucStoreMgtOutDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutOrder.Designer.cs">
+      <DependentUpon>ucStoreMgtOutOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutStat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutStat.Designer.cs">
+      <DependentUpon>ucStoreMgtOutStat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtInventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtInventory.Designer.cs">
+      <DependentUpon>frmStoreMgtInventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutInDetail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtOutInDetail.Designer.cs">
+      <DependentUpon>ucStoreMgtOutInDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtWarn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtWarn.Designer.cs">
+      <DependentUpon>ucStoreMgtWarn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInOrder.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucStoreMgtInOrder.Designer.cs">
+      <DependentUpon>ucStoreMgtInOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtCurrentTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmStoreMgtCurrentTotal.Designer.cs">
       <DependentUpon>frmStoreMgtCurrentTotal.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentDetail.cs">
+    <Compile Include="viewer\ucStoreMgtCurrentDetail.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentDetail.Designer.cs">
-      <DependentUpon>usCtlStoreMgtCurrentDetail.cs</DependentUpon>
+    <Compile Include="viewer\ucStoreMgtCurrentDetail.Designer.cs">
+      <DependentUpon>ucStoreMgtCurrentDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentTotal.cs">
+    <Compile Include="viewer\ucStoreMgtCurrentTotal.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentTotal.Designer.cs">
-      <DependentUpon>usCtlStoreMgtCurrentTotal.cs</DependentUpon>
+    <Compile Include="viewer\ucStoreMgtCurrentTotal.Designer.cs">
+      <DependentUpon>ucStoreMgtCurrentTotal.cs</DependentUpon>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentQuery.cs">
+    <Compile Include="viewer\ucStoreMgtOutInQuery.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="usCtlStoreMgtCurrentQuery.Designer.cs">
-      <DependentUpon>usCtlStoreMgtCurrentQuery.cs</DependentUpon>
+    <Compile Include="viewer\ucStoreMgtOutInQuery.Designer.cs">
+      <DependentUpon>ucStoreMgtOutInQuery.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmStatOutProcess.cs">
       <SubType>Form</SubType>
@@ -130,17 +232,17 @@
     <Compile Include="viewer\frmStatPatQuery.Designer.cs">
       <DependentUpon>frmStatPatQuery.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlOutProcessDetail.cs">
+    <Compile Include="viewer\ucOutProcessDetail.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlOutProcessDetail.Designer.cs">
-      <DependentUpon>usCtlOutProcessDetail.cs</DependentUpon>
+    <Compile Include="viewer\ucOutProcessDetail.Designer.cs">
+      <DependentUpon>ucOutProcessDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlOutProcessType.cs">
+    <Compile Include="viewer\ucOutProcessType.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlOutProcessType.Designer.cs">
-      <DependentUpon>usCtlOutProcessType.cs</DependentUpon>
+    <Compile Include="viewer\ucOutProcessType.Designer.cs">
+      <DependentUpon>ucOutProcessType.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmStaffPerformance.cs">
       <SubType>Form</SubType>
@@ -148,29 +250,29 @@
     <Compile Include="viewer\frmStaffPerformance.Designer.cs">
       <DependentUpon>frmStaffPerformance.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStaffConsultPerformance.cs">
+    <Compile Include="viewer\ucStaffConsultPerformance.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStaffConsultPerformance.Designer.cs">
-      <DependentUpon>usCtlStaffConsultPerformance.cs</DependentUpon>
+    <Compile Include="viewer\ucStaffConsultPerformance.Designer.cs">
+      <DependentUpon>ucStaffConsultPerformance.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStaffItemCharge.cs">
+    <Compile Include="viewer\ucStaffItemCharge.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStaffItemCharge.Designer.cs">
-      <DependentUpon>usCtlStaffItemCharge.cs</DependentUpon>
+    <Compile Include="viewer\ucStaffItemCharge.Designer.cs">
+      <DependentUpon>ucStaffItemCharge.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStaffNurseCharge.cs">
+    <Compile Include="viewer\ucStaffNurseCharge.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStaffNurseCharge.Designer.cs">
-      <DependentUpon>usCtlStaffNurseCharge.cs</DependentUpon>
+    <Compile Include="viewer\ucStaffNurseCharge.Designer.cs">
+      <DependentUpon>ucStaffNurseCharge.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStaffChargeClassify.cs">
+    <Compile Include="viewer\ucStaffChargeClassify.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStaffChargeClassify.Designer.cs">
-      <DependentUpon>usCtlStaffChargeClassify.cs</DependentUpon>
+    <Compile Include="viewer\ucStaffChargeClassify.Designer.cs">
+      <DependentUpon>ucStaffChargeClassify.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmStatChargeAccout.cs">
       <SubType>Form</SubType>
@@ -178,47 +280,47 @@
     <Compile Include="viewer\frmStatChargeAccout.Designer.cs">
       <DependentUpon>frmStatChargeAccout.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatAccountDetail.cs">
+    <Compile Include="viewer\ucStatAccountDetail.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatAccountDetail.Designer.cs">
-      <DependentUpon>usCtlStatAccountDetail.cs</DependentUpon>
+    <Compile Include="viewer\ucStatAccountDetail.Designer.cs">
+      <DependentUpon>ucStatAccountDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatAccoutDate.cs">
+    <Compile Include="viewer\ucStatAccoutDate.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatAccoutDate.Designer.cs">
-      <DependentUpon>usCtlStatAccoutDate.cs</DependentUpon>
+    <Compile Include="viewer\ucStatAccoutDate.Designer.cs">
+      <DependentUpon>ucStatAccoutDate.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatChargeAccount.cs">
+    <Compile Include="viewer\ucStatChargeAccount.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatChargeAccount.Designer.cs">
-      <DependentUpon>usCtlStatChargeAccount.cs</DependentUpon>
+    <Compile Include="viewer\ucStatChargeAccount.Designer.cs">
+      <DependentUpon>ucStatChargeAccount.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatCharge.cs">
+    <Compile Include="viewer\ucStatCharge.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatCharge.Designer.cs">
-      <DependentUpon>usCtlStatCharge.cs</DependentUpon>
+    <Compile Include="viewer\ucStatCharge.Designer.cs">
+      <DependentUpon>ucStatCharge.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatOwe.cs">
+    <Compile Include="viewer\ucStatOwe.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatOwe.Designer.cs">
-      <DependentUpon>usCtlStatOwe.cs</DependentUpon>
+    <Compile Include="viewer\ucStatOwe.Designer.cs">
+      <DependentUpon>ucStatOwe.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatPrePayBalance.cs">
+    <Compile Include="viewer\ucStatPrePayBalance.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatPrePayBalance.Designer.cs">
-      <DependentUpon>usCtlStatPrePayBalance.cs</DependentUpon>
+    <Compile Include="viewer\ucStatPrePayBalance.Designer.cs">
+      <DependentUpon>ucStatPrePayBalance.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlStatPrePayment.cs">
+    <Compile Include="viewer\ucStatPrePayment.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlStatPrePayment.Designer.cs">
-      <DependentUpon>usCtlStatPrePayment.cs</DependentUpon>
+    <Compile Include="viewer\ucStatPrePayment.Designer.cs">
+      <DependentUpon>ucStatPrePayment.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmStatBusiness.cs">
       <SubType>Form</SubType>
@@ -250,11 +352,11 @@
     <Compile Include="viewer\frmPatReturnConsult.Designer.cs">
       <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatConsultInfo.cs">
+    <Compile Include="viewer\ucPatConsultInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatConsultInfo.Designer.cs">
-      <DependentUpon>usCtlPatConsultInfo.cs</DependentUpon>
+    <Compile Include="viewer\ucPatConsultInfo.Designer.cs">
+      <DependentUpon>ucPatConsultInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatEmrInfo.cs">
       <SubType>Form</SubType>
@@ -262,29 +364,29 @@
     <Compile Include="viewer\frmPatEmrInfo.Designer.cs">
       <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrCommon.cs">
+    <Compile Include="viewer\ucPatEmrCommon.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrCommon.Designer.cs">
-      <DependentUpon>usCtlPatEmrCommon.cs</DependentUpon>
+    <Compile Include="viewer\ucPatEmrCommon.Designer.cs">
+      <DependentUpon>ucPatEmrCommon.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrFirstVisit.cs">
+    <Compile Include="viewer\ucPatEmrFirstVisit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrFirstVisit.Designer.cs">
-      <DependentUpon>usCtlPatEmrFirstVisit.cs</DependentUpon>
+    <Compile Include="viewer\ucPatEmrFirstVisit.Designer.cs">
+      <DependentUpon>ucPatEmrFirstVisit.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrReVisit.cs">
+    <Compile Include="viewer\ucPatEmrReVisit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatEmrReVisit.Designer.cs">
-      <DependentUpon>usCtlPatEmrReVisit.cs</DependentUpon>
+    <Compile Include="viewer\ucPatEmrReVisit.Designer.cs">
+      <DependentUpon>ucPatEmrReVisit.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatInfo.cs">
+    <Compile Include="viewer\ucPatInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatInfo.Designer.cs">
-      <DependentUpon>usCtlPatInfo.cs</DependentUpon>
+    <Compile Include="viewer\ucPatInfo.Designer.cs">
+      <DependentUpon>ucPatInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatChargeRecords.cs">
       <SubType>Form</SubType>
@@ -304,11 +406,11 @@
     <Compile Include="viewer\frmPatCureRecords.Designer.cs">
       <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatCureItem.cs">
+    <Compile Include="viewer\ucPatCureItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatCureItem.Designer.cs">
-      <DependentUpon>usCtlPatCureItem.cs</DependentUpon>
+    <Compile Include="viewer\ucPatCureItem.Designer.cs">
+      <DependentUpon>ucPatCureItem.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatInfo.cs">
       <SubType>Form</SubType>
@@ -318,11 +420,11 @@
     </Compile>
     <Compile Include="tool\globalparm.cs" />
     <Compile Include="entity\EntityDicCommon.cs" />
-    <Compile Include="viewer\usCtlPatRegInfo.cs">
+    <Compile Include="viewer\ucPatRegInfo.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatRegInfo.Designer.cs">
-      <DependentUpon>usCtlPatRegInfo.cs</DependentUpon>
+    <Compile Include="viewer\ucPatRegInfo.Designer.cs">
+      <DependentUpon>ucPatRegInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frm1.cs">
       <SubType>Form</SubType>
@@ -398,11 +500,11 @@
     <Compile Include="viewer\frmPatConnect.Designer.cs">
       <DependentUpon>frmPatConnect.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\usCtlPatCureRecord.cs">
+    <Compile Include="viewer\ucPatCureRecord.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\usCtlPatCureRecord.Designer.cs">
-      <DependentUpon>usCtlPatCureRecord.cs</DependentUpon>
+    <Compile Include="viewer\ucPatCureRecord.Designer.cs">
+      <DependentUpon>ucPatCureRecord.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatImpression.cs">
       <SubType>Form</SubType>
@@ -452,17 +554,68 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmStoreMgtCurrentTotal.resx">
+    <EmbeddedResource Include="viewer\frmStoreMgtProducer.resx">
+      <DependentUpon>frmStoreMgtProducer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStoreMgtProdut.resx">
+      <DependentUpon>frmStoreMgtProdut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtMyProduct.resx">
+      <DependentUpon>ucStoreMgtMyProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInventoryFirst.resx">
+      <DependentUpon>ucStoreMgtInventoryFirst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInventoryLoss.resx">
+      <DependentUpon>ucStoreMgtInventoryLoss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInventoryOverage.resx">
+      <DependentUpon>ucStoreMgtInventoryOverage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStoreMgtInStorage.resx">
+      <DependentUpon>frmStoreMgtInStorage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStoreMgtOutStorage.resx">
+      <DependentUpon>frmStoreMgtOutStorage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInDetail.resx">
+      <DependentUpon>ucStoreMgtInDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInStat.resx">
+      <DependentUpon>ucStoreMgtInStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtOutDetail.resx">
+      <DependentUpon>ucStoreMgtOutDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtOutOrder.resx">
+      <DependentUpon>ucStoreMgtOutOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtOutStat.resx">
+      <DependentUpon>ucStoreMgtOutStat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStoreMgtInventory.resx">
+      <DependentUpon>frmStoreMgtInventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtOutInDetail.resx">
+      <DependentUpon>ucStoreMgtOutInDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtWarn.resx">
+      <DependentUpon>ucStoreMgtWarn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucStoreMgtInOrder.resx">
+      <DependentUpon>ucStoreMgtInOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmStoreMgtCurrentTotal.resx">
       <DependentUpon>frmStoreMgtCurrentTotal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlStoreMgtCurrentDetail.resx">
-      <DependentUpon>usCtlStoreMgtCurrentDetail.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStoreMgtCurrentDetail.resx">
+      <DependentUpon>ucStoreMgtCurrentDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlStoreMgtCurrentQuery.resx">
-      <DependentUpon>usCtlStoreMgtCurrentQuery.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStoreMgtOutInQuery.resx">
+      <DependentUpon>ucStoreMgtOutInQuery.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="usCtlStoreMgtCurrentTotal.resx">
-      <DependentUpon>usCtlStoreMgtCurrentTotal.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStoreMgtCurrentTotal.resx">
+      <DependentUpon>ucStoreMgtCurrentTotal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStatOutProcess.resx">
       <DependentUpon>frmStatOutProcess.cs</DependentUpon>
@@ -470,50 +623,50 @@
     <EmbeddedResource Include="viewer\frmStatPatQuery.resx">
       <DependentUpon>frmStatPatQuery.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlOutProcessDetail.resx">
-      <DependentUpon>usCtlOutProcessDetail.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucOutProcessDetail.resx">
+      <DependentUpon>ucOutProcessDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlOutProcessType.resx">
-      <DependentUpon>usCtlOutProcessType.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucOutProcessType.resx">
+      <DependentUpon>ucOutProcessType.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStaffPerformance.resx">
       <DependentUpon>frmStaffPerformance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStaffConsultPerformance.resx">
-      <DependentUpon>usCtlStaffConsultPerformance.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStaffConsultPerformance.resx">
+      <DependentUpon>ucStaffConsultPerformance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStaffItemCharge.resx">
-      <DependentUpon>usCtlStaffItemCharge.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStaffItemCharge.resx">
+      <DependentUpon>ucStaffItemCharge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStaffNurseCharge.resx">
-      <DependentUpon>usCtlStaffNurseCharge.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStaffNurseCharge.resx">
+      <DependentUpon>ucStaffNurseCharge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStaffChargeClassify.resx">
-      <DependentUpon>usCtlStaffChargeClassify.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStaffChargeClassify.resx">
+      <DependentUpon>ucStaffChargeClassify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStatChargeAccout.resx">
       <DependentUpon>frmStatChargeAccout.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatAccountDetail.resx">
-      <DependentUpon>usCtlStatAccountDetail.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatAccountDetail.resx">
+      <DependentUpon>ucStatAccountDetail.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatAccoutDate.resx">
-      <DependentUpon>usCtlStatAccoutDate.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatAccoutDate.resx">
+      <DependentUpon>ucStatAccoutDate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatChargeAccount.resx">
-      <DependentUpon>usCtlStatChargeAccount.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatChargeAccount.resx">
+      <DependentUpon>ucStatChargeAccount.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatCharge.resx">
-      <DependentUpon>usCtlStatCharge.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatCharge.resx">
+      <DependentUpon>ucStatCharge.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatOwe.resx">
-      <DependentUpon>usCtlStatOwe.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatOwe.resx">
+      <DependentUpon>ucStatOwe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatPrePayBalance.resx">
-      <DependentUpon>usCtlStatPrePayBalance.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatPrePayBalance.resx">
+      <DependentUpon>ucStatPrePayBalance.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlStatPrePayment.resx">
-      <DependentUpon>usCtlStatPrePayment.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucStatPrePayment.resx">
+      <DependentUpon>ucStatPrePayment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStatBusiness.resx">
       <DependentUpon>frmStatBusiness.cs</DependentUpon>
@@ -530,23 +683,23 @@
     <EmbeddedResource Include="viewer\frmPatReturnConsult.resx">
       <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatConsultInfo.resx">
-      <DependentUpon>usCtlPatConsultInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatConsultInfo.resx">
+      <DependentUpon>ucPatConsultInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatEmrInfo.resx">
       <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatEmrCommon.resx">
-      <DependentUpon>usCtlPatEmrCommon.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatEmrCommon.resx">
+      <DependentUpon>ucPatEmrCommon.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatEmrFirstVisit.resx">
-      <DependentUpon>usCtlPatEmrFirstVisit.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatEmrFirstVisit.resx">
+      <DependentUpon>ucPatEmrFirstVisit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatEmrReVisit.resx">
-      <DependentUpon>usCtlPatEmrReVisit.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatEmrReVisit.resx">
+      <DependentUpon>ucPatEmrReVisit.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatInfo.resx">
-      <DependentUpon>usCtlPatInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatInfo.resx">
+      <DependentUpon>ucPatInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatChargeRecords.resx">
       <DependentUpon>frmPatChargeRecords.cs</DependentUpon>
@@ -557,14 +710,14 @@
     <EmbeddedResource Include="viewer\frmPatCureRecords.resx">
       <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatCureItem.resx">
-      <DependentUpon>usCtlPatCureItem.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatCureItem.resx">
+      <DependentUpon>ucPatCureItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatInfo.resx">
       <DependentUpon>frmPatInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatRegInfo.resx">
-      <DependentUpon>usCtlPatRegInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatRegInfo.resx">
+      <DependentUpon>ucPatRegInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frm1.resx">
       <DependentUpon>frm1.cs</DependentUpon>
@@ -610,8 +763,8 @@
     <EmbeddedResource Include="viewer\frmPatConnect.resx">
       <DependentUpon>frmPatConnect.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\usCtlPatCureRecord.resx">
-      <DependentUpon>usCtlPatCureRecord.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatCureRecord.resx">
+      <DependentUpon>ucPatCureRecord.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatImpression.resx">
       <DependentUpon>frmPatImpression.cs</DependentUpon>

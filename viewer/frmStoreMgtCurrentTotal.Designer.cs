@@ -48,10 +48,6 @@
             this.pcBase.Controls.Add(this.panelControl1);
             this.pcBase.Size = new System.Drawing.Size(946, 525);
             // 
-            // defaultLookAndFeel
-            // 
-            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
-            // 
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.simpleButton5);
@@ -72,6 +68,7 @@
             this.simpleButton5.Size = new System.Drawing.Size(127, 40);
             this.simpleButton5.TabIndex = 4;
             this.simpleButton5.Text = "预警物品";
+            this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
             // 
             // simpleButton4
             // 
@@ -80,6 +77,7 @@
             this.simpleButton4.Size = new System.Drawing.Size(127, 40);
             this.simpleButton4.TabIndex = 3;
             this.simpleButton4.Text = "出入库明细查询";
+            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // simpleButton3
             // 
@@ -123,7 +121,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 525);
             this.Name = "frmStoreMgtCurrentTotal";
-            this.Text = "库存总汇";
+            this.Text = "当前库存";
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
             this.pcBase.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();

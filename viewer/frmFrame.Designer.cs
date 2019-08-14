@@ -202,10 +202,6 @@
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
-            // defaultLookAndFeel
-            // 
-            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
-            // 
             // imageCollection1
             // 
             this.imageCollection1.ImageSize = new System.Drawing.Size(32, 32);
@@ -364,7 +360,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1335, 134);
+            this.ribbonControl.Size = new System.Drawing.Size(1319, 130);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -1282,6 +1278,7 @@
             this.barButtonItem25.Caption = "患者高级查询";
             this.barButtonItem25.Id = 451;
             this.barButtonItem25.Name = "barButtonItem25";
+            this.barButtonItem25.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem25_ItemClick);
             // 
             // barButtonItem26
             // 
@@ -1307,30 +1304,35 @@
             this.barButtonItem29.Caption = "入库";
             this.barButtonItem29.Id = 455;
             this.barButtonItem29.Name = "barButtonItem29";
+            this.barButtonItem29.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem29_ItemClick);
             // 
             // barButtonItem30
             // 
             this.barButtonItem30.Caption = "出库";
             this.barButtonItem30.Id = 456;
             this.barButtonItem30.Name = "barButtonItem30";
+            this.barButtonItem30.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem30_ItemClick);
             // 
             // barButtonItem31
             // 
             this.barButtonItem31.Caption = "盘点";
             this.barButtonItem31.Id = 457;
             this.barButtonItem31.Name = "barButtonItem31";
+            this.barButtonItem31.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem31_ItemClick);
             // 
             // barButtonItem32
             // 
             this.barButtonItem32.Caption = "产品库";
             this.barButtonItem32.Id = 458;
             this.barButtonItem32.Name = "barButtonItem32";
+            this.barButtonItem32.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem32_ItemClick);
             // 
             // barButtonItem33
             // 
             this.barButtonItem33.Caption = "供应商管理";
             this.barButtonItem33.Id = 459;
             this.barButtonItem33.Name = "barButtonItem33";
+            this.barButtonItem33.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem33_ItemClick);
             // 
             // imageCollection4
             // 
@@ -1657,10 +1659,10 @@
             // ribbonStatusBar1
             // 
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem13);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 790);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 780);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1335, 21);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1319, 31);
             // 
             // xtraTabbedMdiManager
             // 
@@ -1670,7 +1672,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1335, 811);
+            this.ClientSize = new System.Drawing.Size(1319, 811);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

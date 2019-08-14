@@ -207,5 +207,47 @@ namespace DentalSys
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void barButtonItem25_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStatPatQuery frm = new frmStatPatQuery();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem29_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtInStorage frm = new frmStoreMgtInStorage();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem30_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtOutStorage frm = new frmStoreMgtOutStorage();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem31_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtInventory frm = new frmStoreMgtInventory();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem32_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtProdut frm = new frmStoreMgtProdut();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem33_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmStoreMgtProducer frm = new frmStoreMgtProducer();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }
