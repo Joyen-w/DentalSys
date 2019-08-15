@@ -217,6 +217,10 @@
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
             // 
+            // defaultLookAndFeel
+            // 
+            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
+            // 
             // imageCollection1
             // 
             this.imageCollection1.ImageSize = new System.Drawing.Size(32, 32);
@@ -383,7 +387,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1319, 130);
+            this.ribbonControl.Size = new System.Drawing.Size(1327, 134);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -1394,6 +1398,7 @@
             this.barButtonItem39.Caption = "病历模板";
             this.barButtonItem39.Id = 465;
             this.barButtonItem39.Name = "barButtonItem39";
+            this.barButtonItem39.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem39_ItemClick);
             // 
             // barButtonItem40
             // 
@@ -1782,10 +1787,10 @@
             // ribbonStatusBar1
             // 
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem13);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 780);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 790);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1319, 31);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1327, 21);
             // 
             // xtraTabbedMdiManager
             // 
@@ -1795,7 +1800,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1319, 811);
+            this.ClientSize = new System.Drawing.Size(1327, 811);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));

@@ -94,6 +94,66 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
+    <Compile Include="frmVipUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVipUpgrade.Designer.cs">
+      <DependentUpon>frmVipUpgrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucQueryDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucQueryDate.Designer.cs">
+      <DependentUpon>ucQueryDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucQueryText.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucQueryText.Designer.cs">
+      <DependentUpon>ucQueryText.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ucQueryYearMonth.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucQueryYearMonth.Designer.cs">
+      <DependentUpon>ucQueryYearMonth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmEmployeeAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmEmployeeAdmin.Designer.cs">
+      <DependentUpon>frmEmployeeAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmEmrTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmEmrTemplate.Designer.cs">
+      <DependentUpon>frmEmrTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmRecipelChargeSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmRecipelChargeSet.Designer.cs">
+      <DependentUpon>frmRecipelChargeSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmRecipelCompose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmRecipelCompose.Designer.cs">
+      <DependentUpon>frmRecipelCompose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucEmrTemplate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucEmrTemplate.Designer.cs">
+      <DependentUpon>ucEmrTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucMainHpiPh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucMainHpiPh.Designer.cs">
+      <DependentUpon>ucMainHpiPh.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewer\frmAdministrion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +177,30 @@
     </Compile>
     <Compile Include="viewer\frmStoreMgtProdut.Designer.cs">
       <DependentUpon>frmStoreMgtProdut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucInspectCheck.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucInspectCheck.Designer.cs">
+      <DependentUpon>ucInspectCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucDiagnose.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucDiagnose.Designer.cs">
+      <DependentUpon>ucDiagnose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucOrderAdvice.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucOrderAdvice.Designer.cs">
+      <DependentUpon>ucOrderAdvice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucRecipelProject.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucRecipelProject.Designer.cs">
+      <DependentUpon>ucRecipelProject.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\ucStoreMgtMyProduct.cs">
       <SubType>UserControl</SubType>
@@ -566,6 +650,36 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmVipUpgrade.resx">
+      <DependentUpon>frmVipUpgrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucQueryDate.resx">
+      <DependentUpon>ucQueryDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucQueryText.resx">
+      <DependentUpon>ucQueryText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ucQueryYearMonth.resx">
+      <DependentUpon>ucQueryYearMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmEmployeeAdmin.resx">
+      <DependentUpon>frmEmployeeAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmEmrTemplate.resx">
+      <DependentUpon>frmEmrTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmRecipelChargeSet.resx">
+      <DependentUpon>frmRecipelChargeSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmRecipelCompose.resx">
+      <DependentUpon>frmRecipelCompose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucEmrTemplate.resx">
+      <DependentUpon>ucEmrTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucMainHpiPh.resx">
+      <DependentUpon>ucMainHpiPh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmAdministrion.resx">
       <DependentUpon>frmAdministrion.cs</DependentUpon>
     </EmbeddedResource>
@@ -577,6 +691,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmStoreMgtProdut.resx">
       <DependentUpon>frmStoreMgtProdut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucInspectCheck.resx">
+      <DependentUpon>ucInspectCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucDiagnose.resx">
+      <DependentUpon>ucDiagnose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucOrderAdvice.resx">
+      <DependentUpon>ucOrderAdvice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucRecipelProject.resx">
+      <DependentUpon>ucRecipelProject.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\ucStoreMgtMyProduct.resx">
       <DependentUpon>ucStoreMgtMyProduct.cs</DependentUpon>
