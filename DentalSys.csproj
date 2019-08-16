@@ -94,28 +94,40 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
-    <Compile Include="frmVipUpgrade.cs">
+    <Compile Include="viewer\frmOperateRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmVipUpgrade.Designer.cs">
+    <Compile Include="viewer\frmOperateRecords.Designer.cs">
+      <DependentUpon>frmOperateRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatRecycle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatRecycle.Designer.cs">
+      <DependentUpon>frmPatRecycle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmVipUpgrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmVipUpgrade.Designer.cs">
       <DependentUpon>frmVipUpgrade.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQueryDate.cs">
+    <Compile Include="viewer\ucQueryDate.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQueryDate.Designer.cs">
+    <Compile Include="viewer\ucQueryDate.Designer.cs">
       <DependentUpon>ucQueryDate.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQueryText.cs">
+    <Compile Include="viewer\ucQueryText.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQueryText.Designer.cs">
+    <Compile Include="viewer\ucQueryText.Designer.cs">
       <DependentUpon>ucQueryText.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucQueryYearMonth.cs">
+    <Compile Include="viewer\ucQueryYearMonth.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucQueryYearMonth.Designer.cs">
+    <Compile Include="viewer\ucQueryYearMonth.Designer.cs">
       <DependentUpon>ucQueryYearMonth.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmEmployeeAdmin.cs">
@@ -650,16 +662,22 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmVipUpgrade.resx">
+    <EmbeddedResource Include="viewer\frmOperateRecords.resx">
+      <DependentUpon>frmOperateRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatRecycle.resx">
+      <DependentUpon>frmPatRecycle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmVipUpgrade.resx">
       <DependentUpon>frmVipUpgrade.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQueryDate.resx">
+    <EmbeddedResource Include="viewer\ucQueryDate.resx">
       <DependentUpon>ucQueryDate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQueryText.resx">
+    <EmbeddedResource Include="viewer\ucQueryText.resx">
       <DependentUpon>ucQueryText.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucQueryYearMonth.resx">
+    <EmbeddedResource Include="viewer\ucQueryYearMonth.resx">
       <DependentUpon>ucQueryYearMonth.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmEmployeeAdmin.resx">

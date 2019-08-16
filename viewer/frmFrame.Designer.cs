@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFrame));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup5 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup6 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.defaultLookAndFeel = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
@@ -150,6 +150,7 @@
             this.barButtonItem39 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem40 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem41 = new DevExpress.XtraBars.BarButtonItem();
+            this.barButtonItem42 = new DevExpress.XtraBars.BarButtonItem();
             this.imageCollection4 = new DevExpress.Utils.ImageCollection(this.components);
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup4 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
@@ -202,6 +203,7 @@
             this.ribbonPageGroup41 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup42 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPageGroup43 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            this.ribbonPageGroup44 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
@@ -358,10 +360,11 @@
             this.barButtonItem38,
             this.barButtonItem39,
             this.barButtonItem40,
-            this.barButtonItem41});
+            this.barButtonItem41,
+            this.barButtonItem42});
             this.ribbonControl.LargeImages = this.imageCollection4;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 468;
+            this.ribbonControl.MaxItemId = 469;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorInQAT = true;
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorVisibilityItemInQATMenu = true;
@@ -906,9 +909,9 @@
             // 
             // 
             // 
-            galleryItemGroup5.Caption = "Main";
+            galleryItemGroup1.Caption = "Main";
             this.rgbiFont.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup5});
+            galleryItemGroup1});
             this.rgbiFont.Gallery.ImageSize = new System.Drawing.Size(40, 40);
             this.rgbiFont.Id = 29;
             this.rgbiFont.Name = "rgbiFont";
@@ -930,9 +933,9 @@
             // 
             // 
             this.rgbiFontColor.Gallery.ColumnCount = 10;
-            galleryItemGroup6.Caption = "Main";
+            galleryItemGroup2.Caption = "Main";
             this.rgbiFontColor.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup6});
+            galleryItemGroup2});
             this.rgbiFontColor.Gallery.ImageSize = new System.Drawing.Size(20, 14);
             this.rgbiFontColor.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Stretch;
             this.rgbiFontColor.Id = 37;
@@ -1405,12 +1408,21 @@
             this.barButtonItem40.Caption = "会员升级";
             this.barButtonItem40.Id = 466;
             this.barButtonItem40.Name = "barButtonItem40";
+            this.barButtonItem40.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem40_ItemClick);
             // 
             // barButtonItem41
             // 
-            this.barButtonItem41.Caption = "操作记录";
+            this.barButtonItem41.Caption = "患者回收站";
             this.barButtonItem41.Id = 467;
             this.barButtonItem41.Name = "barButtonItem41";
+            this.barButtonItem41.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem41_ItemClick);
+            // 
+            // barButtonItem42
+            // 
+            this.barButtonItem42.Caption = "操作记录";
+            this.barButtonItem42.Id = 468;
+            this.barButtonItem42.Name = "barButtonItem42";
+            this.barButtonItem42.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem42_ItemClick);
             // 
             // imageCollection4
             // 
@@ -1731,7 +1743,8 @@
             this.ribbonPageGroup40,
             this.ribbonPageGroup41,
             this.ribbonPageGroup42,
-            this.ribbonPageGroup43});
+            this.ribbonPageGroup43,
+            this.ribbonPageGroup44});
             this.ribbonPage9.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage9.Image")));
             this.ribbonPage9.Name = "ribbonPage9";
             this.ribbonPage9.Text = "  管理  ";
@@ -1783,6 +1796,12 @@
             this.ribbonPageGroup43.ItemLinks.Add(this.barButtonItem41);
             this.ribbonPageGroup43.Name = "ribbonPageGroup43";
             this.ribbonPageGroup43.Text = "ribbonPageGroup43";
+            // 
+            // ribbonPageGroup44
+            // 
+            this.ribbonPageGroup44.ItemLinks.Add(this.barButtonItem42);
+            this.ribbonPageGroup44.Name = "ribbonPageGroup44";
+            this.ribbonPageGroup44.Text = "ribbonPageGroup44";
             // 
             // ribbonStatusBar1
             // 
@@ -1996,5 +2015,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup41;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup42;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup43;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem42;
+        private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup44;
     }
 }

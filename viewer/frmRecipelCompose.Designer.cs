@@ -73,6 +73,10 @@
             this.pcBase.Controls.Add(this.panelControl1);
             this.pcBase.Size = new System.Drawing.Size(998, 360);
             // 
+            // defaultLookAndFeel
+            // 
+            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
+            // 
             // panelControl1
             // 
             this.panelControl1.Controls.Add(this.treeList1);
