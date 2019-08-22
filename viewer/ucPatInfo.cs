@@ -10,27 +10,16 @@ using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class usCtlPatInfo : DevExpress.XtraEditors.XtraUserControl
+    public partial class ucPatInfo : DevExpress.XtraEditors.XtraUserControl
     {
-        public usCtlPatInfo()
+        public ucPatInfo()
         {
             InitializeComponent();
-            this.panelControl3.Visible = false;
         }
 
-        private void panelControl4_MouseHover(object sender, EventArgs e)
+        private void ucPatInfo_Load(object sender, EventArgs e)
         {
-            this.panelControl3.Visible = true;
-        }
 
-        private void labelControl6_MouseHover(object sender, EventArgs e)
-        {
-            this.panelControl3.Visible = true;
-        }
-
-        private void panelControl1_MouseLeave(object sender, EventArgs e)
-        {
-            this.panelControl3.Visible = false;
         }
     }
 }

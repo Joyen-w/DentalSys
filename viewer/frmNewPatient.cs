@@ -87,5 +87,6 @@ namespace DentalSys
             frmPatClassify frm = new frmPatClassify();
             frm.ShowDialog();
         }
+
     }
 }

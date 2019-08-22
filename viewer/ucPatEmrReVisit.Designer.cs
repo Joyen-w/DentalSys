@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class usCtlPatEmrReVisit
+    partial class ucPatEmrReVisit
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usCtlPatEmrReVisit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatEmrReVisit));
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
@@ -56,7 +56,6 @@
             this.panelControl2.Appearance.BackColor = System.Drawing.Color.Gray;
             this.panelControl2.Appearance.Options.UseBackColor = true;
             this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelControl2.Location = new System.Drawing.Point(0, 0);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(10, 334);
@@ -80,7 +79,6 @@
             this.panelControl1.Controls.Add(this.simpleButton6);
             this.panelControl1.Controls.Add(this.simpleButton3);
             this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(10, 0);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(1011, 334);
@@ -302,15 +300,15 @@
             this.simpleButton1.TabIndex = 135;
             this.simpleButton1.ToolTip = "处置打印";
             // 
-            // usCtlEmrReVisit
+            // ucPatEmrReVisit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.panelControl1);
             this.Controls.Add(this.panelControl2);
-            this.Name = "usCtlEmrReVisit";
-            this.Size = new System.Drawing.Size(1021, 334);
+            this.Name = "ucPatEmrReVisit";
+            this.Size = new System.Drawing.Size(1024, 337);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);

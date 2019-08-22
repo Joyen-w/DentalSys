@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace DentalSys
 {
-    public partial class usCtlPatEmrFirstVisit : UserControl
+    public partial class ucPatEmrFirstVisit : UserControl
     {
-        public usCtlPatEmrFirstVisit()
+        public ucPatEmrFirstVisit()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class usCtlPatEmrCommon
+    partial class ucPatEmrCommon
     {
         /// <summary> 
         /// Required designer variable.
@@ -121,14 +121,14 @@
             this.labelControl4.TabIndex = 98;
             this.labelControl4.Text = "近中邻颌面中龋，叩（+），松（-） 牙间龈乳头红肿，充血，有嵌塞物。";
             // 
-            // usCtlPatEmrCommon
+            // ucPatEmrCommon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.panelControl1);
-            this.Name = "usCtlPatEmrCommon";
+            this.Name = "ucPatEmrCommon";
             this.Size = new System.Drawing.Size(604, 45);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);

@@ -21,21 +21,5 @@ namespace DentalSys
         {
 
         }
-
-        private void simpleButton1_Click(object sender, EventArgs e)
-        {
-            usCtlOutProcessDetail usCtl = new usCtlOutProcessDetail();
-            usCtl.Dock = DockStyle.Fill;
-            this.panelControl3.Controls.Clear();
-            this.panelControl3.Controls.Add(usCtl);
-        }
-
-        private void simpleButton2_Click(object sender, EventArgs e)
-        {
-            usCtlOutProcessType usCtl = new usCtlOutProcessType();
-            usCtl.Dock = DockStyle.Fill;
-            this.panelControl3.Controls.Clear();
-            this.panelControl3.Controls.Add(usCtl);
-        }
     }
 }

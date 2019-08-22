@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class usCtlPatEmrFirstVisit
+    partial class ucPatEmrFirstVisit
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(usCtlPatEmrFirstVisit));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatEmrFirstVisit));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.usCtlPatEmrCommon5 = new DentalSys.usCtlPatEmrCommon();
-            this.usCtlPatEmrCommon4 = new DentalSys.usCtlPatEmrCommon();
-            this.usCtlPatEmrCommon3 = new DentalSys.usCtlPatEmrCommon();
-            this.usCtlPatEmrCommon2 = new DentalSys.usCtlPatEmrCommon();
-            this.usCtlPatEmrCommon1 = new DentalSys.usCtlPatEmrCommon();
+            this.usCtlPatEmrCommon5 = new DentalSys.ucPatEmrCommon();
+            this.usCtlPatEmrCommon4 = new DentalSys.ucPatEmrCommon();
+            this.usCtlPatEmrCommon3 = new DentalSys.ucPatEmrCommon();
+            this.usCtlPatEmrCommon2 = new DentalSys.ucPatEmrCommon();
+            this.usCtlPatEmrCommon1 = new DentalSys.ucPatEmrCommon();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
@@ -92,10 +92,9 @@
             this.panelControl1.Controls.Add(this.labelControl12);
             this.panelControl1.Controls.Add(this.labelControl1);
             this.panelControl1.Controls.Add(this.panelControl2);
-            this.panelControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1011, 367);
+            this.panelControl1.Size = new System.Drawing.Size(1011, 372);
             this.panelControl1.TabIndex = 0;
             // 
             // usCtlPatEmrCommon5
@@ -431,20 +430,19 @@
             this.panelControl2.Appearance.BackColor = System.Drawing.Color.PowderBlue;
             this.panelControl2.Appearance.Options.UseBackColor = true;
             this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelControl2.Location = new System.Drawing.Point(2, 2);
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(10, 363);
             this.panelControl2.TabIndex = 0;
             // 
-            // usCtlEmrFirstVisit
+            // ucPatEmrFirstVisit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.panelControl1);
-            this.Name = "usCtlEmrFirstVisit";
-            this.Size = new System.Drawing.Size(1011, 367);
+            this.Name = "ucPatEmrFirstVisit";
+            this.Size = new System.Drawing.Size(1014, 375);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -479,10 +477,10 @@
         public DevExpress.XtraEditors.SimpleButton simpleButton6;
         public DevExpress.XtraEditors.SimpleButton simpleButton3;
         public DevExpress.XtraEditors.SimpleButton simpleButton1;
-        public usCtlPatEmrCommon usCtlPatEmrCommon5;
-        public usCtlPatEmrCommon usCtlPatEmrCommon4;
-        public usCtlPatEmrCommon usCtlPatEmrCommon3;
-        public usCtlPatEmrCommon usCtlPatEmrCommon2;
-        public usCtlPatEmrCommon usCtlPatEmrCommon1;
+        public ucPatEmrCommon usCtlPatEmrCommon5;
+        public ucPatEmrCommon usCtlPatEmrCommon4;
+        public ucPatEmrCommon usCtlPatEmrCommon3;
+        public ucPatEmrCommon usCtlPatEmrCommon2;
+        public ucPatEmrCommon usCtlPatEmrCommon1;
     }
 }

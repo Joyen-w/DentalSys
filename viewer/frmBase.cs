@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace DentalSys
 {
-    public partial class frmBase : Form
+    public partial class frmBase : DevExpress.XtraEditors.XtraForm
     {
         public frmBase()
         {

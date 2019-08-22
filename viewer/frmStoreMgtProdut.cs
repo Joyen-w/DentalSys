@@ -21,14 +21,5 @@ namespace DentalSys
         {
 
         }
-
-        private void simpleButton2_Click(object sender, EventArgs e)
-        {
-            ucStoreMgtMyProduct usCtl = new ucStoreMgtMyProduct();
-            usCtl.Dock = DockStyle.Fill;
-            this.panelControl3.Controls.Clear();
-            this.panelControl3.Controls.Clear();
-            this.panelControl3.Controls.Add(usCtl);
-        }
     }
 }

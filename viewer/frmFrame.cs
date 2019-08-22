@@ -89,26 +89,29 @@ namespace DentalSys
 
         private void bbi001_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm1 frm01 = new frm1();
+            //frm1 frm01 = new frm1();
+            //frm01.MdiParent = this;
+            //frm01.Show();
+            frmtest2 frm01 = new frmtest2();
             frm01.MdiParent = this;
             frm01.Show();
         }
 
         private void bbi002_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frm2 frm02 = new frm2();
-            frm02.MdiParent = this;
-            frm02.Show();
+            frmtest frm01 = new frmtest();
+            frm01.MdiParent = this;
+            frm01.Show();
         }
 
         #endregion
 
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            usCtlPatCureRecord usControl = new usCtlPatCureRecord();
+            ucPatCureRecord usControl = new ucPatCureRecord();
             usControl.Dock = DockStyle.None;
             usControl.labelControl3.Text = "黄河之水天上来，奔流到海不复回！";
-            usCtlPatRegInfo usCtl = new usCtlPatRegInfo();
+            ucPatRegInfo usCtl = new ucPatRegInfo();
 
             frmPatInfo frm = new frmPatInfo();
             frm.MdiParent = this;
@@ -288,6 +291,20 @@ namespace DentalSys
         private void barButtonItem42_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmOperateRecords frm = new frmOperateRecords();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem37_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmRecipelChargeSet frm = new frmRecipelChargeSet();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem38_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmRecipelCompose frm = new frmRecipelCompose();
             frm.MdiParent = this;
             frm.Show();
         }

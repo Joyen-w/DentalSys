@@ -10,9 +10,9 @@ using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class usCtlPatRegInfo : DevExpress.XtraEditors.XtraUserControl
+    public partial class ucPatRegInfo : DevExpress.XtraEditors.XtraUserControl
     {
-        public usCtlPatRegInfo()
+        public ucPatRegInfo()
         {
             InitializeComponent();
         }

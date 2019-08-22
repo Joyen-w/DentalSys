@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFrame));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.defaultLookAndFeel = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
@@ -206,22 +206,20 @@
             this.ribbonPageGroup44 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonStatusBar1 = new DevExpress.XtraBars.Ribbon.RibbonStatusBar();
             this.xtraTabbedMdiManager = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
+            this.behaviorManager1 = new DevExpress.Utils.Behaviors.BehaviorManager(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).BeginInit();
             this.SuspendLayout();
             // 
             // ribbonPage2
             // 
             this.ribbonPage2.Name = "ribbonPage2";
             this.ribbonPage2.Text = "ribbonPage2";
-            // 
-            // defaultLookAndFeel
-            // 
-            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
             // 
             // imageCollection1
             // 
@@ -364,11 +362,15 @@
             this.barButtonItem42});
             this.ribbonControl.LargeImages = this.imageCollection4;
             this.ribbonControl.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl.MaxItemId = 469;
+            this.ribbonControl.Margin = new System.Windows.Forms.Padding(4);
+            this.ribbonControl.MaxItemId = 470;
             this.ribbonControl.Name = "ribbonControl";
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorInQAT = true;
             this.ribbonControl.OptionsTouch.ShowTouchUISelectorVisibilityItemInQATMenu = true;
             this.ribbonControl.PageCategoryAlignment = DevExpress.XtraBars.Ribbon.RibbonPageCategoryAlignment.Right;
+            this.ribbonControl.PageHeaderItemLinks.Add(this.biStyle);
+            this.ribbonControl.PageHeaderItemLinks.Add(this.beScheme);
+            this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
             this.ribbonControl.PageHeaderItemLinks.Add(this.biStyle);
             this.ribbonControl.PageHeaderItemLinks.Add(this.beScheme);
             this.ribbonControl.PageHeaderItemLinks.Add(this.iAbout);
@@ -387,10 +389,16 @@
             this.ribbonControl.QuickToolbarItemLinks.Add(this.iReplace, true);
             this.ribbonControl.QuickToolbarItemLinks.Add(this.iPaintStyle);
             this.ribbonControl.QuickToolbarItemLinks.Add(this.bbiExit);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.iOpen);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.iSave);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.iUndo);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.iReplace, true);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.iPaintStyle);
+            this.ribbonControl.QuickToolbarItemLinks.Add(this.bbiExit);
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1327, 134);
+            this.ribbonControl.Size = new System.Drawing.Size(1602, 131);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -403,7 +411,6 @@
             // iOpen
             // 
             this.iOpen.Caption = "&Open...";
-            this.iOpen.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iOpen.Description = "Opens a file.";
             this.iOpen.Hint = "Open a file";
             this.iOpen.Id = 1;
@@ -416,7 +423,6 @@
             // iSave
             // 
             this.iSave.Caption = "&Save";
-            this.iSave.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iSave.Description = "Saves the active document with its current file name.";
             this.iSave.Hint = "Saves the active document with its current file name";
             this.iSave.Id = 3;
@@ -428,7 +434,6 @@
             // iUndo
             // 
             this.iUndo.Caption = "&Undo";
-            this.iUndo.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iUndo.Description = "Reverses the last command or deletes the last entry you typed.";
             this.iUndo.Hint = "Undo";
             this.iUndo.Id = 8;
@@ -439,7 +444,6 @@
             // iReplace
             // 
             this.iReplace.Caption = "R&eplace...";
-            this.iReplace.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iReplace.Description = "Searches for and replaces the specified text.";
             this.iReplace.Hint = "Replace";
             this.iReplace.Id = 15;
@@ -451,7 +455,6 @@
             // 
             this.idNew.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
             this.idNew.Caption = "New";
-            this.idNew.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.idNew.Description = "Creates a new, blank file.";
             this.idNew.Hint = "Creates a new, blank file";
             this.idNew.Id = 0;
@@ -462,7 +465,6 @@
             // iClose
             // 
             this.iClose.Caption = "&Close";
-            this.iClose.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iClose.Description = "Closes the active document.";
             this.iClose.Hint = "Closes the active document";
             this.iClose.Id = 2;
@@ -474,7 +476,6 @@
             // iSaveAs
             // 
             this.iSaveAs.Caption = "Save &As...";
-            this.iSaveAs.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iSaveAs.Description = "Saves the active document with a different file name.";
             this.iSaveAs.Hint = "Saves the active document with a different file name";
             this.iSaveAs.Id = 4;
@@ -485,7 +486,6 @@
             // iPrint
             // 
             this.iPrint.Caption = "&Print";
-            this.iPrint.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iPrint.Description = "Prints the active document.";
             this.iPrint.Hint = "Prints the active document";
             this.iPrint.Id = 5;
@@ -497,7 +497,6 @@
             // iExit
             // 
             this.iExit.Caption = "E&xit";
-            this.iExit.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iExit.Description = "Closes this program after prompting you to save unsaved document.";
             this.iExit.Hint = "Closes this program after prompting you to save unsaved document.";
             this.iExit.Id = 6;
@@ -508,7 +507,6 @@
             // iCut
             // 
             this.iCut.Caption = "Cu&t";
-            this.iCut.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iCut.Description = "Removes the selection from the active document and places it on the Clipboard.";
             this.iCut.Hint = "Cut";
             this.iCut.Id = 9;
@@ -519,7 +517,6 @@
             // iCopy
             // 
             this.iCopy.Caption = "&Copy";
-            this.iCopy.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iCopy.Description = "Copies the selection to the Clipboard.";
             this.iCopy.Hint = "Copy";
             this.iCopy.Id = 10;
@@ -530,7 +527,6 @@
             // iPaste
             // 
             this.iPaste.Caption = "&Paste";
-            this.iPaste.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iPaste.Description = "Inserts the contents of the Clipboard at the insertion point, and replaces any se" +
     "lection. This command is available only if you have cut or copied a text.";
             this.iPaste.Hint = "Paste";
@@ -542,7 +538,6 @@
             // iClear
             // 
             this.iClear.Caption = "Cle&ar";
-            this.iClear.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iClear.Description = "Deletes the selected text without putting it on the Clipboard. This command is av" +
     "ailable only if a text is selected. ";
             this.iClear.Hint = "Clear";
@@ -553,7 +548,6 @@
             // iSelectAll
             // 
             this.iSelectAll.Caption = "Select A&ll";
-            this.iSelectAll.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iSelectAll.Description = "Selects all text in the active document.";
             this.iSelectAll.Hint = "Selects all text in the active document.";
             this.iSelectAll.Id = 13;
@@ -563,7 +557,6 @@
             // iFind
             // 
             this.iFind.Caption = "&Find...";
-            this.iFind.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iFind.Description = "Searches for the specified text.";
             this.iFind.Hint = "Find";
             this.iFind.Id = 14;
@@ -575,7 +568,6 @@
             // 
             this.iFont.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
             this.iFont.Caption = "&Font...";
-            this.iFont.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iFont.Description = "Changes the font and character spacing formats of the selected text.";
             this.iFont.Hint = "Font Dialog";
             this.iFont.Id = 17;
@@ -587,7 +579,6 @@
             // 
             this.iBullets.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iBullets.Caption = "&Bullets";
-            this.iBullets.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iBullets.Description = "Adds bullets to or removes bullets from selected paragraphs.";
             this.iBullets.Hint = "Bullets";
             this.iBullets.Id = 18;
@@ -598,7 +589,6 @@
             // 
             this.iProtected.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iProtected.Caption = "P&rotected";
-            this.iProtected.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iProtected.Description = "Protects the selected text.";
             this.iProtected.Hint = "Protects the selected text";
             this.iProtected.Id = 19;
@@ -607,7 +597,6 @@
             // iWeb
             // 
             this.iWeb.Caption = "&DevExpress on the Web";
-            this.iWeb.CategoryGuid = new System.Guid("e07a4c24-66ac-4de6-bbcb-c0b6cfa7798b");
             this.iWeb.Description = "Opens the web page.";
             this.iWeb.Hint = "DevExpress on the Web";
             this.iWeb.Id = 21;
@@ -618,7 +607,6 @@
             // 
             this.iAbout.Alignment = DevExpress.XtraBars.BarItemLinkAlignment.Right;
             this.iAbout.Caption = "&About";
-            this.iAbout.CategoryGuid = new System.Guid("e07a4c24-66ac-4de6-bbcb-c0b6cfa7798b");
             this.iAbout.Description = "Displays the description of this program.";
             this.iAbout.Hint = "Displays the About dialog";
             this.iAbout.Id = 22;
@@ -630,7 +618,6 @@
             // 
             this.iBold.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iBold.Caption = "&Bold";
-            this.iBold.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iBold.Description = "Makes selected text and numbers bold. If the selection is already bold, clicking " +
     "button removes bold formatting.";
             this.iBold.Hint = "Bold";
@@ -643,7 +630,6 @@
             // 
             this.iItalic.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iItalic.Caption = "&Italic";
-            this.iItalic.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iItalic.Description = "Makes selected text and numbers italic. If the selection is already italic, click" +
     "ing button removes italic formatting.";
             this.iItalic.Hint = "Italic";
@@ -656,7 +642,6 @@
             // 
             this.iUnderline.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iUnderline.Caption = "&Underline";
-            this.iUnderline.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iUnderline.Description = "Underlines selected text and numbers. If the selection is already underlined, cli" +
     "cking button removes underlining.";
             this.iUnderline.Hint = "Underline";
@@ -669,7 +654,6 @@
             // 
             this.iAlignLeft.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iAlignLeft.Caption = "Align &Left";
-            this.iAlignLeft.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iAlignLeft.Description = "Aligns the selected text to the left.";
             this.iAlignLeft.GroupIndex = 1;
             this.iAlignLeft.Hint = "Align Left";
@@ -682,7 +666,6 @@
             // 
             this.iCenter.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iCenter.Caption = "&Center";
-            this.iCenter.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iCenter.Description = "Centers the selected text.";
             this.iCenter.GroupIndex = 1;
             this.iCenter.Hint = "Center";
@@ -695,7 +678,6 @@
             // 
             this.iAlignRight.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.Check;
             this.iAlignRight.Caption = "Align &Right";
-            this.iAlignRight.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iAlignRight.Description = "Aligns the selected text to the right.";
             this.iAlignRight.GroupIndex = 1;
             this.iAlignRight.Hint = "Align Right";
@@ -708,7 +690,6 @@
             // 
             this.iFontColor.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
             this.iFontColor.Caption = "Font C&olor";
-            this.iFontColor.CategoryGuid = new System.Guid("d3052f28-4b3e-4bae-b581-b3bb1c432258");
             this.iFontColor.Description = "Formats the selected text with the color you click.";
             this.iFontColor.Hint = "Font Color";
             this.iFontColor.Id = 30;
@@ -717,20 +698,17 @@
             // 
             // siPosition
             // 
-            this.siPosition.CategoryGuid = new System.Guid("77795bb7-9bc5-4dd2-a297-cc758682e23d");
             this.siPosition.Id = 0;
             this.siPosition.Name = "siPosition";
             // 
             // siModified
             // 
-            this.siModified.CategoryGuid = new System.Guid("77795bb7-9bc5-4dd2-a297-cc758682e23d");
             this.siModified.Id = 1;
             this.siModified.ImageOptions.ImageIndex = 27;
             this.siModified.Name = "siModified";
             // 
             // siDocName
             // 
-            this.siDocName.CategoryGuid = new System.Guid("77795bb7-9bc5-4dd2-a297-cc758682e23d");
             this.siDocName.Id = 2;
             this.siDocName.Name = "siDocName";
             this.siDocName.TextAlignment = System.Drawing.StringAlignment.Near;
@@ -776,7 +754,6 @@
             // sbiSave
             // 
             this.sbiSave.Caption = "Save";
-            this.sbiSave.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.sbiSave.Description = "Saves the active document";
             this.sbiSave.Hint = "Saves the active document";
             this.sbiSave.Id = 0;
@@ -792,7 +769,6 @@
             // sbiPaste
             // 
             this.sbiPaste.Caption = "Paste";
-            this.sbiPaste.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.sbiPaste.Description = "Inserts the contents of the Clipboard at the insertion point";
             this.sbiPaste.Hint = "Inserts the contents of the Clipboard at the insertion point";
             this.sbiPaste.Id = 1;
@@ -808,7 +784,6 @@
             // iPasteSpecial
             // 
             this.iPasteSpecial.Caption = "Paste &Special...";
-            this.iPasteSpecial.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iPasteSpecial.Description = "Opens the Paste Special dialog";
             this.iPasteSpecial.Enabled = false;
             this.iPasteSpecial.Hint = "Opens the Paste Special dialog";
@@ -819,7 +794,6 @@
             // sbiFind
             // 
             this.sbiFind.Caption = "Find";
-            this.sbiFind.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.sbiFind.Description = "Searches for the specified text";
             this.sbiFind.Hint = "Searches for the specified text";
             this.sbiFind.Id = 2;
@@ -837,7 +811,6 @@
             // iNew
             // 
             this.iNew.Caption = "&New";
-            this.iNew.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iNew.Description = "Creates a new, blank file.";
             this.iNew.Hint = "Creates a new, blank file";
             this.iNew.Id = 0;
@@ -848,7 +821,6 @@
             // iLargeUndo
             // 
             this.iLargeUndo.Caption = "&Undo";
-            this.iLargeUndo.CategoryGuid = new System.Guid("7c2486e1-92ea-4293-ad55-b819f61ff7f1");
             this.iLargeUndo.Hint = "Undo";
             this.iLargeUndo.Id = 0;
             this.iLargeUndo.ImageOptions.ImageIndex = 11;
@@ -858,7 +830,6 @@
             // iTemplate
             // 
             this.iTemplate.Caption = "Template...";
-            this.iTemplate.CategoryGuid = new System.Guid("4b511317-d784-42ba-b4ed-0d2a746d6c1f");
             this.iTemplate.Description = "Creates a new template";
             this.iTemplate.Enabled = false;
             this.iTemplate.Hint = "Creates a new template";
@@ -909,9 +880,9 @@
             // 
             // 
             // 
-            galleryItemGroup1.Caption = "Main";
+            galleryItemGroup3.Caption = "Main";
             this.rgbiFont.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup1});
+            galleryItemGroup3});
             this.rgbiFont.Gallery.ImageSize = new System.Drawing.Size(40, 40);
             this.rgbiFont.Id = 29;
             this.rgbiFont.Name = "rgbiFont";
@@ -933,9 +904,9 @@
             // 
             // 
             this.rgbiFontColor.Gallery.ColumnCount = 10;
-            galleryItemGroup2.Caption = "Main";
+            galleryItemGroup4.Caption = "Main";
             this.rgbiFontColor.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup2});
+            galleryItemGroup4});
             this.rgbiFontColor.Gallery.ImageSize = new System.Drawing.Size(20, 14);
             this.rgbiFontColor.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Stretch;
             this.rgbiFontColor.Id = 37;
@@ -995,8 +966,14 @@
             // 
             this.lbl001.Caption = "0";
             this.lbl001.Id = 409;
+            this.lbl001.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl001.ItemAppearance.Disabled.Options.UseFont = true;
+            this.lbl001.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl001.ItemAppearance.Hovered.Options.UseFont = true;
             this.lbl001.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl001.ItemAppearance.Normal.Options.UseFont = true;
+            this.lbl001.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl001.ItemAppearance.Pressed.Options.UseFont = true;
             this.lbl001.Name = "lbl001";
             this.lbl001.TextAlignment = System.Drawing.StringAlignment.Center;
             // 
@@ -1004,6 +981,14 @@
             // 
             this.bbi001.Caption = "今日总诊人数";
             this.bbi001.Id = 410;
+            this.bbi001.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi001.ItemAppearance.Disabled.Options.UseFont = true;
+            this.bbi001.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi001.ItemAppearance.Hovered.Options.UseFont = true;
+            this.bbi001.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi001.ItemAppearance.Normal.Options.UseFont = true;
+            this.bbi001.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi001.ItemAppearance.Pressed.Options.UseFont = true;
             this.bbi001.Name = "bbi001";
             this.bbi001.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbi001_ItemClick);
             // 
@@ -1020,6 +1005,14 @@
             // 
             this.bbi002.Caption = "今日初/复诊";
             this.bbi002.Id = 412;
+            this.bbi002.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi002.ItemAppearance.Disabled.Options.UseFont = true;
+            this.bbi002.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi002.ItemAppearance.Hovered.Options.UseFont = true;
+            this.bbi002.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi002.ItemAppearance.Normal.Options.UseFont = true;
+            this.bbi002.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bbi002.ItemAppearance.Pressed.Options.UseFont = true;
             this.bbi002.Name = "bbi002";
             this.bbi002.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.bbi002_ItemClick);
             // 
@@ -1036,6 +1029,14 @@
             // 
             this.barButtonItem3.Caption = "今日回访";
             this.barButtonItem3.Id = 414;
+            this.barButtonItem3.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem3.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem3.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem3.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem3.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem3.Name = "barButtonItem3";
             // 
             // barStaticItem3
@@ -1051,6 +1052,14 @@
             // 
             this.barButtonItem4.Caption = "今日预约";
             this.barButtonItem4.Id = 416;
+            this.barButtonItem4.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem4.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem4.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem4.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem4.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem4.Name = "barButtonItem4";
             // 
             // barStaticItem4
@@ -1066,6 +1075,14 @@
             // 
             this.barButtonItem5.Caption = "今日新增关注";
             this.barButtonItem5.Id = 418;
+            this.barButtonItem5.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem5.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem5.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem5.Name = "barButtonItem5";
             // 
             // barStaticItem5
@@ -1081,6 +1098,14 @@
             // 
             this.barButtonItem6.Caption = "今日应收金额";
             this.barButtonItem6.Id = 420;
+            this.barButtonItem6.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem6.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem6.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem6.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem6.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem6.Name = "barButtonItem6";
             // 
             // barStaticItem6
@@ -1096,6 +1121,14 @@
             // 
             this.barButtonItem7.Caption = "今日实收金额";
             this.barButtonItem7.Id = 422;
+            this.barButtonItem7.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem7.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem7.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem7.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem7.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem7.Name = "barButtonItem7";
             // 
             // barStaticItem7
@@ -1111,6 +1144,14 @@
             // 
             this.barButtonItem8.Caption = "今日工作";
             this.barButtonItem8.Id = 424;
+            this.barButtonItem8.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem8.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem8.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem8.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem8.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem8.Name = "barButtonItem8";
             // 
             // barStaticItem8
@@ -1126,6 +1167,14 @@
             // 
             this.barButtonItem9.Caption = "今日待回访";
             this.barButtonItem9.Id = 426;
+            this.barButtonItem9.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem9.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem9.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem9.Name = "barButtonItem9";
             // 
             // barStaticItem9
@@ -1141,6 +1190,14 @@
             // 
             this.barButtonItem10.Caption = "今日结算";
             this.barButtonItem10.Id = 428;
+            this.barButtonItem10.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem10.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem10.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem10.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem10.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem10.Name = "barButtonItem10";
             // 
             // barStaticItem10
@@ -1156,6 +1213,14 @@
             // 
             this.barButtonItem11.Caption = "今日生日";
             this.barButtonItem11.Id = 430;
+            this.barButtonItem11.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem11.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem11.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem11.Name = "barButtonItem11";
             // 
             // barStaticItem11
@@ -1171,6 +1236,14 @@
             // 
             this.barButtonItem12.Caption = "今日到件";
             this.barButtonItem12.Id = 432;
+            this.barButtonItem12.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem12.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem12.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem12.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem12.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem12.Name = "barButtonItem12";
             // 
             // barButtonItem13
@@ -1216,6 +1289,14 @@
             // 
             this.barButtonItem1.Caption = "患者信息";
             this.barButtonItem1.Id = 438;
+            this.barButtonItem1.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem1.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem1.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem1.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem1.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem1.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem1.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem1.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem1.Name = "barButtonItem1";
             this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
@@ -1223,6 +1304,14 @@
             // 
             this.barButtonItem2.Caption = "处置记录";
             this.barButtonItem2.Id = 439;
+            this.barButtonItem2.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem2.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem2.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem2.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem2.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem2.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem2.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem2.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem2.Name = "barButtonItem2";
             this.barButtonItem2.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem2_ItemClick);
             // 
@@ -1230,6 +1319,14 @@
             // 
             this.barButtonItem14.Caption = "收费信息";
             this.barButtonItem14.Id = 440;
+            this.barButtonItem14.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem14.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem14.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem14.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem14.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem14.Name = "barButtonItem14";
             this.barButtonItem14.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem14_ItemClick);
             // 
@@ -1237,6 +1334,14 @@
             // 
             this.barButtonItem15.Caption = "影像信息";
             this.barButtonItem15.Id = 441;
+            this.barButtonItem15.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem15.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem15.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem15.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem15.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem15.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem15.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem15.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem15.Name = "barButtonItem15";
             this.barButtonItem15.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem15_ItemClick);
             // 
@@ -1244,6 +1349,14 @@
             // 
             this.barButtonItem16.Caption = "病历信息";
             this.barButtonItem16.Id = 442;
+            this.barButtonItem16.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem16.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem16.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem16.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem16.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem16.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem16.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem16.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem16.Name = "barButtonItem16";
             this.barButtonItem16.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem16_ItemClick);
             // 
@@ -1251,6 +1364,14 @@
             // 
             this.barButtonItem17.Caption = "外加工";
             this.barButtonItem17.Id = 443;
+            this.barButtonItem17.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem17.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem17.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem17.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem17.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem17.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem17.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem17.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem17.Name = "barButtonItem17";
             this.barButtonItem17.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem17_ItemClick);
             // 
@@ -1258,6 +1379,14 @@
             // 
             this.barButtonItem18.Caption = "回访信息";
             this.barButtonItem18.Id = 444;
+            this.barButtonItem18.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem18.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem18.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem18.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem18.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem18.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem18.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem18.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem18.Name = "barButtonItem18";
             this.barButtonItem18.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem18_ItemClick);
             // 
@@ -1265,6 +1394,14 @@
             // 
             this.barButtonItem19.Caption = "咨询信息";
             this.barButtonItem19.Id = 445;
+            this.barButtonItem19.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem19.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem19.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem19.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem19.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem19.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem19.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem19.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem19.Name = "barButtonItem19";
             this.barButtonItem19.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem19_ItemClick);
             // 
@@ -1272,6 +1409,14 @@
             // 
             this.barButtonItem20.Caption = "医患沟通";
             this.barButtonItem20.Id = 446;
+            this.barButtonItem20.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem20.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem20.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem20.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem20.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem20.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem20.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem20.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem20.Name = "barButtonItem20";
             this.barButtonItem20.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem20_ItemClick);
             // 
@@ -1279,6 +1424,14 @@
             // 
             this.barButtonItem21.Caption = "诊所运营";
             this.barButtonItem21.Id = 447;
+            this.barButtonItem21.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem21.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem21.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem21.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem21.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem21.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem21.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem21.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem21.Name = "barButtonItem21";
             this.barButtonItem21.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem21_ItemClick);
             // 
@@ -1286,6 +1439,14 @@
             // 
             this.barButtonItem22.Caption = "收费对账";
             this.barButtonItem22.Id = 448;
+            this.barButtonItem22.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem22.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem22.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem22.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem22.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem22.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem22.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem22.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem22.Name = "barButtonItem22";
             this.barButtonItem22.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem22_ItemClick);
             // 
@@ -1293,6 +1454,14 @@
             // 
             this.barButtonItem23.Caption = "员工绩效";
             this.barButtonItem23.Id = 449;
+            this.barButtonItem23.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem23.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem23.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem23.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem23.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem23.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem23.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem23.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem23.Name = "barButtonItem23";
             this.barButtonItem23.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem23_ItemClick);
             // 
@@ -1300,6 +1469,14 @@
             // 
             this.barButtonItem24.Caption = "外加工";
             this.barButtonItem24.Id = 450;
+            this.barButtonItem24.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem24.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem24.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem24.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem24.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem24.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem24.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem24.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem24.Name = "barButtonItem24";
             this.barButtonItem24.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem24_ItemClick);
             // 
@@ -1307,6 +1484,14 @@
             // 
             this.barButtonItem25.Caption = "患者高级查询";
             this.barButtonItem25.Id = 451;
+            this.barButtonItem25.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem25.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem25.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem25.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem25.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem25.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem25.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem25.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem25.Name = "barButtonItem25";
             this.barButtonItem25.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem25_ItemClick);
             // 
@@ -1314,18 +1499,42 @@
             // 
             this.barButtonItem26.Caption = "微信运营";
             this.barButtonItem26.Id = 452;
+            this.barButtonItem26.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem26.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem26.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem26.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem26.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem26.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem26.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem26.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem26.Name = "barButtonItem26";
             // 
             // barButtonItem27
             // 
             this.barButtonItem27.Caption = "客流分析";
             this.barButtonItem27.Id = 453;
+            this.barButtonItem27.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem27.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem27.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem27.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem27.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem27.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem27.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem27.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem27.Name = "barButtonItem27";
             // 
             // barButtonItem28
             // 
             this.barButtonItem28.Caption = "当前库存";
             this.barButtonItem28.Id = 454;
+            this.barButtonItem28.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem28.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem28.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem28.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem28.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem28.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem28.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem28.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem28.Name = "barButtonItem28";
             this.barButtonItem28.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem28_ItemClick);
             // 
@@ -1333,6 +1542,14 @@
             // 
             this.barButtonItem29.Caption = "入库";
             this.barButtonItem29.Id = 455;
+            this.barButtonItem29.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem29.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem29.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem29.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem29.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem29.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem29.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem29.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem29.Name = "barButtonItem29";
             this.barButtonItem29.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem29_ItemClick);
             // 
@@ -1340,6 +1557,14 @@
             // 
             this.barButtonItem30.Caption = "出库";
             this.barButtonItem30.Id = 456;
+            this.barButtonItem30.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem30.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem30.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem30.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem30.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem30.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem30.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem30.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem30.Name = "barButtonItem30";
             this.barButtonItem30.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem30_ItemClick);
             // 
@@ -1347,6 +1572,14 @@
             // 
             this.barButtonItem31.Caption = "盘点";
             this.barButtonItem31.Id = 457;
+            this.barButtonItem31.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem31.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem31.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem31.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem31.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem31.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem31.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem31.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem31.Name = "barButtonItem31";
             this.barButtonItem31.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem31_ItemClick);
             // 
@@ -1354,6 +1587,14 @@
             // 
             this.barButtonItem32.Caption = "产品库";
             this.barButtonItem32.Id = 458;
+            this.barButtonItem32.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem32.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem32.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem32.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem32.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem32.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem32.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem32.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem32.Name = "barButtonItem32";
             this.barButtonItem32.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem32_ItemClick);
             // 
@@ -1361,6 +1602,14 @@
             // 
             this.barButtonItem33.Caption = "供应商管理";
             this.barButtonItem33.Id = 459;
+            this.barButtonItem33.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem33.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem33.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem33.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem33.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem33.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem33.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem33.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem33.Name = "barButtonItem33";
             this.barButtonItem33.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem33_ItemClick);
             // 
@@ -1368,6 +1617,14 @@
             // 
             this.barButtonItem34.Caption = "诊所信息";
             this.barButtonItem34.Id = 460;
+            this.barButtonItem34.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem34.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem34.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem34.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem34.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem34.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem34.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem34.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem34.Name = "barButtonItem34";
             this.barButtonItem34.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem34_ItemClick);
             // 
@@ -1375,6 +1632,14 @@
             // 
             this.barButtonItem35.Caption = "权限设置";
             this.barButtonItem35.Id = 461;
+            this.barButtonItem35.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem35.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem35.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem35.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem35.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem35.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem35.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem35.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem35.Name = "barButtonItem35";
             this.barButtonItem35.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem35_ItemClick);
             // 
@@ -1382,24 +1647,58 @@
             // 
             this.barButtonItem36.Caption = "员工管理";
             this.barButtonItem36.Id = 462;
+            this.barButtonItem36.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem36.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem36.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem36.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem36.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem36.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem36.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem36.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem36.Name = "barButtonItem36";
             // 
             // barButtonItem37
             // 
             this.barButtonItem37.Caption = "处置与收费";
             this.barButtonItem37.Id = 463;
+            this.barButtonItem37.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem37.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem37.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem37.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem37.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem37.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem37.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem37.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem37.Name = "barButtonItem37";
+            this.barButtonItem37.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem37_ItemClick);
             // 
             // barButtonItem38
             // 
             this.barButtonItem38.Caption = "处置组合";
             this.barButtonItem38.Id = 464;
+            this.barButtonItem38.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem38.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem38.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem38.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem38.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem38.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem38.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem38.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem38.Name = "barButtonItem38";
+            this.barButtonItem38.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem38_ItemClick);
             // 
             // barButtonItem39
             // 
             this.barButtonItem39.Caption = "病历模板";
             this.barButtonItem39.Id = 465;
+            this.barButtonItem39.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem39.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem39.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem39.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem39.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem39.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem39.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem39.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem39.Name = "barButtonItem39";
             this.barButtonItem39.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem39_ItemClick);
             // 
@@ -1407,6 +1706,14 @@
             // 
             this.barButtonItem40.Caption = "会员升级";
             this.barButtonItem40.Id = 466;
+            this.barButtonItem40.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem40.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem40.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem40.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem40.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem40.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem40.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem40.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem40.Name = "barButtonItem40";
             this.barButtonItem40.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem40_ItemClick);
             // 
@@ -1414,6 +1721,14 @@
             // 
             this.barButtonItem41.Caption = "患者回收站";
             this.barButtonItem41.Id = 467;
+            this.barButtonItem41.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem41.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem41.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem41.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem41.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem41.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem41.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem41.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem41.Name = "barButtonItem41";
             this.barButtonItem41.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem41_ItemClick);
             // 
@@ -1421,6 +1736,14 @@
             // 
             this.barButtonItem42.Caption = "操作记录";
             this.barButtonItem42.Id = 468;
+            this.barButtonItem42.ItemAppearance.Disabled.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem42.ItemAppearance.Disabled.Options.UseFont = true;
+            this.barButtonItem42.ItemAppearance.Hovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem42.ItemAppearance.Hovered.Options.UseFont = true;
+            this.barButtonItem42.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem42.ItemAppearance.Normal.Options.UseFont = true;
+            this.barButtonItem42.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.barButtonItem42.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem42.Name = "barButtonItem42";
             this.barButtonItem42.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem42_ItemClick);
             // 
@@ -1431,6 +1754,8 @@
             // 
             // ribbonPage1
             // 
+            this.ribbonPage1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage1.Appearance.Options.UseFont = true;
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup4,
             this.ribbonPageGroup7,
@@ -1534,6 +1859,8 @@
             // 
             // ribbonPage3
             // 
+            this.ribbonPage3.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage3.Appearance.Options.UseFont = true;
             this.ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup18,
             this.ribbonPageGroup19,
@@ -1597,12 +1924,16 @@
             // 
             // ribbonPage4
             // 
+            this.ribbonPage4.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage4.Appearance.Options.UseFont = true;
             this.ribbonPage4.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage4.Image")));
             this.ribbonPage4.Name = "ribbonPage4";
             this.ribbonPage4.Text = "  预约  ";
             // 
             // ribbonPage5
             // 
+            this.ribbonPage5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage5.Appearance.Options.UseFont = true;
             this.ribbonPage5.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup1});
             this.ribbonPage5.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage5.Image")));
@@ -1617,6 +1948,8 @@
             // 
             // ribbonPage6
             // 
+            this.ribbonPage6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage6.Appearance.Options.UseFont = true;
             this.ribbonPage6.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup2,
             this.ribbonPageGroup26,
@@ -1673,6 +2006,8 @@
             // 
             // ribbonPage7
             // 
+            this.ribbonPage7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage7.Appearance.Options.UseFont = true;
             this.ribbonPage7.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup3,
             this.ribbonPageGroup32,
@@ -1722,6 +2057,8 @@
             // 
             // ribbonPage8
             // 
+            this.ribbonPage8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage8.Appearance.Options.UseFont = true;
             this.ribbonPage8.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup5});
             this.ribbonPage8.Image = ((System.Drawing.Image)(resources.GetObject("ribbonPage8.Image")));
@@ -1735,6 +2072,8 @@
             // 
             // ribbonPage9
             // 
+            this.ribbonPage9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ribbonPage9.Appearance.Options.UseFont = true;
             this.ribbonPage9.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
             this.ribbonPageGroup6,
             this.ribbonPageGroup37,
@@ -1806,10 +2145,11 @@
             // ribbonStatusBar1
             // 
             this.ribbonStatusBar1.ItemLinks.Add(this.barStaticItem13);
-            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 790);
+            this.ribbonStatusBar1.Location = new System.Drawing.Point(0, 884);
+            this.ribbonStatusBar1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1327, 21);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1602, 31);
             // 
             // xtraTabbedMdiManager
             // 
@@ -1817,13 +2157,16 @@
             // 
             // frmFrame
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.Appearance.Options.UseFont = true;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1327, 811);
+            this.ClientSize = new System.Drawing.Size(1602, 915);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
+            this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.IsMdiContainer = true;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmFrame";
             this.Ribbon = this.ribbonControl;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1837,6 +2180,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imageCollection4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2017,5 +2361,6 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup43;
         private DevExpress.XtraBars.BarButtonItem barButtonItem42;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup44;
+        private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
     }
 }

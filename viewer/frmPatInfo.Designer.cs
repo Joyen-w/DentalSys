@@ -33,6 +33,9 @@
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
             this.navBarControl3 = new DevExpress.XtraNavBar.NavBarControl();
             this.navBarGroup7 = new DevExpress.XtraNavBar.NavBarGroup();
@@ -110,28 +113,17 @@
             this.navBarSeparatorItem1 = new DevExpress.XtraNavBar.NavBarSeparatorItem();
             this.navBarGroup9 = new DevExpress.XtraNavBar.NavBarGroup();
             this.navBarGroup10 = new DevExpress.XtraNavBar.NavBarGroup();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.ucPatInfo1 = new DentalSys.ucPatInfo();
+            this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
-            this.panelControl6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
-            this.panelControl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
             this.tabPane1.SuspendLayout();
             this.tabNavigationPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            this.panelControl2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
             this.tabNavigationPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
@@ -151,32 +143,6 @@
             this.splitContainerControl1.Panel2.Controls.Add(this.panelControl4);
             this.splitContainerControl1.Size = new System.Drawing.Size(1299, 882);
             // 
-            // panelControl6
-            // 
-            this.panelControl6.Controls.Add(this.simpleButton8);
-            this.panelControl6.Controls.Add(this.simpleButton6);
-            this.panelControl6.Controls.Add(this.simpleButton7);
-            this.panelControl6.Location = new System.Drawing.Point(0, 838);
-            this.panelControl6.Size = new System.Drawing.Size(801, 44);
-            // 
-            // panelControl5
-            // 
-            this.panelControl5.Location = new System.Drawing.Point(0, 838);
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Appearance.Options.UseForeColor = true;
-            // 
-            // btnNewPatient
-            // 
-            this.btnNewPatient.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewPatient.Appearance.ForeColor = System.Drawing.Color.Green;
-            this.btnNewPatient.Appearance.Options.UseFont = true;
-            this.btnNewPatient.Appearance.Options.UseForeColor = true;
-            // 
             // tabPane1
             // 
             this.tabPane1.RegularSize = new System.Drawing.Size(324, 834);
@@ -184,34 +150,7 @@
             // 
             // tabNavigationPage1
             // 
-            this.tabNavigationPage1.Size = new System.Drawing.Size(271, 788);
-            // 
-            // navBarGroupControlContainer3
-            // 
-            this.navBarGroupControlContainer3.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer3.Appearance.Options.UseBackColor = true;
-            // 
-            // navBarGroupControlContainer1
-            // 
-            this.navBarGroupControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer1.Appearance.Options.UseBackColor = true;
-            // 
-            // navBarGroupControlContainer2
-            // 
-            this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
-            // 
-            // panelControl2
-            // 
-            this.panelControl2.Size = new System.Drawing.Size(271, 38);
-            // 
-            // dateEdit1
-            // 
-            this.dateEdit1.EditValue = null;
-            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.tabNavigationPage1.Size = new System.Drawing.Size(306, 788);
             // 
             // tabNavigationPage2
             // 
@@ -240,14 +179,6 @@
             // 
             this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            // 
-            // dateEdit2
-            // 
-            this.dateEdit2.EditValue = null;
-            this.dateEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit2.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit2.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit2.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
             // 
             // pcBase
             // 
@@ -306,9 +237,48 @@
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "基本信息";
             // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton6.Appearance.Options.UseFont = true;
+            this.simpleButton6.Appearance.Options.UseForeColor = true;
+            this.simpleButton6.Location = new System.Drawing.Point(149, 8);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(111, 31);
+            this.simpleButton6.TabIndex = 67;
+            this.simpleButton6.Text = "修改信息";
+            this.simpleButton6.Click += new System.EventHandler(this.simpleButton6_Click);
+            // 
+            // simpleButton7
+            // 
+            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton7.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton7.Appearance.Options.UseFont = true;
+            this.simpleButton7.Appearance.Options.UseForeColor = true;
+            this.simpleButton7.Cursor = System.Windows.Forms.Cursors.Default;
+            this.simpleButton7.Location = new System.Drawing.Point(19, 8);
+            this.simpleButton7.Name = "simpleButton7";
+            this.simpleButton7.Size = new System.Drawing.Size(111, 31);
+            this.simpleButton7.TabIndex = 66;
+            this.simpleButton7.Text = "扫一扫";
+            // 
+            // simpleButton8
+            // 
+            this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton8.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton8.Appearance.Options.UseFont = true;
+            this.simpleButton8.Appearance.Options.UseForeColor = true;
+            this.simpleButton8.Location = new System.Drawing.Point(277, 8);
+            this.simpleButton8.Name = "simpleButton8";
+            this.simpleButton8.Size = new System.Drawing.Size(127, 31);
+            this.simpleButton8.TabIndex = 68;
+            this.simpleButton8.Text = "病历首页打印";
+            // 
             // panelControl7
             // 
             this.panelControl7.Controls.Add(this.navBarControl3);
+            this.panelControl7.Controls.Add(this.ucPatInfo1);
             this.panelControl7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelControl7.Location = new System.Drawing.Point(0, 0);
             this.panelControl7.Name = "panelControl7";
@@ -1142,42 +1112,27 @@
             this.navBarGroup10.Caption = "亲友关系";
             this.navBarGroup10.Name = "navBarGroup10";
             // 
-            // simpleButton6
+            // ucPatInfo1
             // 
-            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton6.Appearance.Options.UseFont = true;
-            this.simpleButton6.Appearance.Options.UseForeColor = true;
-            this.simpleButton6.Location = new System.Drawing.Point(149, 8);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(111, 31);
-            this.simpleButton6.TabIndex = 67;
-            this.simpleButton6.Text = "修改信息";
+            this.ucPatInfo1.AutoScroll = true;
+            this.ucPatInfo1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucPatInfo1.Location = new System.Drawing.Point(2, 2);
+            this.ucPatInfo1.Name = "ucPatInfo1";
+            this.ucPatInfo1.Size = new System.Drawing.Size(797, 878);
+            this.ucPatInfo1.TabIndex = 9;
             // 
-            // simpleButton7
+            // simpleButton9
             // 
-            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton7.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton7.Appearance.Options.UseFont = true;
-            this.simpleButton7.Appearance.Options.UseForeColor = true;
-            this.simpleButton7.Cursor = System.Windows.Forms.Cursors.Default;
-            this.simpleButton7.Location = new System.Drawing.Point(19, 8);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(111, 31);
-            this.simpleButton7.TabIndex = 66;
-            this.simpleButton7.Text = "扫一扫";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton8.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton8.Appearance.Options.UseFont = true;
-            this.simpleButton8.Appearance.Options.UseForeColor = true;
-            this.simpleButton8.Location = new System.Drawing.Point(277, 8);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(127, 31);
-            this.simpleButton8.TabIndex = 68;
-            this.simpleButton8.Text = "病历首页打印";
+            this.simpleButton9.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton9.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton9.Appearance.Options.UseFont = true;
+            this.simpleButton9.Appearance.Options.UseForeColor = true;
+            this.simpleButton9.Location = new System.Drawing.Point(423, 8);
+            this.simpleButton9.Name = "simpleButton9";
+            this.simpleButton9.Size = new System.Drawing.Size(111, 31);
+            this.simpleButton9.TabIndex = 69;
+            this.simpleButton9.Text = "新增关系";
+            this.simpleButton9.Visible = false;
             // 
             // frmPatInfo
             // 
@@ -1189,23 +1144,13 @@
             this.Load += new System.EventHandler(this.frmPatInfo_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).EndInit();
-            this.panelControl6.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
-            this.panelControl5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
             this.tabPane1.ResumeLayout(false);
             this.tabNavigationPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            this.panelControl2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
             this.tabNavigationPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
@@ -1225,6 +1170,13 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton5;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        public DevExpress.XtraEditors.SimpleButton simpleButton8;
+        public DevExpress.XtraEditors.SimpleButton simpleButton6;
+        public DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.PanelControl panelControl7;
         private DevExpress.XtraNavBar.NavBarControl navBarControl3;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup7;
@@ -1297,17 +1249,12 @@
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
         public DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer8;
+        public DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer9;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup8;
+        private DevExpress.XtraNavBar.NavBarSeparatorItem navBarSeparatorItem1;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup9;
         private DevExpress.XtraNavBar.NavBarGroup navBarGroup10;
-        public DevExpress.XtraNavBar.NavBarGroupControlContainer navBarGroupControlContainer9;
-        private DevExpress.XtraNavBar.NavBarSeparatorItem navBarSeparatorItem1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
-        public DevExpress.XtraEditors.SimpleButton simpleButton8;
-        public DevExpress.XtraEditors.SimpleButton simpleButton6;
-        public DevExpress.XtraEditors.SimpleButton simpleButton7;
+        private ucPatInfo ucPatInfo1;
+        public DevExpress.XtraEditors.SimpleButton simpleButton9;
     }
 }

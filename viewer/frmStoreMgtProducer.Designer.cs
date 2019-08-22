@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
+            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
@@ -45,6 +47,9 @@
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
+            this.navigationPane1.SuspendLayout();
+            this.navigationPage5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
             this.panelControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
@@ -53,9 +58,38 @@
             // 
             // pcBase
             // 
-            this.pcBase.Controls.Add(this.gridControl1);
-            this.pcBase.Controls.Add(this.panelControl4);
-            this.pcBase.Size = new System.Drawing.Size(1011, 545);
+            this.pcBase.Controls.Add(this.navigationPane1);
+            this.pcBase.Size = new System.Drawing.Size(1179, 636);
+            // 
+            // navigationPane1
+            // 
+            this.navigationPane1.AppearanceButton.Hovered.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navigationPane1.AppearanceButton.Hovered.Options.UseFont = true;
+            this.navigationPane1.AppearanceButton.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navigationPane1.AppearanceButton.Normal.Options.UseFont = true;
+            this.navigationPane1.AppearanceButton.Pressed.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navigationPane1.AppearanceButton.Pressed.Options.UseFont = true;
+            this.navigationPane1.Controls.Add(this.navigationPage5);
+            this.navigationPane1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.navigationPane1.Location = new System.Drawing.Point(2, 2);
+            this.navigationPane1.Name = "navigationPane1";
+            this.navigationPane1.PageProperties.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.navigationPane1.PageProperties.AppearanceCaption.Options.UseFont = true;
+            this.navigationPane1.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
+            this.navigationPage5});
+            this.navigationPane1.RegularSize = new System.Drawing.Size(1175, 632);
+            this.navigationPane1.SelectedPage = this.navigationPage5;
+            this.navigationPane1.Size = new System.Drawing.Size(1175, 632);
+            this.navigationPane1.TabIndex = 39;
+            this.navigationPane1.Text = "navigationPane1";
+            // 
+            // navigationPage5
+            // 
+            this.navigationPage5.Caption = "供应商管理";
+            this.navigationPage5.Controls.Add(this.gridControl1);
+            this.navigationPage5.Controls.Add(this.panelControl4);
+            this.navigationPage5.Name = "navigationPage5";
+            this.navigationPage5.Size = new System.Drawing.Size(1061, 572);
             // 
             // panelControl4
             // 
@@ -63,18 +97,18 @@
             this.panelControl4.Controls.Add(this.simpleButton3);
             this.panelControl4.Controls.Add(this.simpleButton2);
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl4.Location = new System.Drawing.Point(2, 2);
+            this.panelControl4.Location = new System.Drawing.Point(0, 0);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1007, 41);
-            this.panelControl4.TabIndex = 8;
+            this.panelControl4.Size = new System.Drawing.Size(1061, 40);
+            this.panelControl4.TabIndex = 9;
             // 
             // simpleButton4
             // 
             this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.Location = new System.Drawing.Point(211, 10);
+            this.simpleButton4.Location = new System.Drawing.Point(257, 5);
             this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton4.Size = new System.Drawing.Size(87, 30);
             this.simpleButton4.TabIndex = 26;
             this.simpleButton4.Text = "删除";
             // 
@@ -82,9 +116,9 @@
             // 
             this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Location = new System.Drawing.Point(119, 10);
+            this.simpleButton3.Location = new System.Drawing.Point(150, 5);
             this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton3.Size = new System.Drawing.Size(87, 30);
             this.simpleButton3.TabIndex = 25;
             this.simpleButton3.Text = "修改";
             // 
@@ -92,20 +126,20 @@
             // 
             this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Location = new System.Drawing.Point(10, 9);
+            this.simpleButton2.Location = new System.Drawing.Point(23, 3);
             this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(94, 26);
+            this.simpleButton2.Size = new System.Drawing.Size(110, 30);
             this.simpleButton2.TabIndex = 24;
             this.simpleButton2.Text = "新增供应商";
             // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(2, 43);
+            this.gridControl1.Location = new System.Drawing.Point(0, 40);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1007, 500);
-            this.gridControl1.TabIndex = 38;
+            this.gridControl1.Size = new System.Drawing.Size(1061, 532);
+            this.gridControl1.TabIndex = 39;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
             // 
@@ -233,14 +267,17 @@
             // 
             // frmStoreMgtProducer
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1011, 545);
+            this.ClientSize = new System.Drawing.Size(1179, 636);
             this.Name = "frmStoreMgtProducer";
             this.Text = "供应商管理";
             this.Load += new System.EventHandler(this.frmStoreMgtProducer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
             this.pcBase.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
+            this.navigationPane1.ResumeLayout(false);
+            this.navigationPage5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.panelControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -251,10 +288,8 @@
 
         #endregion
 
-        private DevExpress.XtraEditors.PanelControl panelControl4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraBars.Navigation.NavigationPane navigationPane1;
+        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage5;
         private DevExpress.XtraGrid.GridControl gridControl1;
         private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn1;
@@ -266,5 +301,9 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn7;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn15;
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn8;
+        private DevExpress.XtraEditors.PanelControl panelControl4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
     }
 }

@@ -31,11 +31,11 @@
             this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.xtraScrollableControl1 = new DevExpress.XtraEditors.XtraScrollableControl();
+            this.ucPatCureItem1 = new DentalSys.ucPatCureItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
-            this.panelControl6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).BeginInit();
             this.panelControl5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).BeginInit();
@@ -49,28 +49,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
+            this.xtraScrollableControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainerControl1
             // 
-            this.splitContainerControl1.Panel2.Controls.Add(this.panelControl4);
-            this.splitContainerControl1.Size = new System.Drawing.Size(944, 585);
+            this.splitContainerControl1.Panel2.Controls.Add(this.xtraScrollableControl1);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1604, 682);
             // 
             // panelControl6
             // 
-            this.panelControl6.Controls.Add(this.simpleButton8);
-            this.panelControl6.Controls.Add(this.simpleButton6);
-            this.panelControl6.Controls.Add(this.simpleButton7);
-            this.panelControl6.Location = new System.Drawing.Point(0, 541);
-            this.panelControl6.Size = new System.Drawing.Size(611, 44);
+            this.panelControl6.Location = new System.Drawing.Point(0, 631);
+            this.panelControl6.Size = new System.Drawing.Size(1286, 51);
             // 
             // panelControl5
             // 
-            this.panelControl5.Location = new System.Drawing.Point(0, 541);
+            this.panelControl5.Location = new System.Drawing.Point(0, 631);
             // 
             // simpleButton3
             // 
@@ -88,71 +83,89 @@
             // 
             // tabPane1
             // 
-            this.tabPane1.RegularSize = new System.Drawing.Size(324, 537);
-            this.tabPane1.Size = new System.Drawing.Size(324, 537);
+            this.tabPane1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPane1.Appearance.Options.UseFont = true;
+            this.tabPane1.AppearanceButton.Hovered.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPane1.AppearanceButton.Hovered.Options.UseFont = true;
+            this.tabPane1.AppearanceButton.Normal.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPane1.AppearanceButton.Normal.Options.UseFont = true;
+            this.tabPane1.AppearanceButton.Pressed.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabPane1.AppearanceButton.Pressed.Options.UseFont = true;
+            this.tabPane1.RegularSize = new System.Drawing.Size(309, 627);
+            this.tabPane1.Size = new System.Drawing.Size(309, 627);
+            // 
+            // tabNavigationPage1
+            // 
+            this.tabNavigationPage1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabNavigationPage1.Appearance.Options.UseFont = true;
+            this.tabNavigationPage1.Size = new System.Drawing.Size(291, 576);
+            // 
+            // dateEdit1
+            // 
+            this.dateEdit1.EditValue = "2019-08-22";
+            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.EditFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit1.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.Mask.EditMask = "yyyy-MM-dd";
+            // 
+            // tabNavigationPage2
+            // 
+            this.tabNavigationPage2.Size = new System.Drawing.Size(357, 573);
+            // 
+            // tabNavigationPage3
+            // 
+            this.tabNavigationPage3.Size = new System.Drawing.Size(316, 573);
+            // 
+            // navBarGroupControlContainer6
+            // 
+            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer6.Size = new System.Drawing.Size(349, 89);
+            // 
+            // navBarGroupControlContainer5
+            // 
+            this.navBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer5.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer5.Size = new System.Drawing.Size(349, 198);
+            // 
+            // navBarGroupControlContainer4
+            // 
+            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
+            this.navBarGroupControlContainer4.Size = new System.Drawing.Size(349, 198);
+            // 
+            // panelControl3
+            // 
+            this.panelControl3.Size = new System.Drawing.Size(357, 44);
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.AppearanceDropDown.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.AppearanceDropDown.Options.UseFont = true;
             // 
             // navBarGroupControlContainer3
             // 
             this.navBarGroupControlContainer3.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer3.Appearance.Options.UseBackColor = true;
             // 
-            // navBarGroupControlContainer1
-            // 
-            this.navBarGroupControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer1.Appearance.Options.UseBackColor = true;
-            // 
             // navBarGroupControlContainer2
             // 
             this.navBarGroupControlContainer2.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.navBarGroupControlContainer2.Appearance.Options.UseBackColor = true;
             // 
-            // dateEdit1
+            // navBarGroupControlContainer1
             // 
-            this.dateEdit1.EditValue = null;
-            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            // 
-            // tabNavigationPage2
-            // 
-            this.tabNavigationPage2.Size = new System.Drawing.Size(306, 491);
-            // 
-            // tabNavigationPage3
-            // 
-            this.tabNavigationPage3.Size = new System.Drawing.Size(271, 491);
-            // 
-            // navBarGroupControlContainer6
-            // 
-            this.navBarGroupControlContainer6.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer6.Appearance.Options.UseBackColor = true;
-            // 
-            // navBarGroupControlContainer5
-            // 
-            this.navBarGroupControlContainer5.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer5.Appearance.Options.UseBackColor = true;
-            // 
-            // navBarGroupControlContainer4
-            // 
-            this.navBarGroupControlContainer4.Appearance.BackColor = System.Drawing.SystemColors.Control;
-            this.navBarGroupControlContainer4.Appearance.Options.UseBackColor = true;
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            // 
-            // dateEdit2
-            // 
-            this.dateEdit2.EditValue = null;
-            this.dateEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit2.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit2.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit2.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.navBarGroupControlContainer1.Appearance.BackColor = System.Drawing.SystemColors.Control;
+            this.navBarGroupControlContainer1.Appearance.Options.UseBackColor = true;
             // 
             // pcBase
             // 
-            this.pcBase.Size = new System.Drawing.Size(944, 585);
+            this.pcBase.Size = new System.Drawing.Size(1604, 682);
             // 
             // simpleButton8
             // 
@@ -191,26 +204,34 @@
             this.simpleButton7.TabIndex = 69;
             this.simpleButton7.Text = "增加处置";
             // 
-            // panelControl4
+            // xtraScrollableControl1
             // 
-            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl4.Location = new System.Drawing.Point(0, 0);
-            this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(611, 585);
-            this.panelControl4.TabIndex = 2;
+            this.xtraScrollableControl1.Controls.Add(this.ucPatCureItem1);
+            this.xtraScrollableControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraScrollableControl1.Location = new System.Drawing.Point(0, 0);
+            this.xtraScrollableControl1.Name = "xtraScrollableControl1";
+            this.xtraScrollableControl1.Size = new System.Drawing.Size(1286, 682);
+            this.xtraScrollableControl1.TabIndex = 3;
+            // 
+            // ucPatCureItem1
+            // 
+            this.ucPatCureItem1.AutoSize = true;
+            this.ucPatCureItem1.Location = new System.Drawing.Point(3, 3);
+            this.ucPatCureItem1.Name = "ucPatCureItem1";
+            this.ucPatCureItem1.Size = new System.Drawing.Size(1040, 191);
+            this.ucPatCureItem1.TabIndex = 3;
             // 
             // frmPatCureRecords
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(944, 585);
+            this.ClientSize = new System.Drawing.Size(1604, 682);
             this.Name = "frmPatCureRecords";
             this.Text = "处置记录";
             this.Load += new System.EventHandler(this.frmCureRecords_Load);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).EndInit();
-            this.panelControl6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl5)).EndInit();
             this.panelControl5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.tabPane1)).EndInit();
@@ -224,19 +245,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
+            this.xtraScrollableControl1.ResumeLayout(false);
+            this.xtraScrollableControl1.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private DevExpress.XtraEditors.PanelControl panelControl4;
         public DevExpress.XtraEditors.SimpleButton simpleButton8;
         public DevExpress.XtraEditors.SimpleButton simpleButton6;
         public DevExpress.XtraEditors.SimpleButton simpleButton7;
+        private DevExpress.XtraEditors.XtraScrollableControl xtraScrollableControl1;
+        private ucPatCureItem ucPatCureItem1;
     }
 }
