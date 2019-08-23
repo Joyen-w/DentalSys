@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class ucPatEmrFirstVisit
+    partial class ucPatReviewEmrFirstVisit
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -28,11 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatEmrFirstVisit));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
@@ -64,15 +60,11 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.AutoSize = true;
             this.panelControl1.Controls.Add(this.usCtlPatEmrCommon5);
             this.panelControl1.Controls.Add(this.usCtlPatEmrCommon4);
             this.panelControl1.Controls.Add(this.usCtlPatEmrCommon3);
             this.panelControl1.Controls.Add(this.usCtlPatEmrCommon2);
             this.panelControl1.Controls.Add(this.usCtlPatEmrCommon1);
-            this.panelControl1.Controls.Add(this.simpleButton6);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.labelControl18);
             this.panelControl1.Controls.Add(this.labelControl17);
             this.panelControl1.Controls.Add(this.labelControl16);
@@ -94,80 +86,8 @@
             this.panelControl1.Controls.Add(this.panelControl2);
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1011, 372);
+            this.panelControl1.Size = new System.Drawing.Size(707, 372);
             this.panelControl1.TabIndex = 0;
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton6.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton6.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton6.Appearance.Options.UseBackColor = true;
-            this.simpleButton6.Appearance.Options.UseBorderColor = true;
-            this.simpleButton6.Appearance.Options.UseFont = true;
-            this.simpleButton6.Appearance.Options.UseForeColor = true;
-            this.simpleButton6.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton6.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton6.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton6.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton6.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton6.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.Image")));
-            this.simpleButton6.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton6.Location = new System.Drawing.Point(967, 5);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(37, 35);
-            this.simpleButton6.TabIndex = 134;
-            this.simpleButton6.ToolTip = "回访";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton3.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton3.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton3.Appearance.Options.UseBackColor = true;
-            this.simpleButton3.Appearance.Options.UseBorderColor = true;
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Appearance.Options.UseForeColor = true;
-            this.simpleButton3.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton3.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton3.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton3.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton3.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.Image")));
-            this.simpleButton3.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton3.Location = new System.Drawing.Point(932, 5);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(33, 36);
-            this.simpleButton3.TabIndex = 133;
-            this.simpleButton3.ToolTip = "新建处置";
-            // 
-            // simpleButton1
-            // 
-            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton1.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton1.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton1.Appearance.Options.UseBackColor = true;
-            this.simpleButton1.Appearance.Options.UseBorderColor = true;
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.Appearance.Options.UseForeColor = true;
-            this.simpleButton1.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton1.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton1.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
-            this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton1.Location = new System.Drawing.Point(897, 5);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(33, 38);
-            this.simpleButton1.TabIndex = 132;
-            this.simpleButton1.ToolTip = "处置打印";
             // 
             // labelControl18
             // 
@@ -435,20 +355,18 @@
             this.usCtlPatEmrCommon1.Size = new System.Drawing.Size(587, 34);
             this.usCtlPatEmrCommon1.TabIndex = 135;
             // 
-            // ucPatEmrFirstVisit
+            // ucPatReviewEmrFirstVisit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.Controls.Add(this.panelControl1);
-            this.Name = "ucPatEmrFirstVisit";
-            this.Size = new System.Drawing.Size(1014, 375);
+            this.Name = "ucPatReviewEmrFirstVisit";
+            this.Size = new System.Drawing.Size(710, 378);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -474,9 +392,6 @@
         public DevExpress.XtraEditors.LabelControl labelControl13;
         public DevExpress.XtraEditors.LabelControl labelControl12;
         public DevExpress.XtraEditors.LabelControl labelControl1;
-        public DevExpress.XtraEditors.SimpleButton simpleButton6;
-        public DevExpress.XtraEditors.SimpleButton simpleButton3;
-        public DevExpress.XtraEditors.SimpleButton simpleButton1;
         public ucPatEmrCommon usCtlPatEmrCommon5;
         public ucPatEmrCommon usCtlPatEmrCommon4;
         public ucPatEmrCommon usCtlPatEmrCommon3;

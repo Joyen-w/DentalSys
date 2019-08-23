@@ -97,11 +97,29 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
-    <Compile Include="frmBse2.cs">
+    <Compile Include="viewer\frmCureCharge.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmBse2.Designer.cs">
-      <DependentUpon>frmBse2.cs</DependentUpon>
+    <Compile Include="viewer\frmCureCharge.Designer.cs">
+      <DependentUpon>frmCureCharge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmCureInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmCureInsert.Designer.cs">
+      <DependentUpon>frmCureInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatReivew.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatReivew.Designer.cs">
+      <DependentUpon>frmPatReivew.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewEmrReVisit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewEmrReVisit.Designer.cs">
+      <DependentUpon>ucPatReviewEmrReVisit.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmCureConsultInfo.cs">
       <SubType>Form</SubType>
@@ -121,11 +139,29 @@
     <Compile Include="frmtest2.Designer.cs">
       <DependentUpon>frmtest2.cs</DependentUpon>
     </Compile>
-    <Compile Include="ucPatCureItem2.cs">
+    <Compile Include="viewer\ucPatReviewEmrFirstVisit.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="ucPatCureItem2.Designer.cs">
-      <DependentUpon>ucPatCureItem2.cs</DependentUpon>
+    <Compile Include="viewer\ucPatReviewEmrFirstVisit.Designer.cs">
+      <DependentUpon>ucPatReviewEmrFirstVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewRecipelItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewRecipelItem.Designer.cs">
+      <DependentUpon>ucPatReviewRecipelItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewRecipel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucPatReviewRecipel.Designer.cs">
+      <DependentUpon>ucPatReviewRecipel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucPatRecipelItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucPatRecipelItem.Designer.cs">
+      <DependentUpon>ucPatRecipelItem.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\ucPatInfo.cs">
       <SubType>UserControl</SubType>
@@ -349,11 +385,11 @@
     <Compile Include="viewer\frmPatCureRecords.Designer.cs">
       <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\ucPatCureItem.cs">
+    <Compile Include="viewer\ucPatRecipel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="viewer\ucPatCureItem.Designer.cs">
-      <DependentUpon>ucPatCureItem.cs</DependentUpon>
+    <Compile Include="viewer\ucPatRecipel.Designer.cs">
+      <DependentUpon>ucPatRecipel.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatInfo.cs">
       <SubType>Form</SubType>
@@ -497,8 +533,17 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="frmBse2.resx">
-      <DependentUpon>frmBse2.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmCureCharge.resx">
+      <DependentUpon>frmCureCharge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmCureInsert.resx">
+      <DependentUpon>frmCureInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatReivew.resx">
+      <DependentUpon>frmPatReivew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucPatReviewEmrReVisit.resx">
+      <DependentUpon>ucPatReviewEmrReVisit.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmCureConsultInfo.resx">
       <DependentUpon>frmCureConsultInfo.cs</DependentUpon>
@@ -509,8 +554,17 @@
     <EmbeddedResource Include="frmtest2.resx">
       <DependentUpon>frmtest2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ucPatCureItem2.resx">
-      <DependentUpon>ucPatCureItem2.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatReviewEmrFirstVisit.resx">
+      <DependentUpon>ucPatReviewEmrFirstVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucPatReviewRecipelItem.resx">
+      <DependentUpon>ucPatReviewRecipelItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucPatReviewRecipel.resx">
+      <DependentUpon>ucPatReviewRecipel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucPatRecipelItem.resx">
+      <DependentUpon>ucPatRecipelItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\ucPatInfo.resx">
       <DependentUpon>ucPatInfo.cs</DependentUpon>
@@ -623,8 +677,8 @@
     <EmbeddedResource Include="viewer\frmPatCureRecords.resx">
       <DependentUpon>frmPatCureRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\ucPatCureItem.resx">
-      <DependentUpon>ucPatCureItem.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\ucPatRecipel.resx">
+      <DependentUpon>ucPatRecipel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatInfo.resx">
       <DependentUpon>frmPatInfo.cs</DependentUpon>

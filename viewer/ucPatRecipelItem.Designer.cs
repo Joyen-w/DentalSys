@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class ucPatCureItem2
+    partial class ucPatRecipelItem
     {
         /// <summary> 
         /// 必需的设计器变量。
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatCureItem2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatRecipelItem));
             this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
@@ -266,7 +266,7 @@
             this.panelControl4.Size = new System.Drawing.Size(719, 1);
             this.panelControl4.TabIndex = 86;
             // 
-            // ucPatCureItem2
+            // ucPatRecipelItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -281,7 +281,7 @@
             this.Controls.Add(this.textEdit1);
             this.Controls.Add(this.btnAddCure);
             this.Controls.Add(this.panelControl4);
-            this.Name = "ucPatCureItem2";
+            this.Name = "ucPatRecipelItem";
             this.Size = new System.Drawing.Size(851, 65);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);

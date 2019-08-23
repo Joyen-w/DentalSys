@@ -32,7 +32,7 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.xtraScrollableControl1 = new DevExpress.XtraEditors.XtraScrollableControl();
-            this.ucPatCureItem1 = new DentalSys.ucPatCureItem();
+            this.ucPatRecipel1 = new DentalSys.ucPatRecipel();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
@@ -206,20 +206,20 @@
             // 
             // xtraScrollableControl1
             // 
-            this.xtraScrollableControl1.Controls.Add(this.ucPatCureItem1);
+            this.xtraScrollableControl1.Controls.Add(this.ucPatRecipel1);
             this.xtraScrollableControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraScrollableControl1.Location = new System.Drawing.Point(0, 0);
             this.xtraScrollableControl1.Name = "xtraScrollableControl1";
             this.xtraScrollableControl1.Size = new System.Drawing.Size(1286, 682);
             this.xtraScrollableControl1.TabIndex = 3;
             // 
-            // ucPatCureItem1
+            // ucPatRecipel1
             // 
-            this.ucPatCureItem1.AutoSize = true;
-            this.ucPatCureItem1.Location = new System.Drawing.Point(3, 3);
-            this.ucPatCureItem1.Name = "ucPatCureItem1";
-            this.ucPatCureItem1.Size = new System.Drawing.Size(1040, 191);
-            this.ucPatCureItem1.TabIndex = 3;
+            this.ucPatRecipel1.AutoSize = true;
+            this.ucPatRecipel1.Location = new System.Drawing.Point(3, 3);
+            this.ucPatRecipel1.Name = "ucPatRecipel1";
+            this.ucPatRecipel1.Size = new System.Drawing.Size(1040, 191);
+            this.ucPatRecipel1.TabIndex = 3;
             // 
             // frmPatCureRecords
             // 
@@ -257,6 +257,6 @@
         public DevExpress.XtraEditors.SimpleButton simpleButton6;
         public DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.XtraScrollableControl xtraScrollableControl1;
-        private ucPatCureItem ucPatCureItem1;
+        private ucPatRecipel ucPatRecipel1;
     }
 }

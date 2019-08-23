@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class ucPatCureItem
+    partial class ucPatRecipel
     {
         /// <summary> 
         /// Required designer variable.
@@ -28,10 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatCureItem));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatRecipel));
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.panelControl6 = new DevExpress.XtraEditors.PanelControl();
-            this.ucPatCureItem21 = new DentalSys.ucPatCureItem2();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
@@ -43,6 +42,7 @@
             this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.ucPatCureItem21 = new DentalSys.ucPatRecipelItem();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl6)).BeginInit();
             this.panelControl6.SuspendLayout();
@@ -78,13 +78,6 @@
             this.panelControl6.Size = new System.Drawing.Size(1021, 161);
             this.panelControl6.TabIndex = 9;
             // 
-            // ucPatCureItem21
-            // 
-            this.ucPatCureItem21.Location = new System.Drawing.Point(6, 45);
-            this.ucPatCureItem21.Name = "ucPatCureItem21";
-            this.ucPatCureItem21.Size = new System.Drawing.Size(1008, 71);
-            this.ucPatCureItem21.TabIndex = 92;
-            // 
             // simpleButton6
             // 
             this.simpleButton6.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -108,6 +101,7 @@
             this.simpleButton6.Size = new System.Drawing.Size(37, 35);
             this.simpleButton6.TabIndex = 91;
             this.simpleButton6.ToolTip = "回访";
+            this.simpleButton6.Click += new System.EventHandler(this.simpleButton6_Click);
             // 
             // simpleButton5
             // 
@@ -132,6 +126,7 @@
             this.simpleButton5.Size = new System.Drawing.Size(37, 36);
             this.simpleButton5.TabIndex = 90;
             this.simpleButton5.ToolTip = "收费";
+            this.simpleButton5.Click += new System.EventHandler(this.simpleButton5_Click);
             // 
             // simpleButton4
             // 
@@ -156,6 +151,7 @@
             this.simpleButton4.Size = new System.Drawing.Size(37, 35);
             this.simpleButton4.TabIndex = 89;
             this.simpleButton4.ToolTip = "开处方";
+            this.simpleButton4.Click += new System.EventHandler(this.simpleButton4_Click);
             // 
             // simpleButton3
             // 
@@ -291,14 +287,21 @@
             this.labelControl1.TabIndex = 9;
             this.labelControl1.Text = "2019-07-31 08:30";
             // 
-            // ucPatCureItem
+            // ucPatCureItem21
+            // 
+            this.ucPatCureItem21.Location = new System.Drawing.Point(6, 45);
+            this.ucPatCureItem21.Name = "ucPatCureItem21";
+            this.ucPatCureItem21.Size = new System.Drawing.Size(1008, 71);
+            this.ucPatCureItem21.TabIndex = 92;
+            // 
+            // ucPatRecipel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.Controls.Add(this.panelControl6);
             this.Controls.Add(this.panelControl1);
-            this.Name = "ucPatCureItem";
+            this.Name = "ucPatRecipel";
             this.Size = new System.Drawing.Size(1034, 167);
             this.Load += new System.EventHandler(this.ucPatCureItem_Load);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
@@ -314,7 +317,7 @@
 
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl6;
-        private ucPatCureItem2 ucPatCureItem21;
+        private ucPatRecipelItem ucPatCureItem21;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
