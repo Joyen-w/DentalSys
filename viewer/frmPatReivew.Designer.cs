@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatReivew));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject5 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject6 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject1 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject2 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
@@ -44,12 +46,6 @@
             this.xtraScrollableControl2 = new DevExpress.XtraEditors.XtraScrollableControl();
             this.ucPatReviewRecipel1 = new DentalSys.ucPatReviewRecipel();
             this.xtraTabPage3 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraScrollableControl1 = new DevExpress.XtraEditors.XtraScrollableControl();
-            this.ucReviewPatEmrReVisit1 = new DentalSys.ucReviewPatEmrReVisit();
-            this.ucPatReviewEmrFirstVisit1 = new DentalSys.ucPatReviewEmrFirstVisit();
-            this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
-            this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
             this.xtraScrollableControl3 = new DevExpress.XtraEditors.XtraScrollableControl();
             this.gridControl2 = new DevExpress.XtraGrid.GridControl();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
@@ -68,6 +64,12 @@
             this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.repositoryItemPopupContainerEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPopupContainerEdit();
             this.repositoryItemPopupGalleryEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemPopupGalleryEdit();
+            this.xtraTabPage4 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraScrollableControl1 = new DevExpress.XtraEditors.XtraScrollableControl();
+            this.ucReviewPatEmrReVisit1 = new DentalSys.ucReviewPatEmrReVisit();
+            this.ucPatReviewEmrFirstVisit1 = new DentalSys.ucPatReviewEmrFirstVisit();
+            this.xtraTabPage5 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraTabPage6 = new DevExpress.XtraTab.XtraTabPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -82,11 +84,60 @@
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.repositoryItemPopupContainerEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemPopupContainerEdit();
             this.repositoryItemPopupGalleryEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemPopupGalleryEdit();
+            this.xtraTabPage7 = new DevExpress.XtraTab.XtraTabPage();
+            this.xtraScrollableControl4 = new DevExpress.XtraEditors.XtraScrollableControl();
+            this.splitContainerControl2 = new DevExpress.XtraEditors.SplitContainerControl();
+            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn25 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn26 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn27 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn28 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn29 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn30 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.respItemBtnDelete = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.gridControl4 = new DevExpress.XtraGrid.GridControl();
+            this.gridView4 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn34 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn35 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn36 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemButtonEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.xtraTabPage8 = new DevExpress.XtraTab.XtraTabPage();
+            this.ucPatConsultInfo1 = new DentalSys.ucPatConsultInfo();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.memoEdit2 = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
+            this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).BeginInit();
             this.splitContainerControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).BeginInit();
@@ -94,20 +145,38 @@
             this.xtraTabPage2.SuspendLayout();
             this.xtraScrollableControl2.SuspendLayout();
             this.xtraTabPage3.SuspendLayout();
-            this.xtraTabPage4.SuspendLayout();
-            this.xtraScrollableControl1.SuspendLayout();
-            this.xtraTabPage6.SuspendLayout();
             this.xtraScrollableControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupGalleryEdit1)).BeginInit();
+            this.xtraTabPage4.SuspendLayout();
+            this.xtraScrollableControl1.SuspendLayout();
+            this.xtraTabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupGalleryEdit2)).BeginInit();
+            this.xtraTabPage7.SuspendLayout();
+            this.xtraScrollableControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).BeginInit();
+            this.splitContainerControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respItemBtnDelete)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).BeginInit();
+            this.xtraTabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // pcBase
@@ -171,6 +240,10 @@
             // 
             // panelControl2
             // 
+            this.panelControl2.Controls.Add(this.simpleButton4);
+            this.panelControl2.Controls.Add(this.simpleButton3);
+            this.panelControl2.Controls.Add(this.simpleButton2);
+            this.panelControl2.Controls.Add(this.simpleButton6);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelControl2.Location = new System.Drawing.Point(2, 517);
             this.panelControl2.Name = "panelControl2";
@@ -184,9 +257,27 @@
             this.splitContainerControl1.Name = "splitContainerControl1";
             this.splitContainerControl1.Panel1.Controls.Add(this.xtraTabControl1);
             this.splitContainerControl1.Panel1.Text = "Panel1";
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl14);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl13);
+            this.splitContainerControl1.Panel2.Controls.Add(this.simpleButton1);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl11);
+            this.splitContainerControl1.Panel2.Controls.Add(this.memoEdit2);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl12);
+            this.splitContainerControl1.Panel2.Controls.Add(this.simpleButton10);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl10);
+            this.splitContainerControl1.Panel2.Controls.Add(this.memoEdit1);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl9);
+            this.splitContainerControl1.Panel2.Controls.Add(this.radioGroup1);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl8);
+            this.splitContainerControl1.Panel2.Controls.Add(this.comboBoxEdit2);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl7);
+            this.splitContainerControl1.Panel2.Controls.Add(this.comboBoxEdit1);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl6);
+            this.splitContainerControl1.Panel2.Controls.Add(this.dateEdit1);
+            this.splitContainerControl1.Panel2.Controls.Add(this.labelControl5);
             this.splitContainerControl1.Panel2.Text = "Panel2";
             this.splitContainerControl1.Size = new System.Drawing.Size(1097, 475);
-            this.splitContainerControl1.SplitterPosition = 731;
+            this.splitContainerControl1.SplitterPosition = 755;
             this.splitContainerControl1.TabIndex = 3;
             this.splitContainerControl1.Text = "splitContainerControl1";
             // 
@@ -198,7 +289,7 @@
             this.xtraTabControl1.Location = new System.Drawing.Point(0, 0);
             this.xtraTabControl1.Name = "xtraTabControl1";
             this.xtraTabControl1.SelectedTabPage = this.xtraTabPage1;
-            this.xtraTabControl1.Size = new System.Drawing.Size(731, 475);
+            this.xtraTabControl1.Size = new System.Drawing.Size(755, 475);
             this.xtraTabControl1.TabIndex = 0;
             this.xtraTabControl1.TabPages.AddRange(new DevExpress.XtraTab.XtraTabPage[] {
             this.xtraTabPage1,
@@ -206,19 +297,21 @@
             this.xtraTabPage3,
             this.xtraTabPage4,
             this.xtraTabPage5,
-            this.xtraTabPage6});
+            this.xtraTabPage6,
+            this.xtraTabPage7,
+            this.xtraTabPage8});
             // 
             // xtraTabPage1
             // 
             this.xtraTabPage1.Name = "xtraTabPage1";
-            this.xtraTabPage1.Size = new System.Drawing.Size(725, 441);
+            this.xtraTabPage1.Size = new System.Drawing.Size(749, 441);
             this.xtraTabPage1.Text = "患者信息";
             // 
             // xtraTabPage2
             // 
             this.xtraTabPage2.Controls.Add(this.xtraScrollableControl2);
             this.xtraTabPage2.Name = "xtraTabPage2";
-            this.xtraTabPage2.Size = new System.Drawing.Size(725, 441);
+            this.xtraTabPage2.Size = new System.Drawing.Size(749, 407);
             this.xtraTabPage2.Text = "处置记录";
             // 
             // xtraScrollableControl2
@@ -227,11 +320,12 @@
             this.xtraScrollableControl2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraScrollableControl2.Location = new System.Drawing.Point(0, 0);
             this.xtraScrollableControl2.Name = "xtraScrollableControl2";
-            this.xtraScrollableControl2.Size = new System.Drawing.Size(725, 441);
+            this.xtraScrollableControl2.Size = new System.Drawing.Size(749, 407);
             this.xtraScrollableControl2.TabIndex = 0;
             // 
             // ucPatReviewRecipel1
             // 
+            this.ucPatReviewRecipel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ucPatReviewRecipel1.Location = new System.Drawing.Point(9, 3);
             this.ucPatReviewRecipel1.Name = "ucPatReviewRecipel1";
             this.ucPatReviewRecipel1.Size = new System.Drawing.Size(616, 117);
@@ -241,52 +335,8 @@
             // 
             this.xtraTabPage3.Controls.Add(this.xtraScrollableControl3);
             this.xtraTabPage3.Name = "xtraTabPage3";
-            this.xtraTabPage3.Size = new System.Drawing.Size(725, 441);
+            this.xtraTabPage3.Size = new System.Drawing.Size(749, 407);
             this.xtraTabPage3.Text = "收费信息";
-            // 
-            // xtraTabPage4
-            // 
-            this.xtraTabPage4.Controls.Add(this.xtraScrollableControl1);
-            this.xtraTabPage4.Name = "xtraTabPage4";
-            this.xtraTabPage4.Size = new System.Drawing.Size(725, 441);
-            this.xtraTabPage4.Text = "病历信息";
-            // 
-            // xtraScrollableControl1
-            // 
-            this.xtraScrollableControl1.Controls.Add(this.ucReviewPatEmrReVisit1);
-            this.xtraScrollableControl1.Controls.Add(this.ucPatReviewEmrFirstVisit1);
-            this.xtraScrollableControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xtraScrollableControl1.Location = new System.Drawing.Point(0, 0);
-            this.xtraScrollableControl1.Name = "xtraScrollableControl1";
-            this.xtraScrollableControl1.Size = new System.Drawing.Size(725, 441);
-            this.xtraScrollableControl1.TabIndex = 0;
-            // 
-            // ucReviewPatEmrReVisit1
-            // 
-            this.ucReviewPatEmrReVisit1.Location = new System.Drawing.Point(9, 456);
-            this.ucReviewPatEmrReVisit1.Name = "ucReviewPatEmrReVisit1";
-            this.ucReviewPatEmrReVisit1.Size = new System.Drawing.Size(691, 408);
-            this.ucReviewPatEmrReVisit1.TabIndex = 1;
-            // 
-            // ucPatReviewEmrFirstVisit1
-            // 
-            this.ucPatReviewEmrFirstVisit1.Location = new System.Drawing.Point(9, 3);
-            this.ucPatReviewEmrFirstVisit1.Name = "ucPatReviewEmrFirstVisit1";
-            this.ucPatReviewEmrFirstVisit1.Size = new System.Drawing.Size(691, 428);
-            this.ucPatReviewEmrFirstVisit1.TabIndex = 0;
-            // 
-            // xtraTabPage5
-            // 
-            this.xtraTabPage5.Name = "xtraTabPage5";
-            this.xtraTabPage5.Size = new System.Drawing.Size(725, 441);
-            this.xtraTabPage5.Text = "影像信息";
-            // 
-            // xtraTabPage6
-            // 
-            this.xtraTabPage6.Controls.Add(this.gridControl1);
-            this.xtraTabPage6.Name = "xtraTabPage6";
-            this.xtraTabPage6.Size = new System.Drawing.Size(725, 441);
-            this.xtraTabPage6.Text = "回访记录";
             // 
             // xtraScrollableControl3
             // 
@@ -294,7 +344,7 @@
             this.xtraScrollableControl3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraScrollableControl3.Location = new System.Drawing.Point(0, 0);
             this.xtraScrollableControl3.Name = "xtraScrollableControl3";
-            this.xtraScrollableControl3.Size = new System.Drawing.Size(725, 441);
+            this.xtraScrollableControl3.Size = new System.Drawing.Size(749, 407);
             this.xtraScrollableControl3.TabIndex = 0;
             // 
             // gridControl2
@@ -307,7 +357,7 @@
             this.repositoryItemButtonEdit2,
             this.repositoryItemPopupContainerEdit1,
             this.repositoryItemPopupGalleryEdit1});
-            this.gridControl2.Size = new System.Drawing.Size(725, 441);
+            this.gridControl2.Size = new System.Drawing.Size(749, 407);
             this.gridControl2.TabIndex = 39;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -507,7 +557,7 @@
             // 
             this.repositoryItemButtonEdit2.AutoHeight = false;
             this.repositoryItemButtonEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit2.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject5, "取消入库", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit2.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject1, "取消入库", null, null, true)});
             this.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2";
             this.repositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
@@ -527,6 +577,52 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemPopupGalleryEdit1.Name = "repositoryItemPopupGalleryEdit1";
             // 
+            // xtraTabPage4
+            // 
+            this.xtraTabPage4.Controls.Add(this.xtraScrollableControl1);
+            this.xtraTabPage4.Name = "xtraTabPage4";
+            this.xtraTabPage4.Size = new System.Drawing.Size(749, 407);
+            this.xtraTabPage4.Text = "病历信息";
+            // 
+            // xtraScrollableControl1
+            // 
+            this.xtraScrollableControl1.Controls.Add(this.ucReviewPatEmrReVisit1);
+            this.xtraScrollableControl1.Controls.Add(this.ucPatReviewEmrFirstVisit1);
+            this.xtraScrollableControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraScrollableControl1.Location = new System.Drawing.Point(0, 0);
+            this.xtraScrollableControl1.Name = "xtraScrollableControl1";
+            this.xtraScrollableControl1.Size = new System.Drawing.Size(749, 407);
+            this.xtraScrollableControl1.TabIndex = 0;
+            // 
+            // ucReviewPatEmrReVisit1
+            // 
+            this.ucReviewPatEmrReVisit1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucReviewPatEmrReVisit1.Location = new System.Drawing.Point(9, 508);
+            this.ucReviewPatEmrReVisit1.Name = "ucReviewPatEmrReVisit1";
+            this.ucReviewPatEmrReVisit1.Size = new System.Drawing.Size(710, 366);
+            this.ucReviewPatEmrReVisit1.TabIndex = 2;
+            // 
+            // ucPatReviewEmrFirstVisit1
+            // 
+            this.ucPatReviewEmrFirstVisit1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucPatReviewEmrFirstVisit1.Location = new System.Drawing.Point(9, 3);
+            this.ucPatReviewEmrFirstVisit1.Name = "ucPatReviewEmrFirstVisit1";
+            this.ucPatReviewEmrFirstVisit1.Size = new System.Drawing.Size(710, 499);
+            this.ucPatReviewEmrFirstVisit1.TabIndex = 1;
+            // 
+            // xtraTabPage5
+            // 
+            this.xtraTabPage5.Name = "xtraTabPage5";
+            this.xtraTabPage5.Size = new System.Drawing.Size(749, 407);
+            this.xtraTabPage5.Text = "影像信息";
+            // 
+            // xtraTabPage6
+            // 
+            this.xtraTabPage6.Controls.Add(this.gridControl1);
+            this.xtraTabPage6.Name = "xtraTabPage6";
+            this.xtraTabPage6.Size = new System.Drawing.Size(749, 407);
+            this.xtraTabPage6.Text = "回访记录";
+            // 
             // gridControl1
             // 
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -537,7 +633,7 @@
             this.repositoryItemButtonEdit1,
             this.repositoryItemPopupContainerEdit2,
             this.repositoryItemPopupGalleryEdit2});
-            this.gridControl1.Size = new System.Drawing.Size(725, 441);
+            this.gridControl1.Size = new System.Drawing.Size(749, 407);
             this.gridControl1.TabIndex = 40;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -698,7 +794,7 @@
             // 
             this.repositoryItemButtonEdit1.AutoHeight = false;
             this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit1.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject6, "取消入库", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit1.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject2, "取消入库", null, null, true)});
             this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
             this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
@@ -718,6 +814,717 @@
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.repositoryItemPopupGalleryEdit2.Name = "repositoryItemPopupGalleryEdit2";
             // 
+            // xtraTabPage7
+            // 
+            this.xtraTabPage7.Controls.Add(this.xtraScrollableControl4);
+            this.xtraTabPage7.Name = "xtraTabPage7";
+            this.xtraTabPage7.Size = new System.Drawing.Size(749, 407);
+            this.xtraTabPage7.Text = "外加工记录";
+            // 
+            // xtraScrollableControl4
+            // 
+            this.xtraScrollableControl4.Controls.Add(this.splitContainerControl2);
+            this.xtraScrollableControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xtraScrollableControl4.Location = new System.Drawing.Point(0, 0);
+            this.xtraScrollableControl4.Name = "xtraScrollableControl4";
+            this.xtraScrollableControl4.Size = new System.Drawing.Size(749, 407);
+            this.xtraScrollableControl4.TabIndex = 0;
+            // 
+            // splitContainerControl2
+            // 
+            this.splitContainerControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainerControl2.Horizontal = false;
+            this.splitContainerControl2.Location = new System.Drawing.Point(0, 0);
+            this.splitContainerControl2.Name = "splitContainerControl2";
+            this.splitContainerControl2.Panel1.Controls.Add(this.gridControl3);
+            this.splitContainerControl2.Panel1.Text = "Panel1";
+            this.splitContainerControl2.Panel2.Controls.Add(this.gridControl4);
+            this.splitContainerControl2.Panel2.Text = "Panel2";
+            this.splitContainerControl2.Size = new System.Drawing.Size(749, 407);
+            this.splitContainerControl2.SplitterPosition = 251;
+            this.splitContainerControl2.TabIndex = 5;
+            this.splitContainerControl2.Text = "splitContainerControl2";
+            // 
+            // gridControl3
+            // 
+            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl3.Location = new System.Drawing.Point(0, 0);
+            this.gridControl3.MainView = this.gridView3;
+            this.gridControl3.Name = "gridControl3";
+            this.gridControl3.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.respItemBtnDelete});
+            this.gridControl3.Size = new System.Drawing.Size(749, 251);
+            this.gridControl3.TabIndex = 3;
+            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // gridView3
+            // 
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn22,
+            this.gridColumn23,
+            this.gridColumn24,
+            this.gridColumn25,
+            this.gridColumn26,
+            this.gridColumn27,
+            this.gridColumn28,
+            this.gridColumn29,
+            this.gridColumn30,
+            this.gridColumn31,
+            this.gridColumn32,
+            this.gridColumn33});
+            this.gridView3.GridControl = this.gridControl3;
+            this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView3.OptionsView.ColumnAutoWidth = false;
+            this.gridView3.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView3.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
+            this.gridView3.OptionsView.ShowGroupPanel = false;
+            this.gridView3.OptionsView.ShowIndicator = false;
+            // 
+            // gridColumn22
+            // 
+            this.gridColumn22.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn22.AppearanceCell.Options.UseFont = true;
+            this.gridColumn22.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn22.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.Caption = "操作";
+            this.gridColumn22.Name = "gridColumn22";
+            this.gridColumn22.OptionsColumn.AllowEdit = false;
+            this.gridColumn22.OptionsColumn.AllowFocus = false;
+            this.gridColumn22.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn22.OptionsFilter.AllowFilter = false;
+            this.gridColumn22.Visible = true;
+            this.gridColumn22.VisibleIndex = 0;
+            this.gridColumn22.Width = 115;
+            // 
+            // gridColumn23
+            // 
+            this.gridColumn23.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn23.AppearanceCell.Options.UseFont = true;
+            this.gridColumn23.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn23.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn23.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn23.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn23.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn23.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn23.Caption = "状态";
+            this.gridColumn23.Name = "gridColumn23";
+            this.gridColumn23.OptionsColumn.AllowEdit = false;
+            this.gridColumn23.OptionsColumn.AllowFocus = false;
+            this.gridColumn23.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn23.OptionsFilter.AllowFilter = false;
+            this.gridColumn23.Visible = true;
+            this.gridColumn23.VisibleIndex = 1;
+            this.gridColumn23.Width = 91;
+            // 
+            // gridColumn24
+            // 
+            this.gridColumn24.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn24.AppearanceCell.Options.UseFont = true;
+            this.gridColumn24.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn24.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn24.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn24.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn24.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn24.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn24.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn24.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn24.Caption = "加工单位";
+            this.gridColumn24.Name = "gridColumn24";
+            this.gridColumn24.OptionsColumn.AllowEdit = false;
+            this.gridColumn24.OptionsColumn.AllowFocus = false;
+            this.gridColumn24.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn24.OptionsFilter.AllowFilter = false;
+            this.gridColumn24.Visible = true;
+            this.gridColumn24.VisibleIndex = 2;
+            this.gridColumn24.Width = 91;
+            // 
+            // gridColumn25
+            // 
+            this.gridColumn25.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn25.AppearanceCell.Options.UseFont = true;
+            this.gridColumn25.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn25.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn25.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn25.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn25.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn25.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn25.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn25.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn25.Caption = "取件人";
+            this.gridColumn25.Name = "gridColumn25";
+            this.gridColumn25.OptionsColumn.AllowEdit = false;
+            this.gridColumn25.OptionsColumn.AllowFocus = false;
+            this.gridColumn25.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn25.OptionsFilter.AllowFilter = false;
+            this.gridColumn25.Visible = true;
+            this.gridColumn25.VisibleIndex = 3;
+            this.gridColumn25.Width = 91;
+            // 
+            // gridColumn26
+            // 
+            this.gridColumn26.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn26.AppearanceCell.Options.UseFont = true;
+            this.gridColumn26.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn26.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn26.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn26.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn26.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn26.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn26.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn26.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn26.Caption = "送件日期";
+            this.gridColumn26.Name = "gridColumn26";
+            this.gridColumn26.OptionsColumn.AllowEdit = false;
+            this.gridColumn26.OptionsColumn.AllowFocus = false;
+            this.gridColumn26.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn26.OptionsFilter.AllowFilter = false;
+            this.gridColumn26.Visible = true;
+            this.gridColumn26.VisibleIndex = 4;
+            this.gridColumn26.Width = 91;
+            // 
+            // gridColumn27
+            // 
+            this.gridColumn27.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn27.AppearanceCell.Options.UseFont = true;
+            this.gridColumn27.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn27.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn27.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn27.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn27.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn27.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn27.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn27.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn27.Caption = "回件日期";
+            this.gridColumn27.Name = "gridColumn27";
+            this.gridColumn27.OptionsColumn.AllowEdit = false;
+            this.gridColumn27.OptionsColumn.AllowFocus = false;
+            this.gridColumn27.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn27.OptionsFilter.AllowFilter = false;
+            this.gridColumn27.Visible = true;
+            this.gridColumn27.VisibleIndex = 5;
+            this.gridColumn27.Width = 91;
+            // 
+            // gridColumn28
+            // 
+            this.gridColumn28.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn28.AppearanceCell.Options.UseFont = true;
+            this.gridColumn28.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn28.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn28.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn28.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn28.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn28.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn28.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn28.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn28.Caption = "加工颗数";
+            this.gridColumn28.Name = "gridColumn28";
+            this.gridColumn28.OptionsColumn.AllowEdit = false;
+            this.gridColumn28.OptionsColumn.AllowFocus = false;
+            this.gridColumn28.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn28.OptionsFilter.AllowFilter = false;
+            this.gridColumn28.Visible = true;
+            this.gridColumn28.VisibleIndex = 6;
+            this.gridColumn28.Width = 91;
+            // 
+            // gridColumn29
+            // 
+            this.gridColumn29.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn29.AppearanceCell.Options.UseFont = true;
+            this.gridColumn29.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn29.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn29.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn29.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn29.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn29.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn29.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn29.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn29.Caption = "医生";
+            this.gridColumn29.Name = "gridColumn29";
+            this.gridColumn29.OptionsColumn.AllowEdit = false;
+            this.gridColumn29.OptionsColumn.AllowFocus = false;
+            this.gridColumn29.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn29.OptionsFilter.AllowFilter = false;
+            this.gridColumn29.Visible = true;
+            this.gridColumn29.VisibleIndex = 7;
+            this.gridColumn29.Width = 91;
+            // 
+            // gridColumn30
+            // 
+            this.gridColumn30.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn30.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn30.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn30.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn30.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn30.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn30.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn30.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn30.Caption = "对患者价";
+            this.gridColumn30.Name = "gridColumn30";
+            this.gridColumn30.OptionsColumn.AllowEdit = false;
+            this.gridColumn30.OptionsColumn.AllowFocus = false;
+            this.gridColumn30.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn30.OptionsFilter.AllowFilter = false;
+            this.gridColumn30.Visible = true;
+            this.gridColumn30.VisibleIndex = 8;
+            // 
+            // gridColumn31
+            // 
+            this.gridColumn31.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn31.AppearanceCell.Options.UseFont = true;
+            this.gridColumn31.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn31.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn31.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn31.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn31.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn31.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn31.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn31.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn31.Caption = "加工单号";
+            this.gridColumn31.Name = "gridColumn31";
+            this.gridColumn31.OptionsColumn.AllowEdit = false;
+            this.gridColumn31.OptionsColumn.AllowFocus = false;
+            this.gridColumn31.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn31.OptionsFilter.AllowFilter = false;
+            this.gridColumn31.Visible = true;
+            this.gridColumn31.VisibleIndex = 9;
+            this.gridColumn31.Width = 91;
+            // 
+            // gridColumn32
+            // 
+            this.gridColumn32.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn32.AppearanceCell.Options.UseFont = true;
+            this.gridColumn32.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn32.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn32.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn32.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn32.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn32.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn32.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn32.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn32.Caption = "加工工厂";
+            this.gridColumn32.Name = "gridColumn32";
+            this.gridColumn32.OptionsColumn.AllowEdit = false;
+            this.gridColumn32.OptionsColumn.AllowFocus = false;
+            this.gridColumn32.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn32.OptionsFilter.AllowFilter = false;
+            this.gridColumn32.Visible = true;
+            this.gridColumn32.VisibleIndex = 10;
+            this.gridColumn32.Width = 91;
+            // 
+            // gridColumn33
+            // 
+            this.gridColumn33.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn33.AppearanceCell.Options.UseFont = true;
+            this.gridColumn33.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn33.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn33.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn33.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn33.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn33.Caption = "备注";
+            this.gridColumn33.Name = "gridColumn33";
+            this.gridColumn33.OptionsColumn.AllowEdit = false;
+            this.gridColumn33.OptionsColumn.AllowFocus = false;
+            this.gridColumn33.OptionsFilter.AllowAutoFilter = false;
+            this.gridColumn33.OptionsFilter.AllowFilter = false;
+            this.gridColumn33.Visible = true;
+            this.gridColumn33.VisibleIndex = 11;
+            this.gridColumn33.Width = 131;
+            // 
+            // respItemBtnDelete
+            // 
+            this.respItemBtnDelete.Appearance.Image = ((System.Drawing.Image)(resources.GetObject("respItemBtnDelete.Appearance.Image")));
+            this.respItemBtnDelete.Appearance.Options.UseImage = true;
+            this.respItemBtnDelete.AutoHeight = false;
+            this.respItemBtnDelete.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("respItemBtnDelete.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject3, "", null, null, true)});
+            this.respItemBtnDelete.Name = "respItemBtnDelete";
+            this.respItemBtnDelete.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
+            // gridControl4
+            // 
+            this.gridControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl4.Location = new System.Drawing.Point(0, 0);
+            this.gridControl4.MainView = this.gridView4;
+            this.gridControl4.Name = "gridControl4";
+            this.gridControl4.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemButtonEdit3});
+            this.gridControl4.Size = new System.Drawing.Size(749, 151);
+            this.gridControl4.TabIndex = 4;
+            this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView4});
+            // 
+            // gridView4
+            // 
+            this.gridView4.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn34,
+            this.gridColumn35,
+            this.gridColumn36});
+            this.gridView4.GridControl = this.gridControl4;
+            this.gridView4.Name = "gridView4";
+            this.gridView4.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False;
+            this.gridView4.OptionsView.ColumnHeaderAutoHeight = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView4.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
+            this.gridView4.OptionsView.ShowGroupPanel = false;
+            this.gridView4.OptionsView.ShowIndicator = false;
+            this.gridView4.OptionsView.ShowViewCaption = true;
+            this.gridView4.ViewCaption = "外加工明细";
+            // 
+            // gridColumn34
+            // 
+            this.gridColumn34.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn34.AppearanceCell.Options.UseFont = true;
+            this.gridColumn34.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn34.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn34.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn34.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn34.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn34.Caption = "牙位";
+            this.gridColumn34.Name = "gridColumn34";
+            this.gridColumn34.OptionsColumn.AllowEdit = false;
+            this.gridColumn34.OptionsColumn.AllowFocus = false;
+            this.gridColumn34.Visible = true;
+            this.gridColumn34.VisibleIndex = 0;
+            this.gridColumn34.Width = 115;
+            // 
+            // gridColumn35
+            // 
+            this.gridColumn35.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn35.AppearanceCell.Options.UseFont = true;
+            this.gridColumn35.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn35.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn35.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn35.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn35.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn35.Caption = "加工类型";
+            this.gridColumn35.Name = "gridColumn35";
+            this.gridColumn35.OptionsColumn.AllowEdit = false;
+            this.gridColumn35.OptionsColumn.AllowFocus = false;
+            this.gridColumn35.Visible = true;
+            this.gridColumn35.VisibleIndex = 1;
+            this.gridColumn35.Width = 91;
+            // 
+            // gridColumn36
+            // 
+            this.gridColumn36.AppearanceCell.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn36.AppearanceCell.Options.UseFont = true;
+            this.gridColumn36.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gridColumn36.AppearanceHeader.Options.UseFont = true;
+            this.gridColumn36.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn36.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn36.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn36.Caption = "色号";
+            this.gridColumn36.Name = "gridColumn36";
+            this.gridColumn36.OptionsColumn.AllowEdit = false;
+            this.gridColumn36.OptionsColumn.AllowFocus = false;
+            this.gridColumn36.Visible = true;
+            this.gridColumn36.VisibleIndex = 2;
+            this.gridColumn36.Width = 91;
+            // 
+            // repositoryItemButtonEdit3
+            // 
+            this.repositoryItemButtonEdit3.Appearance.Image = ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit3.Appearance.Image")));
+            this.repositoryItemButtonEdit3.Appearance.Options.UseImage = true;
+            this.repositoryItemButtonEdit3.AutoHeight = false;
+            this.repositoryItemButtonEdit3.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit3.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject4, "", null, null, true)});
+            this.repositoryItemButtonEdit3.Name = "repositoryItemButtonEdit3";
+            this.repositoryItemButtonEdit3.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
+            // xtraTabPage8
+            // 
+            this.xtraTabPage8.Controls.Add(this.ucPatConsultInfo1);
+            this.xtraTabPage8.Name = "xtraTabPage8";
+            this.xtraTabPage8.Size = new System.Drawing.Size(749, 441);
+            this.xtraTabPage8.Text = "沟通记录";
+            // 
+            // ucPatConsultInfo1
+            // 
+            this.ucPatConsultInfo1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ucPatConsultInfo1.Location = new System.Drawing.Point(3, 3);
+            this.ucPatConsultInfo1.Name = "ucPatConsultInfo1";
+            this.ucPatConsultInfo1.Size = new System.Drawing.Size(743, 199);
+            this.ucPatConsultInfo1.TabIndex = 0;
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl6.Appearance.Options.UseFont = true;
+            this.labelControl6.Location = new System.Drawing.Point(10, 64);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(70, 17);
+            this.labelControl6.TabIndex = 2;
+            this.labelControl6.Text = "回访人员：";
+            // 
+            // dateEdit1
+            // 
+            this.dateEdit1.EditValue = null;
+            this.dateEdit1.Location = new System.Drawing.Point(86, 31);
+            this.dateEdit1.Name = "dateEdit1";
+            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.EditFormat.FormatString = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.Mask.EditMask = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Size = new System.Drawing.Size(178, 24);
+            this.dateEdit1.TabIndex = 1;
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(10, 32);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(70, 17);
+            this.labelControl5.TabIndex = 0;
+            this.labelControl5.Text = "回访时间：";
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Location = new System.Drawing.Point(86, 61);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(178, 24);
+            this.comboBoxEdit1.TabIndex = 3;
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.Location = new System.Drawing.Point(86, 91);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(178, 24);
+            this.comboBoxEdit2.TabIndex = 5;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl7.Appearance.Options.UseFont = true;
+            this.labelControl7.Location = new System.Drawing.Point(10, 94);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(70, 17);
+            this.labelControl7.TabIndex = 4;
+            this.labelControl7.Text = "主治医生：";
+            // 
+            // labelControl8
+            // 
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl8.Appearance.Options.UseFont = true;
+            this.labelControl8.Location = new System.Drawing.Point(10, 126);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(70, 17);
+            this.labelControl8.TabIndex = 6;
+            this.labelControl8.Text = "回访状态：";
+            // 
+            // radioGroup1
+            // 
+            this.radioGroup1.Location = new System.Drawing.Point(86, 121);
+            this.radioGroup1.Name = "radioGroup1";
+            this.radioGroup1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroup1.Properties.Appearance.Options.UseFont = true;
+            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "已回访"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "做计划"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "待跟进")});
+            this.radioGroup1.Size = new System.Drawing.Size(210, 28);
+            this.radioGroup1.TabIndex = 7;
+            // 
+            // labelControl9
+            // 
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl9.Appearance.Options.UseFont = true;
+            this.labelControl9.Location = new System.Drawing.Point(10, 179);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(70, 17);
+            this.labelControl9.TabIndex = 8;
+            this.labelControl9.Text = "回访内容：";
+            // 
+            // memoEdit1
+            // 
+            this.memoEdit1.Location = new System.Drawing.Point(86, 178);
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Size = new System.Drawing.Size(241, 96);
+            this.memoEdit1.TabIndex = 9;
+            // 
+            // labelControl10
+            // 
+            this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.Appearance.Options.UseFont = true;
+            this.labelControl10.AppearanceHovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.AppearanceHovered.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelControl10.AppearanceHovered.Options.UseFont = true;
+            this.labelControl10.AppearanceHovered.Options.UseForeColor = true;
+            this.labelControl10.Location = new System.Drawing.Point(86, 155);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(70, 17);
+            this.labelControl10.TabIndex = 10;
+            this.labelControl10.Text = "回访内容语";
+            // 
+            // simpleButton10
+            // 
+            this.simpleButton10.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton10.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.Options.UseBackColor = true;
+            this.simpleButton10.Appearance.Options.UseBorderColor = true;
+            this.simpleButton10.Appearance.Options.UseFont = true;
+            this.simpleButton10.Appearance.Options.UseForeColor = true;
+            this.simpleButton10.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.simpleButton10.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton10.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButton10.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton10.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.simpleButton10.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton10.Image")));
+            this.simpleButton10.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton10.Location = new System.Drawing.Point(171, 152);
+            this.simpleButton10.Name = "simpleButton10";
+            this.simpleButton10.Size = new System.Drawing.Size(30, 24);
+            this.simpleButton10.TabIndex = 76;
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.simpleButton1.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.simpleButton1.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton1.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.simpleButton1.Appearance.Options.UseBackColor = true;
+            this.simpleButton1.Appearance.Options.UseBorderColor = true;
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Appearance.Options.UseForeColor = true;
+            this.simpleButton1.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.simpleButton1.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton1.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButton1.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
+            this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton1.Location = new System.Drawing.Point(171, 279);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(30, 24);
+            this.simpleButton1.TabIndex = 80;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl11.Appearance.Options.UseFont = true;
+            this.labelControl11.AppearanceHovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl11.AppearanceHovered.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelControl11.AppearanceHovered.Options.UseFont = true;
+            this.labelControl11.AppearanceHovered.Options.UseForeColor = true;
+            this.labelControl11.Location = new System.Drawing.Point(86, 282);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(70, 17);
+            this.labelControl11.TabIndex = 79;
+            this.labelControl11.Text = "结果常用语";
+            // 
+            // memoEdit2
+            // 
+            this.memoEdit2.Location = new System.Drawing.Point(86, 305);
+            this.memoEdit2.Name = "memoEdit2";
+            this.memoEdit2.Size = new System.Drawing.Size(241, 96);
+            this.memoEdit2.TabIndex = 78;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl12.Appearance.Options.UseFont = true;
+            this.labelControl12.Location = new System.Drawing.Point(10, 306);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(70, 17);
+            this.labelControl12.TabIndex = 77;
+            this.labelControl12.Text = "回访结果：";
+            // 
+            // labelControl13
+            // 
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl13.Appearance.Options.UseFont = true;
+            this.labelControl13.Location = new System.Drawing.Point(10, 426);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(56, 17);
+            this.labelControl13.TabIndex = 81;
+            this.labelControl13.Text = "回访录音";
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.Location = new System.Drawing.Point(99, 426);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(56, 17);
+            this.labelControl14.TabIndex = 82;
+            this.labelControl14.Text = "暂无录音";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Appearance.Options.UseForeColor = true;
+            this.simpleButton2.Location = new System.Drawing.Point(686, 1);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton2.TabIndex = 60;
+            this.simpleButton2.Text = "确定";
+            // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton6.Appearance.Options.UseFont = true;
+            this.simpleButton6.Appearance.Options.UseForeColor = true;
+            this.simpleButton6.Location = new System.Drawing.Point(895, 1);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton6.TabIndex = 59;
+            this.simpleButton6.Text = "取消";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton3.Appearance.Options.UseFont = true;
+            this.simpleButton3.Appearance.Options.UseForeColor = true;
+            this.simpleButton3.Location = new System.Drawing.Point(79, 1);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton3.TabIndex = 61;
+            this.simpleButton3.Text = "复诊预约";
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton4.Appearance.Options.UseFont = true;
+            this.simpleButton4.Appearance.Options.UseForeColor = true;
+            this.simpleButton4.Location = new System.Drawing.Point(227, 1);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton4.TabIndex = 62;
+            this.simpleButton4.Text = "回访计划";
+            // 
             // frmPatReivew
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -734,6 +1541,7 @@
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
+            this.panelControl2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl1)).EndInit();
             this.splitContainerControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
@@ -741,20 +1549,38 @@
             this.xtraTabPage2.ResumeLayout(false);
             this.xtraScrollableControl2.ResumeLayout(false);
             this.xtraTabPage3.ResumeLayout(false);
-            this.xtraTabPage4.ResumeLayout(false);
-            this.xtraScrollableControl1.ResumeLayout(false);
-            this.xtraTabPage6.ResumeLayout(false);
             this.xtraScrollableControl3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupGalleryEdit1)).EndInit();
+            this.xtraTabPage4.ResumeLayout(false);
+            this.xtraScrollableControl1.ResumeLayout(false);
+            this.xtraTabPage6.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupContainerEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemPopupGalleryEdit2)).EndInit();
+            this.xtraTabPage7.ResumeLayout(false);
+            this.xtraScrollableControl4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainerControl2)).EndInit();
+            this.splitContainerControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.respItemBtnDelete)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).EndInit();
+            this.xtraTabPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -778,8 +1604,6 @@
         private DevExpress.XtraEditors.LabelControl labelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.LabelControl labelControl1;
-        private ucReviewPatEmrReVisit ucReviewPatEmrReVisit1;
-        private ucPatReviewEmrFirstVisit ucPatReviewEmrFirstVisit1;
         private DevExpress.XtraEditors.XtraScrollableControl xtraScrollableControl3;
         private DevExpress.XtraGrid.GridControl gridControl2;
         internal DevExpress.XtraGrid.Views.Grid.GridView gridView2;
@@ -812,5 +1636,55 @@
         private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit1;
         private DevExpress.XtraEditors.Repository.RepositoryItemPopupContainerEdit repositoryItemPopupContainerEdit2;
         private DevExpress.XtraEditors.Repository.RepositoryItemPopupGalleryEdit repositoryItemPopupGalleryEdit2;
+        private ucPatReviewEmrFirstVisit ucPatReviewEmrFirstVisit1;
+        private ucReviewPatEmrReVisit ucReviewPatEmrReVisit1;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage7;
+        private DevExpress.XtraEditors.XtraScrollableControl xtraScrollableControl4;
+        private DevExpress.XtraEditors.SplitContainerControl splitContainerControl2;
+        private DevExpress.XtraGrid.GridControl gridControl3;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn22;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn23;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn24;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn25;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn26;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn27;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn29;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn30;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn31;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn32;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn33;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit respItemBtnDelete;
+        private DevExpress.XtraGrid.GridControl gridControl4;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView4;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn34;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn35;
+        private DevExpress.XtraGrid.Columns.GridColumn gridColumn36;
+        private DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit repositoryItemButtonEdit3;
+        private DevExpress.XtraTab.XtraTabPage xtraTabPage8;
+        private ucPatConsultInfo ucPatConsultInfo1;
+        private DevExpress.XtraEditors.LabelControl labelControl6;
+        private DevExpress.XtraEditors.DateEdit dateEdit1;
+        private DevExpress.XtraEditors.LabelControl labelControl5;
+        private DevExpress.XtraEditors.LabelControl labelControl10;
+        private DevExpress.XtraEditors.MemoEdit memoEdit1;
+        private DevExpress.XtraEditors.LabelControl labelControl9;
+        private DevExpress.XtraEditors.RadioGroup radioGroup1;
+        private DevExpress.XtraEditors.LabelControl labelControl8;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
+        private DevExpress.XtraEditors.LabelControl labelControl7;
+        private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
+        private DevExpress.XtraEditors.LabelControl labelControl14;
+        private DevExpress.XtraEditors.LabelControl labelControl13;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.MemoEdit memoEdit2;
+        private DevExpress.XtraEditors.LabelControl labelControl12;
+        private DevExpress.XtraEditors.SimpleButton simpleButton10;
+        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton6;
     }
 }

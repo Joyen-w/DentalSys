@@ -60,6 +60,10 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl9 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -90,7 +94,7 @@
             this.pcBase.Controls.Add(this.xtraScrollableControl1);
             this.pcBase.Controls.Add(this.panelControl1);
             this.pcBase.Margin = new System.Windows.Forms.Padding(4);
-            this.pcBase.Size = new System.Drawing.Size(749, 552);
+            this.pcBase.Size = new System.Drawing.Size(756, 552);
             // 
             // panelControl1
             // 
@@ -99,7 +103,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panelControl1.Location = new System.Drawing.Point(2, 503);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(745, 47);
+            this.panelControl1.Size = new System.Drawing.Size(752, 47);
             this.panelControl1.TabIndex = 1;
             // 
             // simpleButton6
@@ -139,7 +143,7 @@
             this.xtraScrollableControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xtraScrollableControl1.Location = new System.Drawing.Point(2, 2);
             this.xtraScrollableControl1.Name = "xtraScrollableControl1";
-            this.xtraScrollableControl1.Size = new System.Drawing.Size(745, 501);
+            this.xtraScrollableControl1.Size = new System.Drawing.Size(752, 501);
             this.xtraScrollableControl1.TabIndex = 2;
             // 
             // panelControl8
@@ -152,7 +156,7 @@
             this.panelControl8.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl8.Location = new System.Drawing.Point(0, 287);
             this.panelControl8.Name = "panelControl8";
-            this.panelControl8.Size = new System.Drawing.Size(745, 38);
+            this.panelControl8.Size = new System.Drawing.Size(752, 38);
             this.panelControl8.TabIndex = 65;
             // 
             // textEdit2
@@ -196,12 +200,13 @@
             // panelControl7
             // 
             this.panelControl7.AutoSize = true;
+            this.panelControl7.Controls.Add(this.labelControl12);
             this.panelControl7.Controls.Add(this.textBox6);
             this.panelControl7.Controls.Add(this.labelControl7);
             this.panelControl7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl7.Location = new System.Drawing.Point(0, 245);
             this.panelControl7.Name = "panelControl7";
-            this.panelControl7.Size = new System.Drawing.Size(745, 42);
+            this.panelControl7.Size = new System.Drawing.Size(752, 42);
             this.panelControl7.TabIndex = 64;
             // 
             // textBox6
@@ -210,7 +215,7 @@
             this.textBox6.Location = new System.Drawing.Point(84, 5);
             this.textBox6.Multiline = true;
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(651, 30);
+            this.textBox6.Size = new System.Drawing.Size(613, 30);
             this.textBox6.TabIndex = 2;
             this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
@@ -227,12 +232,13 @@
             // panelControl6
             // 
             this.panelControl6.AutoSize = true;
+            this.panelControl6.Controls.Add(this.labelControl10);
             this.panelControl6.Controls.Add(this.textBox5);
             this.panelControl6.Controls.Add(this.labelControl6);
             this.panelControl6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl6.Location = new System.Drawing.Point(0, 203);
             this.panelControl6.Name = "panelControl6";
-            this.panelControl6.Size = new System.Drawing.Size(745, 42);
+            this.panelControl6.Size = new System.Drawing.Size(752, 42);
             this.panelControl6.TabIndex = 63;
             // 
             // textBox5
@@ -241,7 +247,7 @@
             this.textBox5.Location = new System.Drawing.Point(84, 5);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(651, 30);
+            this.textBox5.Size = new System.Drawing.Size(613, 30);
             this.textBox5.TabIndex = 2;
             this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
@@ -260,12 +266,13 @@
             // panelControl5
             // 
             this.panelControl5.AutoSize = true;
+            this.panelControl5.Controls.Add(this.labelControl11);
             this.panelControl5.Controls.Add(this.textBox4);
             this.panelControl5.Controls.Add(this.labelControl5);
             this.panelControl5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl5.Location = new System.Drawing.Point(0, 161);
             this.panelControl5.Name = "panelControl5";
-            this.panelControl5.Size = new System.Drawing.Size(745, 42);
+            this.panelControl5.Size = new System.Drawing.Size(752, 42);
             this.panelControl5.TabIndex = 62;
             // 
             // textBox4
@@ -274,7 +281,7 @@
             this.textBox4.Location = new System.Drawing.Point(84, 5);
             this.textBox4.Multiline = true;
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(651, 30);
+            this.textBox4.Size = new System.Drawing.Size(613, 30);
             this.textBox4.TabIndex = 2;
             this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
@@ -297,7 +304,7 @@
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl4.Location = new System.Drawing.Point(0, 119);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(745, 42);
+            this.panelControl4.Size = new System.Drawing.Size(752, 42);
             this.panelControl4.TabIndex = 61;
             // 
             // btnPatNoRule
@@ -352,7 +359,7 @@
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl3.Location = new System.Drawing.Point(0, 77);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(745, 42);
+            this.panelControl3.Size = new System.Drawing.Size(752, 42);
             this.panelControl3.TabIndex = 60;
             // 
             // simpleButton1
@@ -401,12 +408,13 @@
             // panelControl2
             // 
             this.panelControl2.AutoSize = true;
+            this.panelControl2.Controls.Add(this.labelControl14);
             this.panelControl2.Controls.Add(this.textBox1);
             this.panelControl2.Controls.Add(this.labelControl2);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl2.Location = new System.Drawing.Point(0, 35);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(745, 42);
+            this.panelControl2.Size = new System.Drawing.Size(752, 42);
             this.panelControl2.TabIndex = 59;
             // 
             // textBox1
@@ -415,7 +423,7 @@
             this.textBox1.Location = new System.Drawing.Point(84, 5);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(651, 30);
+            this.textBox1.Size = new System.Drawing.Size(613, 30);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -435,7 +443,7 @@
             this.panelControl9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl9.Location = new System.Drawing.Point(0, 0);
             this.panelControl9.Name = "panelControl9";
-            this.panelControl9.Size = new System.Drawing.Size(745, 35);
+            this.panelControl9.Size = new System.Drawing.Size(752, 35);
             this.panelControl9.TabIndex = 58;
             // 
             // labelControl1
@@ -448,12 +456,48 @@
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = "张小敬  28岁  190722001";
             // 
+            // labelControl10
+            // 
+            this.labelControl10.Location = new System.Drawing.Point(707, 12);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(14, 14);
+            this.labelControl10.TabIndex = 66;
+            this.labelControl10.Text = "11";
+            this.labelControl10.Visible = false;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Location = new System.Drawing.Point(707, 12);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(14, 14);
+            this.labelControl11.TabIndex = 67;
+            this.labelControl11.Text = "11";
+            this.labelControl11.Visible = false;
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Location = new System.Drawing.Point(707, 12);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(14, 14);
+            this.labelControl12.TabIndex = 68;
+            this.labelControl12.Text = "11";
+            this.labelControl12.Visible = false;
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Location = new System.Drawing.Point(707, 12);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(14, 14);
+            this.labelControl14.TabIndex = 68;
+            this.labelControl14.Text = "11";
+            this.labelControl14.Visible = false;
+            // 
             // frmCureConsultInfo
             // 
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(749, 552);
+            this.ClientSize = new System.Drawing.Size(756, 552);
             this.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
@@ -530,5 +574,9 @@
         private DevExpress.XtraEditors.PanelControl panelControl1;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.LabelControl labelControl12;
+        private DevExpress.XtraEditors.LabelControl labelControl10;
+        private DevExpress.XtraEditors.LabelControl labelControl11;
+        private DevExpress.XtraEditors.LabelControl labelControl14;
     }
 }

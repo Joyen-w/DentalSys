@@ -109,6 +109,12 @@
     <Compile Include="viewer\frmCureInsert.Designer.cs">
       <DependentUpon>frmCureInsert.cs</DependentUpon>
     </Compile>
+    <Compile Include="viewer\frmPatEmrInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatEmrInfo.Designer.cs">
+      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewer\frmPatReivew.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -313,23 +319,23 @@
     <Compile Include="viewer\frmPatCommunicate.Designer.cs">
       <DependentUpon>frmPatCommunicate.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPatConsultInfo.cs">
+    <Compile Include="viewer\frmPatConsultRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPatConsultInfo.Designer.cs">
-      <DependentUpon>frmPatConsultInfo.cs</DependentUpon>
+    <Compile Include="viewer\frmPatConsultRecords.Designer.cs">
+      <DependentUpon>frmPatConsultRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPatOutProcess.cs">
+    <Compile Include="viewer\frmPatOutProcessRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPatOutProcess.Designer.cs">
-      <DependentUpon>frmPatOutProcess.cs</DependentUpon>
+    <Compile Include="viewer\frmPatOutProcessRecords.Designer.cs">
+      <DependentUpon>frmPatOutProcessRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPatReturnConsult.cs">
+    <Compile Include="viewer\frmPatReConsultRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPatReturnConsult.Designer.cs">
-      <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
+    <Compile Include="viewer\frmPatReConsultRecords.Designer.cs">
+      <DependentUpon>frmPatReConsultRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\ucPatConsultInfo.cs">
       <SubType>UserControl</SubType>
@@ -337,11 +343,11 @@
     <Compile Include="viewer\ucPatConsultInfo.Designer.cs">
       <DependentUpon>ucPatConsultInfo.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPatEmrInfo.cs">
+    <Compile Include="viewer\frmPatEmrRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPatEmrInfo.Designer.cs">
-      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
+    <Compile Include="viewer\frmPatEmrRecords.Designer.cs">
+      <DependentUpon>frmPatEmrRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\ucPatEmrCommon.cs">
       <SubType>UserControl</SubType>
@@ -373,11 +379,11 @@
     <Compile Include="viewer\frmPatChargeRecords.Designer.cs">
       <DependentUpon>frmPatChargeRecords.cs</DependentUpon>
     </Compile>
-    <Compile Include="viewer\frmPatPacsInfo.cs">
+    <Compile Include="viewer\frmPatInspectRecords.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="viewer\frmPatPacsInfo.Designer.cs">
-      <DependentUpon>frmPatPacsInfo.cs</DependentUpon>
+    <Compile Include="viewer\frmPatInspectRecords.Designer.cs">
+      <DependentUpon>frmPatInspectRecords.cs</DependentUpon>
     </Compile>
     <Compile Include="viewer\frmPatCureRecords.cs">
       <SubType>Form</SubType>
@@ -539,6 +545,9 @@
     <EmbeddedResource Include="viewer\frmCureInsert.resx">
       <DependentUpon>frmCureInsert.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatEmrInfo.resx">
+      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatReivew.resx">
       <DependentUpon>frmPatReivew.cs</DependentUpon>
     </EmbeddedResource>
@@ -641,20 +650,20 @@
     <EmbeddedResource Include="viewer\frmPatCommunicate.resx">
       <DependentUpon>frmPatCommunicate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPatConsultInfo.resx">
-      <DependentUpon>frmPatConsultInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatConsultRecords.resx">
+      <DependentUpon>frmPatConsultRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPatOutProcess.resx">
-      <DependentUpon>frmPatOutProcess.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatOutProcessRecords.resx">
+      <DependentUpon>frmPatOutProcessRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPatReturnConsult.resx">
-      <DependentUpon>frmPatReturnConsult.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatReConsultRecords.resx">
+      <DependentUpon>frmPatReConsultRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\ucPatConsultInfo.resx">
       <DependentUpon>ucPatConsultInfo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPatEmrInfo.resx">
-      <DependentUpon>frmPatEmrInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatEmrRecords.resx">
+      <DependentUpon>frmPatEmrRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\ucPatEmrCommon.resx">
       <DependentUpon>ucPatEmrCommon.cs</DependentUpon>
@@ -671,8 +680,8 @@
     <EmbeddedResource Include="viewer\frmPatChargeRecords.resx">
       <DependentUpon>frmPatChargeRecords.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewer\frmPatPacsInfo.resx">
-      <DependentUpon>frmPatPacsInfo.cs</DependentUpon>
+    <EmbeddedResource Include="viewer\frmPatInspectRecords.resx">
+      <DependentUpon>frmPatInspectRecords.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmPatCureRecords.resx">
       <DependentUpon>frmPatCureRecords.cs</DependentUpon>

@@ -10,9 +10,9 @@ using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class frmPatConsultInfo :frmPatInfoBse
+    public partial class frmPatConsultRecords :frmPatInfoBse
     {
-        public frmPatConsultInfo()
+        public frmPatConsultRecords()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace DentalSys
 {
-    partial class frmPatPacsInfo
+    partial class frmPatInspectRecords
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatPacsInfo));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPatInspectRecords));
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();

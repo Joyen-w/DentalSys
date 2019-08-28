@@ -122,7 +122,7 @@ namespace DentalSys
 
         private void barButtonItem16_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPatEmrInfo frm = new frmPatEmrInfo();
+            frmPatEmrRecords frm = new frmPatEmrRecords();
             frm.MdiParent = this;
             frm.Show();
         }
@@ -143,28 +143,28 @@ namespace DentalSys
 
         private void barButtonItem15_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPatPacsInfo frm = new frmPatPacsInfo();
+            frmPatInspectRecords frm = new frmPatInspectRecords();
             frm.MdiParent = this;
             frm.Show();
         }
 
         private void barButtonItem17_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPatOutProcess frm = new frmPatOutProcess();
+            frmPatOutProcessRecords frm = new frmPatOutProcessRecords();
             frm.MdiParent = this;
             frm.Show();
         }
 
         private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPatReturnConsult frm = new frmPatReturnConsult();
+            frmPatReConsultRecords frm = new frmPatReConsultRecords();
             frm.MdiParent = this;
             frm.Show();
         }
 
         private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmPatConsultInfo frm = new frmPatConsultInfo();
+            frmPatConsultRecords frm = new frmPatConsultRecords();
             frm.MdiParent = this;
             frm.Show();
         }

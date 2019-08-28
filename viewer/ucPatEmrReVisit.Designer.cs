@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ucPatEmrReVisit));
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
@@ -46,9 +45,12 @@
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.ucPatEmrCommon5 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon4 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon3 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon2 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon1 = new DentalSys.ucPatEmrCommon();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
-            this.panelControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelControl2
@@ -58,31 +60,8 @@
             this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl2.Location = new System.Drawing.Point(0, 0);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(10, 334);
+            this.panelControl2.Size = new System.Drawing.Size(10, 364);
             this.panelControl2.TabIndex = 1;
-            // 
-            // panelControl1
-            // 
-            this.panelControl1.AutoSize = true;
-            this.panelControl1.Controls.Add(this.labelControl18);
-            this.panelControl1.Controls.Add(this.labelControl17);
-            this.panelControl1.Controls.Add(this.labelControl16);
-            this.panelControl1.Controls.Add(this.labelControl15);
-            this.panelControl1.Controls.Add(this.labelControl14);
-            this.panelControl1.Controls.Add(this.labelControl11);
-            this.panelControl1.Controls.Add(this.labelControl3);
-            this.panelControl1.Controls.Add(this.labelControl2);
-            this.panelControl1.Controls.Add(this.labelControl6);
-            this.panelControl1.Controls.Add(this.labelControl13);
-            this.panelControl1.Controls.Add(this.labelControl12);
-            this.panelControl1.Controls.Add(this.labelControl1);
-            this.panelControl1.Controls.Add(this.simpleButton6);
-            this.panelControl1.Controls.Add(this.simpleButton3);
-            this.panelControl1.Controls.Add(this.simpleButton1);
-            this.panelControl1.Location = new System.Drawing.Point(10, 0);
-            this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(1011, 334);
-            this.panelControl1.TabIndex = 2;
             // 
             // labelControl18
             // 
@@ -90,10 +69,10 @@
             this.labelControl18.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
-            this.labelControl18.Location = new System.Drawing.Point(7, 310);
+            this.labelControl18.Location = new System.Drawing.Point(18, 329);
             this.labelControl18.Name = "labelControl18";
             this.labelControl18.Size = new System.Drawing.Size(33, 17);
-            this.labelControl18.TabIndex = 155;
+            this.labelControl18.TabIndex = 170;
             this.labelControl18.Text = "医嘱:";
             // 
             // labelControl17
@@ -102,10 +81,10 @@
             this.labelControl17.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(8, 268);
+            this.labelControl17.Location = new System.Drawing.Point(18, 266);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(33, 17);
-            this.labelControl17.TabIndex = 154;
+            this.labelControl17.TabIndex = 169;
             this.labelControl17.Text = "治疗:";
             // 
             // labelControl16
@@ -114,10 +93,10 @@
             this.labelControl16.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl16.Appearance.Options.UseFont = true;
             this.labelControl16.Appearance.Options.UseForeColor = true;
-            this.labelControl16.Location = new System.Drawing.Point(7, 226);
+            this.labelControl16.Location = new System.Drawing.Point(17, 224);
             this.labelControl16.Name = "labelControl16";
             this.labelControl16.Size = new System.Drawing.Size(61, 17);
-            this.labelControl16.TabIndex = 153;
+            this.labelControl16.TabIndex = 168;
             this.labelControl16.Text = "治疗方案:";
             // 
             // labelControl15
@@ -126,10 +105,10 @@
             this.labelControl15.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(8, 184);
+            this.labelControl15.Location = new System.Drawing.Point(18, 171);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(33, 17);
-            this.labelControl15.TabIndex = 152;
+            this.labelControl15.TabIndex = 167;
             this.labelControl15.Text = "诊断:";
             // 
             // labelControl14
@@ -138,10 +117,10 @@
             this.labelControl14.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
-            this.labelControl14.Location = new System.Drawing.Point(7, 100);
+            this.labelControl14.Location = new System.Drawing.Point(16, 118);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(61, 17);
-            this.labelControl14.TabIndex = 151;
+            this.labelControl14.TabIndex = 166;
             this.labelControl14.Text = "辅助检查:";
             // 
             // labelControl11
@@ -150,10 +129,10 @@
             this.labelControl11.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl11.Appearance.Options.UseFont = true;
             this.labelControl11.Appearance.Options.UseForeColor = true;
-            this.labelControl11.Location = new System.Drawing.Point(7, 58);
+            this.labelControl11.Location = new System.Drawing.Point(18, 65);
             this.labelControl11.Name = "labelControl11";
             this.labelControl11.Size = new System.Drawing.Size(33, 17);
-            this.labelControl11.TabIndex = 150;
+            this.labelControl11.TabIndex = 165;
             this.labelControl11.Text = "检查:";
             // 
             // labelControl3
@@ -162,10 +141,10 @@
             this.labelControl3.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(75, 34);
+            this.labelControl3.Location = new System.Drawing.Point(85, 32);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(99, 17);
-            this.labelControl3.TabIndex = 143;
+            this.labelControl3.TabIndex = 164;
             this.labelControl3.Text = "左上牙疼痛2日";
             // 
             // labelControl2
@@ -174,10 +153,10 @@
             this.labelControl2.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(7, 35);
+            this.labelControl2.Location = new System.Drawing.Point(17, 33);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(33, 17);
-            this.labelControl2.TabIndex = 142;
+            this.labelControl2.TabIndex = 163;
             this.labelControl2.Text = "初诊:";
             // 
             // labelControl6
@@ -186,10 +165,10 @@
             this.labelControl6.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.Appearance.Options.UseForeColor = true;
-            this.labelControl6.Location = new System.Drawing.Point(282, 5);
+            this.labelControl6.Location = new System.Drawing.Point(292, 3);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(47, 23);
-            this.labelControl6.TabIndex = 141;
+            this.labelControl6.TabIndex = 162;
             this.labelControl6.Text = "医生:";
             // 
             // labelControl13
@@ -198,10 +177,10 @@
             this.labelControl13.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl13.Appearance.Options.UseFont = true;
             this.labelControl13.Appearance.Options.UseForeColor = true;
-            this.labelControl13.Location = new System.Drawing.Point(348, 5);
+            this.labelControl13.Location = new System.Drawing.Point(358, 3);
             this.labelControl13.Name = "labelControl13";
             this.labelControl13.Size = new System.Drawing.Size(60, 23);
-            this.labelControl13.TabIndex = 140;
+            this.labelControl13.TabIndex = 161;
             this.labelControl13.Text = "张小敬";
             // 
             // labelControl12
@@ -210,10 +189,10 @@
             this.labelControl12.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl12.Appearance.Options.UseFont = true;
             this.labelControl12.Appearance.Options.UseForeColor = true;
-            this.labelControl12.Location = new System.Drawing.Point(205, 5);
+            this.labelControl12.Location = new System.Drawing.Point(215, 3);
             this.labelControl12.Name = "labelControl12";
             this.labelControl12.Size = new System.Drawing.Size(40, 23);
-            this.labelControl12.TabIndex = 139;
+            this.labelControl12.TabIndex = 160;
             this.labelControl12.Text = "复诊";
             // 
             // labelControl1
@@ -222,10 +201,10 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(6, 5);
+            this.labelControl1.Location = new System.Drawing.Point(16, 3);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(173, 23);
-            this.labelControl1.TabIndex = 138;
+            this.labelControl1.TabIndex = 159;
             this.labelControl1.Text = "2019-07-31 08:30";
             // 
             // simpleButton6
@@ -246,10 +225,10 @@
             this.simpleButton6.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.simpleButton6.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.Image")));
             this.simpleButton6.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton6.Location = new System.Drawing.Point(967, 5);
+            this.simpleButton6.Location = new System.Drawing.Point(972, 3);
             this.simpleButton6.Name = "simpleButton6";
             this.simpleButton6.Size = new System.Drawing.Size(37, 35);
-            this.simpleButton6.TabIndex = 137;
+            this.simpleButton6.TabIndex = 158;
             this.simpleButton6.ToolTip = "回访";
             // 
             // simpleButton3
@@ -270,10 +249,10 @@
             this.simpleButton3.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.simpleButton3.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton3.Image")));
             this.simpleButton3.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton3.Location = new System.Drawing.Point(932, 5);
+            this.simpleButton3.Location = new System.Drawing.Point(928, 3);
             this.simpleButton3.Name = "simpleButton3";
             this.simpleButton3.Size = new System.Drawing.Size(33, 36);
-            this.simpleButton3.TabIndex = 136;
+            this.simpleButton3.TabIndex = 157;
             this.simpleButton3.ToolTip = "新建处置";
             // 
             // simpleButton1
@@ -294,25 +273,76 @@
             this.simpleButton1.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.simpleButton1.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.Image")));
             this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton1.Location = new System.Drawing.Point(897, 5);
+            this.simpleButton1.Location = new System.Drawing.Point(893, 3);
             this.simpleButton1.Name = "simpleButton1";
             this.simpleButton1.Size = new System.Drawing.Size(33, 38);
-            this.simpleButton1.TabIndex = 135;
+            this.simpleButton1.TabIndex = 156;
             this.simpleButton1.ToolTip = "处置打印";
+            // 
+            // ucPatEmrCommon5
+            // 
+            this.ucPatEmrCommon5.Location = new System.Drawing.Point(85, 263);
+            this.ucPatEmrCommon5.Name = "ucPatEmrCommon5";
+            this.ucPatEmrCommon5.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon5.TabIndex = 175;
+            // 
+            // ucPatEmrCommon4
+            // 
+            this.ucPatEmrCommon4.Location = new System.Drawing.Point(85, 211);
+            this.ucPatEmrCommon4.Name = "ucPatEmrCommon4";
+            this.ucPatEmrCommon4.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon4.TabIndex = 174;
+            // 
+            // ucPatEmrCommon3
+            // 
+            this.ucPatEmrCommon3.Location = new System.Drawing.Point(85, 159);
+            this.ucPatEmrCommon3.Name = "ucPatEmrCommon3";
+            this.ucPatEmrCommon3.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon3.TabIndex = 173;
+            // 
+            // ucPatEmrCommon2
+            // 
+            this.ucPatEmrCommon2.Location = new System.Drawing.Point(85, 107);
+            this.ucPatEmrCommon2.Name = "ucPatEmrCommon2";
+            this.ucPatEmrCommon2.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon2.TabIndex = 172;
+            // 
+            // ucPatEmrCommon1
+            // 
+            this.ucPatEmrCommon1.Location = new System.Drawing.Point(85, 55);
+            this.ucPatEmrCommon1.Name = "ucPatEmrCommon1";
+            this.ucPatEmrCommon1.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon1.TabIndex = 171;
             // 
             // ucPatEmrReVisit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
-            this.Controls.Add(this.panelControl1);
+            this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.ucPatEmrCommon5);
+            this.Controls.Add(this.ucPatEmrCommon4);
+            this.Controls.Add(this.ucPatEmrCommon3);
+            this.Controls.Add(this.ucPatEmrCommon2);
+            this.Controls.Add(this.ucPatEmrCommon1);
+            this.Controls.Add(this.labelControl18);
+            this.Controls.Add(this.labelControl17);
+            this.Controls.Add(this.labelControl16);
+            this.Controls.Add(this.labelControl15);
+            this.Controls.Add(this.labelControl14);
+            this.Controls.Add(this.labelControl11);
+            this.Controls.Add(this.labelControl3);
+            this.Controls.Add(this.labelControl2);
+            this.Controls.Add(this.labelControl6);
+            this.Controls.Add(this.labelControl13);
+            this.Controls.Add(this.labelControl12);
+            this.Controls.Add(this.labelControl1);
+            this.Controls.Add(this.simpleButton6);
+            this.Controls.Add(this.simpleButton3);
+            this.Controls.Add(this.simpleButton1);
             this.Controls.Add(this.panelControl2);
             this.Name = "ucPatEmrReVisit";
-            this.Size = new System.Drawing.Size(1024, 337);
+            this.Size = new System.Drawing.Size(1012, 364);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
-            this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -321,10 +351,6 @@
         #endregion
 
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
-        private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.LabelControl labelControl18;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.LabelControl labelControl16;
@@ -337,5 +363,13 @@
         private DevExpress.XtraEditors.LabelControl labelControl13;
         private DevExpress.XtraEditors.LabelControl labelControl12;
         private DevExpress.XtraEditors.LabelControl labelControl1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraEditors.SimpleButton simpleButton3;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private ucPatEmrCommon ucPatEmrCommon1;
+        private ucPatEmrCommon ucPatEmrCommon2;
+        private ucPatEmrCommon ucPatEmrCommon3;
+        private ucPatEmrCommon ucPatEmrCommon4;
+        private ucPatEmrCommon ucPatEmrCommon5;
     }
 }

@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFrame));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup9 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup10 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.defaultLookAndFeel = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
@@ -880,9 +880,9 @@
             // 
             // 
             // 
-            galleryItemGroup9.Caption = "Main";
+            galleryItemGroup3.Caption = "Main";
             this.rgbiFont.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup9});
+            galleryItemGroup3});
             this.rgbiFont.Gallery.ImageSize = new System.Drawing.Size(40, 40);
             this.rgbiFont.Id = 29;
             this.rgbiFont.Name = "rgbiFont";
@@ -904,9 +904,9 @@
             // 
             // 
             this.rgbiFontColor.Gallery.ColumnCount = 10;
-            galleryItemGroup10.Caption = "Main";
+            galleryItemGroup4.Caption = "Main";
             this.rgbiFontColor.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup10});
+            galleryItemGroup4});
             this.rgbiFontColor.Gallery.ImageSize = new System.Drawing.Size(20, 14);
             this.rgbiFontColor.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Stretch;
             this.rgbiFontColor.Id = 37;

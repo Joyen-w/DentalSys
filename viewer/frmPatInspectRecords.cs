@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Linq;
+using System.Text;
 using System.Windows.Forms;
-using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class frmPatReturnConsult : frmPatInfoBse
+    public partial class frmPatInspectRecords : frmPatInfoBse
     {
-        public frmPatReturnConsult()
+        public frmPatInspectRecords()
         {
             InitializeComponent();
         }
 
-        private void frmPatReturnConsult_Load(object sender, EventArgs e)
+        private void frmPacsInfo_Load(object sender, EventArgs e)
         {
 
         }

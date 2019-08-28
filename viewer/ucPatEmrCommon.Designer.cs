@@ -54,7 +54,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(89, 45);
+            this.panelControl1.Size = new System.Drawing.Size(89, 46);
             this.panelControl1.TabIndex = 0;
             // 
             // labelControl5
@@ -125,11 +125,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoSize = true;
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.panelControl1);
             this.Name = "ucPatEmrCommon";
-            this.Size = new System.Drawing.Size(604, 45);
+            this.Size = new System.Drawing.Size(604, 46);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

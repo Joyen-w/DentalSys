@@ -9,14 +9,14 @@ using System.Windows.Forms;
 
 namespace DentalSys
 {
-    public partial class frmPatPacsInfo : frmPatInfoBse
+    public partial class frmPatEmrRecords : frmPatInfoBse
     {
-        public frmPatPacsInfo()
+        public frmPatEmrRecords()
         {
             InitializeComponent();
         }
 
-        private void frmPacsInfo_Load(object sender, EventArgs e)
+        private void frmPatEmr_Load(object sender, EventArgs e)
         {
 
         }

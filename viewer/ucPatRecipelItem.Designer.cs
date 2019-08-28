@@ -37,8 +37,6 @@
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl7 = new DevExpress.XtraEditors.PanelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
@@ -147,30 +145,6 @@
             this.panelControl7.Size = new System.Drawing.Size(1, 50);
             this.panelControl7.TabIndex = 13;
             // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.Silver;
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(132, 42);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(28, 17);
-            this.labelControl3.TabIndex = 94;
-            this.labelControl3.Text = "备注";
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.Silver;
-            this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(132, 11);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(56, 17);
-            this.labelControl2.TabIndex = 93;
-            this.labelControl2.Text = "处置说明";
-            // 
             // textEdit5
             // 
             this.textEdit5.Location = new System.Drawing.Point(127, 37);
@@ -179,6 +153,9 @@
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
+            this.textEdit5.Properties.NullText = "备注";
+            this.textEdit5.Properties.NullValuePrompt = "备注";
+            this.textEdit5.Properties.NullValuePromptShowForEmptyValue = true;
             this.textEdit5.Size = new System.Drawing.Size(718, 24);
             this.textEdit5.TabIndex = 92;
             // 
@@ -229,6 +206,9 @@
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit1.Properties.Appearance.Options.UseBackColor = true;
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Properties.NullText = "处置说明";
+            this.textEdit1.Properties.NullValuePrompt = "处置说明";
+            this.textEdit1.Properties.NullValuePromptShowForEmptyValue = true;
             this.textEdit1.Size = new System.Drawing.Size(491, 24);
             this.textEdit1.TabIndex = 88;
             // 
@@ -272,8 +252,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.simpleButton10);
             this.Controls.Add(this.panelControl2);
-            this.Controls.Add(this.labelControl3);
-            this.Controls.Add(this.labelControl2);
             this.Controls.Add(this.textEdit5);
             this.Controls.Add(this.textEdit4);
             this.Controls.Add(this.textEdit3);
@@ -295,7 +273,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -309,8 +286,6 @@
         private DevExpress.XtraEditors.PanelControl panelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl6;
         private DevExpress.XtraEditors.PanelControl panelControl7;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private DevExpress.XtraEditors.TextEdit textEdit4;
         private DevExpress.XtraEditors.TextEdit textEdit3;
