@@ -54,7 +54,6 @@
             this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
-            this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
@@ -83,7 +82,6 @@
             this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
             this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
@@ -111,7 +109,6 @@
             this.gridColumn45 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
             this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit3 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
@@ -143,7 +140,6 @@
             this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit4 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton9 = new DevExpress.XtraEditors.SimpleButton();
@@ -172,7 +168,6 @@
             this.comboBoxEdit4 = new DevExpress.XtraEditors.ComboBoxEdit();
             this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
             this.textEdit5 = new DevExpress.XtraEditors.TextEdit();
             this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton11 = new DevExpress.XtraEditors.SimpleButton();
@@ -236,7 +231,7 @@
             // pcBase
             // 
             this.pcBase.Controls.Add(this.navigationPane1);
-            this.pcBase.Size = new System.Drawing.Size(1104, 612);
+            this.pcBase.Size = new System.Drawing.Size(1331, 612);
             // 
             // defaultLookAndFeel
             // 
@@ -266,9 +261,9 @@
             this.navigationPage3,
             this.navigationPage4,
             this.navigationPage5});
-            this.navigationPane1.RegularSize = new System.Drawing.Size(1100, 608);
+            this.navigationPane1.RegularSize = new System.Drawing.Size(1327, 608);
             this.navigationPane1.SelectedPage = this.navigationPage2;
-            this.navigationPane1.Size = new System.Drawing.Size(1100, 608);
+            this.navigationPane1.Size = new System.Drawing.Size(1327, 608);
             this.navigationPane1.TabIndex = 2;
             this.navigationPane1.Text = "navigationPane1";
             // 
@@ -277,7 +272,7 @@
             this.navigationPage1.Caption = "库存总汇";
             this.navigationPage1.Controls.Add(this.splitContainerControl1);
             this.navigationPage1.Name = "navigationPage1";
-            this.navigationPage1.Size = new System.Drawing.Size(949, 548);
+            this.navigationPage1.Size = new System.Drawing.Size(1176, 548);
             // 
             // splitContainerControl1
             // 
@@ -290,7 +285,7 @@
             this.splitContainerControl1.Panel2.Controls.Add(this.gridControl1);
             this.splitContainerControl1.Panel2.Controls.Add(this.panelControl1);
             this.splitContainerControl1.Panel2.Text = "Panel2";
-            this.splitContainerControl1.Size = new System.Drawing.Size(949, 548);
+            this.splitContainerControl1.Size = new System.Drawing.Size(1176, 548);
             this.splitContainerControl1.SplitterPosition = 140;
             this.splitContainerControl1.TabIndex = 38;
             this.splitContainerControl1.Text = "splitContainerControl1";
@@ -379,7 +374,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 41);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(797, 507);
+            this.gridControl1.Size = new System.Drawing.Size(1024, 507);
             this.gridControl1.TabIndex = 37;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -535,27 +530,14 @@
             // 
             // panelControl1
             // 
-            this.panelControl1.Controls.Add(this.labelControl2);
             this.panelControl1.Controls.Add(this.textEdit1);
             this.panelControl1.Controls.Add(this.simpleButton1);
             this.panelControl1.Controls.Add(this.simpleButton5);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(797, 41);
+            this.panelControl1.Size = new System.Drawing.Size(1024, 41);
             this.panelControl1.TabIndex = 36;
-            // 
-            // labelControl2
-            // 
-            this.labelControl2.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl2.Appearance.Options.UseBackColor = true;
-            this.labelControl2.Appearance.Options.UseForeColor = true;
-            this.labelControl2.Location = new System.Drawing.Point(32, 13);
-            this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(192, 14);
-            this.labelControl2.TabIndex = 14;
-            this.labelControl2.Text = "请输入物品编号、名称、和拼音查询";
             // 
             // textEdit1
             // 
@@ -563,7 +545,10 @@
             this.textEdit1.Name = "textEdit1";
             this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Size = new System.Drawing.Size(237, 26);
+            this.textEdit1.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit1.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit1.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit1.Size = new System.Drawing.Size(275, 26);
             this.textEdit1.TabIndex = 13;
             // 
             // simpleButton1
@@ -592,7 +577,7 @@
             this.navigationPage2.Controls.Add(this.gridControl2);
             this.navigationPage2.Controls.Add(this.panelControl3);
             this.navigationPage2.Name = "navigationPage2";
-            this.navigationPage2.Size = new System.Drawing.Size(949, 548);
+            this.navigationPage2.Size = new System.Drawing.Size(1181, 548);
             // 
             // gridControl2
             // 
@@ -600,7 +585,7 @@
             this.gridControl2.Location = new System.Drawing.Point(0, 41);
             this.gridControl2.MainView = this.gridView2;
             this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(949, 507);
+            this.gridControl2.Size = new System.Drawing.Size(1181, 507);
             this.gridControl2.TabIndex = 33;
             this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView2});
@@ -820,7 +805,6 @@
             this.panelControl3.Controls.Add(this.dateEdit1);
             this.panelControl3.Controls.Add(this.comboBoxEdit1);
             this.panelControl3.Controls.Add(this.labelControl3);
-            this.panelControl3.Controls.Add(this.labelControl4);
             this.panelControl3.Controls.Add(this.textEdit2);
             this.panelControl3.Controls.Add(this.simpleButton2);
             this.panelControl3.Controls.Add(this.simpleButton4);
@@ -829,12 +813,12 @@
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl3.Location = new System.Drawing.Point(0, 0);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(949, 41);
+            this.panelControl3.Size = new System.Drawing.Size(1181, 41);
             this.panelControl3.TabIndex = 3;
             // 
             // checkEdit2
             // 
-            this.checkEdit2.Location = new System.Drawing.Point(839, 8);
+            this.checkEdit2.Location = new System.Drawing.Point(857, 7);
             this.checkEdit2.Name = "checkEdit2";
             this.checkEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkEdit2.Properties.Appearance.Options.UseFont = true;
@@ -844,7 +828,7 @@
             // 
             // checkEdit1
             // 
-            this.checkEdit1.Location = new System.Drawing.Point(636, 7);
+            this.checkEdit1.Location = new System.Drawing.Point(654, 6);
             this.checkEdit1.Name = "checkEdit1";
             this.checkEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkEdit1.Properties.Appearance.Options.UseFont = true;
@@ -855,7 +839,7 @@
             // dateEdit1
             // 
             this.dateEdit1.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
-            this.dateEdit1.Location = new System.Drawing.Point(710, 6);
+            this.dateEdit1.Location = new System.Drawing.Point(728, 5);
             this.dateEdit1.Name = "dateEdit1";
             this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateEdit1.Properties.Appearance.Options.UseFont = true;
@@ -871,7 +855,7 @@
             // comboBoxEdit1
             // 
             this.comboBoxEdit1.EditValue = "";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(333, 6);
+            this.comboBoxEdit1.Location = new System.Drawing.Point(351, 5);
             this.comboBoxEdit1.Name = "comboBoxEdit1";
             this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
@@ -884,23 +868,11 @@
             // 
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(263, 9);
+            this.labelControl3.Location = new System.Drawing.Point(281, 8);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(64, 19);
             this.labelControl3.TabIndex = 18;
             this.labelControl3.Text = "物品类型";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl4.Appearance.Options.UseBackColor = true;
-            this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(19, 12);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(192, 14);
-            this.labelControl4.TabIndex = 16;
-            this.labelControl4.Text = "请输入物品编号、名称、和拼音查询";
             // 
             // textEdit2
             // 
@@ -908,14 +880,17 @@
             this.textEdit2.Name = "textEdit2";
             this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Size = new System.Drawing.Size(237, 26);
+            this.textEdit2.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit2.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit2.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit2.Size = new System.Drawing.Size(265, 26);
             this.textEdit2.TabIndex = 15;
             // 
             // simpleButton2
             // 
             this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Location = new System.Drawing.Point(1052, 5);
+            this.simpleButton2.Location = new System.Drawing.Point(1070, 4);
             this.simpleButton2.Name = "simpleButton2";
             this.simpleButton2.Size = new System.Drawing.Size(75, 26);
             this.simpleButton2.TabIndex = 9;
@@ -925,7 +900,7 @@
             // 
             this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.Location = new System.Drawing.Point(959, 5);
+            this.simpleButton4.Location = new System.Drawing.Point(977, 4);
             this.simpleButton4.Name = "simpleButton4";
             this.simpleButton4.Size = new System.Drawing.Size(75, 26);
             this.simpleButton4.TabIndex = 8;
@@ -934,7 +909,7 @@
             // comboBoxEdit3
             // 
             this.comboBoxEdit3.EditValue = "";
-            this.comboBoxEdit3.Location = new System.Drawing.Point(508, 5);
+            this.comboBoxEdit3.Location = new System.Drawing.Point(526, 4);
             this.comboBoxEdit3.Name = "comboBoxEdit3";
             this.comboBoxEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxEdit3.Properties.Appearance.Options.UseFont = true;
@@ -947,7 +922,7 @@
             // 
             this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(454, 9);
+            this.labelControl5.Location = new System.Drawing.Point(472, 8);
             this.labelControl5.Name = "labelControl5";
             this.labelControl5.Size = new System.Drawing.Size(48, 19);
             this.labelControl5.TabIndex = 5;
@@ -959,7 +934,7 @@
             this.navigationPage3.Controls.Add(this.gridControl3);
             this.navigationPage3.Controls.Add(this.panelControl4);
             this.navigationPage3.Name = "navigationPage3";
-            this.navigationPage3.Size = new System.Drawing.Size(949, 548);
+            this.navigationPage3.Size = new System.Drawing.Size(1176, 548);
             // 
             // gridControl3
             // 
@@ -967,7 +942,7 @@
             this.gridControl3.Location = new System.Drawing.Point(0, 41);
             this.gridControl3.MainView = this.gridView3;
             this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(949, 507);
+            this.gridControl3.Size = new System.Drawing.Size(1176, 507);
             this.gridControl3.TabIndex = 34;
             this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView3});
@@ -1194,7 +1169,6 @@
             // panelControl4
             // 
             this.panelControl4.Controls.Add(this.labelControl6);
-            this.panelControl4.Controls.Add(this.labelControl7);
             this.panelControl4.Controls.Add(this.textEdit3);
             this.panelControl4.Controls.Add(this.simpleButton6);
             this.panelControl4.Controls.Add(this.simpleButton7);
@@ -1205,7 +1179,7 @@
             this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl4.Location = new System.Drawing.Point(0, 0);
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(949, 41);
+            this.panelControl4.Size = new System.Drawing.Size(1176, 41);
             this.panelControl4.TabIndex = 5;
             // 
             // labelControl6
@@ -1218,24 +1192,15 @@
             this.labelControl6.TabIndex = 23;
             this.labelControl6.Text = "物品名称";
             // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl7.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl7.Appearance.Options.UseBackColor = true;
-            this.labelControl7.Appearance.Options.UseForeColor = true;
-            this.labelControl7.Location = new System.Drawing.Point(466, 15);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(192, 14);
-            this.labelControl7.TabIndex = 22;
-            this.labelControl7.Text = "请输入物品编号、名称、和拼音查询";
-            // 
             // textEdit3
             // 
             this.textEdit3.Location = new System.Drawing.Point(457, 8);
             this.textEdit3.Name = "textEdit3";
             this.textEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit3.Properties.Appearance.Options.UseFont = true;
+            this.textEdit3.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit3.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit3.Properties.NullValuePromptShowForEmptyValue = true;
             this.textEdit3.Size = new System.Drawing.Size(237, 26);
             this.textEdit3.TabIndex = 21;
             // 
@@ -1317,7 +1282,7 @@
             this.navigationPage4.Controls.Add(this.gridControl4);
             this.navigationPage4.Controls.Add(this.panelControl5);
             this.navigationPage4.Name = "navigationPage4";
-            this.navigationPage4.Size = new System.Drawing.Size(949, 548);
+            this.navigationPage4.Size = new System.Drawing.Size(1176, 548);
             // 
             // gridControl4
             // 
@@ -1325,7 +1290,7 @@
             this.gridControl4.Location = new System.Drawing.Point(0, 41);
             this.gridControl4.MainView = this.gridView4;
             this.gridControl4.Name = "gridControl4";
-            this.gridControl4.Size = new System.Drawing.Size(949, 507);
+            this.gridControl4.Size = new System.Drawing.Size(1176, 507);
             this.gridControl4.TabIndex = 35;
             this.gridControl4.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView4});
@@ -1554,7 +1519,6 @@
             this.panelControl5.Controls.Add(this.comboBoxEdit2);
             this.panelControl5.Controls.Add(this.labelControl10);
             this.panelControl5.Controls.Add(this.labelControl11);
-            this.panelControl5.Controls.Add(this.labelControl12);
             this.panelControl5.Controls.Add(this.textEdit4);
             this.panelControl5.Controls.Add(this.simpleButton8);
             this.panelControl5.Controls.Add(this.simpleButton9);
@@ -1565,7 +1529,7 @@
             this.panelControl5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl5.Location = new System.Drawing.Point(0, 0);
             this.panelControl5.Name = "panelControl5";
-            this.panelControl5.Size = new System.Drawing.Size(949, 41);
+            this.panelControl5.Size = new System.Drawing.Size(1176, 41);
             this.panelControl5.TabIndex = 6;
             // 
             // comboBoxEdit2
@@ -1605,32 +1569,23 @@
             this.labelControl11.TabIndex = 23;
             this.labelControl11.Text = "物品名称";
             // 
-            // labelControl12
-            // 
-            this.labelControl12.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl12.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl12.Appearance.Options.UseBackColor = true;
-            this.labelControl12.Appearance.Options.UseForeColor = true;
-            this.labelControl12.Location = new System.Drawing.Point(683, 14);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(192, 14);
-            this.labelControl12.TabIndex = 22;
-            this.labelControl12.Text = "请输入物品编号、名称、和拼音查询";
-            // 
             // textEdit4
             // 
             this.textEdit4.Location = new System.Drawing.Point(674, 7);
             this.textEdit4.Name = "textEdit4";
             this.textEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit4.Properties.Appearance.Options.UseFont = true;
-            this.textEdit4.Size = new System.Drawing.Size(237, 26);
+            this.textEdit4.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit4.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit4.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit4.Size = new System.Drawing.Size(269, 26);
             this.textEdit4.TabIndex = 21;
             // 
             // simpleButton8
             // 
             this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton8.Appearance.Options.UseFont = true;
-            this.simpleButton8.Location = new System.Drawing.Point(1020, 7);
+            this.simpleButton8.Location = new System.Drawing.Point(1042, 7);
             this.simpleButton8.Name = "simpleButton8";
             this.simpleButton8.Size = new System.Drawing.Size(75, 26);
             this.simpleButton8.TabIndex = 20;
@@ -1640,7 +1595,7 @@
             // 
             this.simpleButton9.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton9.Appearance.Options.UseFont = true;
-            this.simpleButton9.Location = new System.Drawing.Point(927, 7);
+            this.simpleButton9.Location = new System.Drawing.Point(949, 7);
             this.simpleButton9.Name = "simpleButton9";
             this.simpleButton9.Size = new System.Drawing.Size(75, 26);
             this.simpleButton9.TabIndex = 19;
@@ -1704,7 +1659,7 @@
             this.navigationPage5.Controls.Add(this.gridControl5);
             this.navigationPage5.Controls.Add(this.panelControl6);
             this.navigationPage5.Name = "navigationPage5";
-            this.navigationPage5.Size = new System.Drawing.Size(949, 548);
+            this.navigationPage5.Size = new System.Drawing.Size(1176, 548);
             // 
             // gridControl5
             // 
@@ -1712,7 +1667,7 @@
             this.gridControl5.Location = new System.Drawing.Point(0, 41);
             this.gridControl5.MainView = this.gridView5;
             this.gridControl5.Name = "gridControl5";
-            this.gridControl5.Size = new System.Drawing.Size(949, 507);
+            this.gridControl5.Size = new System.Drawing.Size(1176, 507);
             this.gridControl5.TabIndex = 36;
             this.gridControl5.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView5});
@@ -1899,14 +1854,13 @@
             this.panelControl6.Controls.Add(this.comboBoxEdit4);
             this.panelControl6.Controls.Add(this.labelControl15);
             this.panelControl6.Controls.Add(this.labelControl16);
-            this.panelControl6.Controls.Add(this.labelControl17);
             this.panelControl6.Controls.Add(this.textEdit5);
             this.panelControl6.Controls.Add(this.simpleButton10);
             this.panelControl6.Controls.Add(this.simpleButton11);
             this.panelControl6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl6.Location = new System.Drawing.Point(0, 0);
             this.panelControl6.Name = "panelControl6";
-            this.panelControl6.Size = new System.Drawing.Size(949, 41);
+            this.panelControl6.Size = new System.Drawing.Size(1176, 41);
             this.panelControl6.TabIndex = 7;
             // 
             // comboBoxEdit4
@@ -1946,32 +1900,23 @@
             this.labelControl16.TabIndex = 23;
             this.labelControl16.Text = "物品名称";
             // 
-            // labelControl17
-            // 
-            this.labelControl17.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl17.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl17.Appearance.Options.UseBackColor = true;
-            this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(321, 15);
-            this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(192, 14);
-            this.labelControl17.TabIndex = 22;
-            this.labelControl17.Text = "请输入物品编号、名称、和拼音查询";
-            // 
             // textEdit5
             // 
-            this.textEdit5.Location = new System.Drawing.Point(312, 8);
+            this.textEdit5.Location = new System.Drawing.Point(300, 8);
             this.textEdit5.Name = "textEdit5";
             this.textEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textEdit5.Properties.Appearance.Options.UseFont = true;
-            this.textEdit5.Size = new System.Drawing.Size(237, 26);
+            this.textEdit5.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit5.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit5.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit5.Size = new System.Drawing.Size(287, 26);
             this.textEdit5.TabIndex = 21;
             // 
             // simpleButton10
             // 
             this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton10.Appearance.Options.UseFont = true;
-            this.simpleButton10.Location = new System.Drawing.Point(658, 8);
+            this.simpleButton10.Location = new System.Drawing.Point(686, 8);
             this.simpleButton10.Name = "simpleButton10";
             this.simpleButton10.Size = new System.Drawing.Size(75, 26);
             this.simpleButton10.TabIndex = 20;
@@ -1981,7 +1926,7 @@
             // 
             this.simpleButton11.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.simpleButton11.Appearance.Options.UseFont = true;
-            this.simpleButton11.Location = new System.Drawing.Point(565, 8);
+            this.simpleButton11.Location = new System.Drawing.Point(593, 8);
             this.simpleButton11.Name = "simpleButton11";
             this.simpleButton11.Size = new System.Drawing.Size(75, 26);
             this.simpleButton11.TabIndex = 19;
@@ -1991,7 +1936,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1104, 612);
+            this.ClientSize = new System.Drawing.Size(1331, 612);
             this.Name = "frmStoreMgtCurrentTotal";
             this.Text = "当前库存";
             this.Load += new System.EventHandler(this.frmStoreMgtCurrentTotal_Load);
@@ -2010,7 +1955,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
-            this.panelControl1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.navigationPage2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
@@ -2070,7 +2014,6 @@
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage5;
         private System.Windows.Forms.ImageList imageList1;
         private DevExpress.XtraEditors.PanelControl panelControl1;
-        private DevExpress.XtraEditors.LabelControl labelControl2;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.SimpleButton simpleButton1;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
@@ -2100,7 +2043,6 @@
         private DevExpress.XtraEditors.DateEdit dateEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit1;
         private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.SimpleButton simpleButton2;
         private DevExpress.XtraEditors.SimpleButton simpleButton4;
@@ -2126,7 +2068,6 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn28;
         private DevExpress.XtraEditors.PanelControl panelControl4;
         private DevExpress.XtraEditors.LabelControl labelControl6;
-        private DevExpress.XtraEditors.LabelControl labelControl7;
         private DevExpress.XtraEditors.TextEdit textEdit3;
         private DevExpress.XtraEditors.SimpleButton simpleButton6;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
@@ -2157,7 +2098,6 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit2;
         private DevExpress.XtraEditors.LabelControl labelControl10;
         private DevExpress.XtraEditors.LabelControl labelControl11;
-        private DevExpress.XtraEditors.LabelControl labelControl12;
         private DevExpress.XtraEditors.TextEdit textEdit4;
         private DevExpress.XtraEditors.SimpleButton simpleButton8;
         private DevExpress.XtraEditors.SimpleButton simpleButton9;
@@ -2188,7 +2128,6 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit4;
         private DevExpress.XtraEditors.LabelControl labelControl15;
         private DevExpress.XtraEditors.LabelControl labelControl16;
-        private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.TextEdit textEdit5;
         private DevExpress.XtraEditors.SimpleButton simpleButton10;
         private DevExpress.XtraEditors.SimpleButton simpleButton11;

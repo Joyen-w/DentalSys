@@ -50,12 +50,12 @@
             this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.ucPatEmrCommon5 = new DentalSys.ucPatEmrCommon();
             this.ucPatEmrCommon4 = new DentalSys.ucPatEmrCommon();
             this.ucPatEmrCommon3 = new DentalSys.ucPatEmrCommon();
             this.ucPatEmrCommon2 = new DentalSys.ucPatEmrCommon();
             this.ucPatEmrCommon1 = new DentalSys.ucPatEmrCommon();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -106,6 +106,7 @@
             this.simpleButton3.Size = new System.Drawing.Size(33, 36);
             this.simpleButton3.TabIndex = 160;
             this.simpleButton3.ToolTip = "新建处置";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // simpleButton1
             // 
@@ -347,41 +348,6 @@
             this.labelControl1.TabIndex = 141;
             this.labelControl1.Text = "2019-07-31 08:30";
             // 
-            // ucPatEmrCommon5
-            // 
-            this.ucPatEmrCommon5.Location = new System.Drawing.Point(91, 338);
-            this.ucPatEmrCommon5.Name = "ucPatEmrCommon5";
-            this.ucPatEmrCommon5.Size = new System.Drawing.Size(604, 46);
-            this.ucPatEmrCommon5.TabIndex = 166;
-            // 
-            // ucPatEmrCommon4
-            // 
-            this.ucPatEmrCommon4.Location = new System.Drawing.Point(91, 287);
-            this.ucPatEmrCommon4.Name = "ucPatEmrCommon4";
-            this.ucPatEmrCommon4.Size = new System.Drawing.Size(604, 46);
-            this.ucPatEmrCommon4.TabIndex = 165;
-            // 
-            // ucPatEmrCommon3
-            // 
-            this.ucPatEmrCommon3.Location = new System.Drawing.Point(91, 235);
-            this.ucPatEmrCommon3.Name = "ucPatEmrCommon3";
-            this.ucPatEmrCommon3.Size = new System.Drawing.Size(604, 46);
-            this.ucPatEmrCommon3.TabIndex = 164;
-            // 
-            // ucPatEmrCommon2
-            // 
-            this.ucPatEmrCommon2.Location = new System.Drawing.Point(91, 183);
-            this.ucPatEmrCommon2.Name = "ucPatEmrCommon2";
-            this.ucPatEmrCommon2.Size = new System.Drawing.Size(604, 46);
-            this.ucPatEmrCommon2.TabIndex = 163;
-            // 
-            // ucPatEmrCommon1
-            // 
-            this.ucPatEmrCommon1.Location = new System.Drawing.Point(91, 131);
-            this.ucPatEmrCommon1.Name = "ucPatEmrCommon1";
-            this.ucPatEmrCommon1.Size = new System.Drawing.Size(604, 46);
-            this.ucPatEmrCommon1.TabIndex = 162;
-            // 
             // panelControl2
             // 
             this.panelControl2.Appearance.BackColor = System.Drawing.Color.PowderBlue;
@@ -391,6 +357,46 @@
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(10, 420);
             this.panelControl2.TabIndex = 140;
+            // 
+            // ucPatEmrCommon5
+            // 
+            this.ucPatEmrCommon5.AutoSize = true;
+            this.ucPatEmrCommon5.Location = new System.Drawing.Point(91, 338);
+            this.ucPatEmrCommon5.Name = "ucPatEmrCommon5";
+            this.ucPatEmrCommon5.Size = new System.Drawing.Size(604, 57);
+            this.ucPatEmrCommon5.TabIndex = 166;
+            // 
+            // ucPatEmrCommon4
+            // 
+            this.ucPatEmrCommon4.AutoSize = true;
+            this.ucPatEmrCommon4.Location = new System.Drawing.Point(91, 287);
+            this.ucPatEmrCommon4.Name = "ucPatEmrCommon4";
+            this.ucPatEmrCommon4.Size = new System.Drawing.Size(604, 57);
+            this.ucPatEmrCommon4.TabIndex = 165;
+            // 
+            // ucPatEmrCommon3
+            // 
+            this.ucPatEmrCommon3.AutoSize = true;
+            this.ucPatEmrCommon3.Location = new System.Drawing.Point(91, 235);
+            this.ucPatEmrCommon3.Name = "ucPatEmrCommon3";
+            this.ucPatEmrCommon3.Size = new System.Drawing.Size(604, 57);
+            this.ucPatEmrCommon3.TabIndex = 164;
+            // 
+            // ucPatEmrCommon2
+            // 
+            this.ucPatEmrCommon2.AutoSize = true;
+            this.ucPatEmrCommon2.Location = new System.Drawing.Point(91, 183);
+            this.ucPatEmrCommon2.Name = "ucPatEmrCommon2";
+            this.ucPatEmrCommon2.Size = new System.Drawing.Size(604, 57);
+            this.ucPatEmrCommon2.TabIndex = 163;
+            // 
+            // ucPatEmrCommon1
+            // 
+            this.ucPatEmrCommon1.AutoSize = true;
+            this.ucPatEmrCommon1.Location = new System.Drawing.Point(91, 131);
+            this.ucPatEmrCommon1.Name = "ucPatEmrCommon1";
+            this.ucPatEmrCommon1.Size = new System.Drawing.Size(604, 57);
+            this.ucPatEmrCommon1.TabIndex = 162;
             // 
             // ucPatEmrFirstVisit
             // 

@@ -54,7 +54,7 @@
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelControl1.Location = new System.Drawing.Point(0, 0);
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(89, 46);
+            this.panelControl1.Size = new System.Drawing.Size(89, 57);
             this.panelControl1.TabIndex = 0;
             // 
             // labelControl5
@@ -115,20 +115,21 @@
             this.labelControl4.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl4.Appearance.Options.UseFont = true;
             this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(98, 14);
+            this.labelControl4.Location = new System.Drawing.Point(95, 3);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(486, 17);
+            this.labelControl4.Size = new System.Drawing.Size(190, 51);
             this.labelControl4.TabIndex = 98;
-            this.labelControl4.Text = "近中邻颌面中龋，叩（+），松（-） 牙间龈乳头红肿，充血，有嵌塞物。";
+            this.labelControl4.Text = "近中邻颌面中龋，叩（+）\r\n，松（-） 牙间龈乳头红肿，\r\n充血，有嵌塞物。";
             // 
             // ucPatEmrCommon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.Controls.Add(this.labelControl4);
             this.Controls.Add(this.panelControl1);
             this.Name = "ucPatEmrCommon";
-            this.Size = new System.Drawing.Size(604, 46);
+            this.Size = new System.Drawing.Size(604, 57);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();

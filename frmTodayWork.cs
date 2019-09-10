@@ -1,24 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Data;
-using System.Linq;
+using System.Drawing;
 using System.Text;
+using System.Linq;
 using System.Windows.Forms;
+using DevExpress.XtraEditors;
 
 namespace DentalSys
 {
-    public partial class ucPatConsultInfo : UserControl
+    public partial class frmTodayWork : frmBase
     {
-        public ucPatConsultInfo()
+        public frmTodayWork()
         {
             InitializeComponent();
         }
 
-        private void simpleButton3_Click(object sender, EventArgs e)
+        private void frmTodayWork_Load(object sender, EventArgs e)
         {
-            
+
         }
     }
 }

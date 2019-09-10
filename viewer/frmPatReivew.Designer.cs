@@ -39,6 +39,10 @@
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.splitContainerControl1 = new DevExpress.XtraEditors.SplitContainerControl();
             this.xtraTabControl1 = new DevExpress.XtraTab.XtraTabControl();
             this.xtraTabPage1 = new DevExpress.XtraTab.XtraTabPage();
@@ -110,28 +114,24 @@
             this.repositoryItemButtonEdit3 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
             this.xtraTabPage8 = new DevExpress.XtraTab.XtraTabPage();
             this.ucPatConsultInfo1 = new DentalSys.ucPatConsultInfo();
-            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
-            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
-            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.memoEdit2 = new DevExpress.XtraEditors.MemoEdit();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton10 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.memoEdit1 = new DevExpress.XtraEditors.MemoEdit();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.radioGroup1 = new DevExpress.XtraEditors.RadioGroup();
+            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit2 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl7 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl6 = new DevExpress.XtraEditors.LabelControl();
+            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
@@ -170,13 +170,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).BeginInit();
             this.xtraTabPage8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // pcBase
@@ -249,6 +249,54 @@
             this.panelControl2.Name = "panelControl2";
             this.panelControl2.Size = new System.Drawing.Size(1097, 40);
             this.panelControl2.TabIndex = 2;
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton4.Appearance.Options.UseFont = true;
+            this.simpleButton4.Appearance.Options.UseForeColor = true;
+            this.simpleButton4.Location = new System.Drawing.Point(227, 1);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton4.TabIndex = 62;
+            this.simpleButton4.Text = "回访计划";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton3.Appearance.Options.UseFont = true;
+            this.simpleButton3.Appearance.Options.UseForeColor = true;
+            this.simpleButton3.Location = new System.Drawing.Point(79, 1);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton3.TabIndex = 61;
+            this.simpleButton3.Text = "复诊预约";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Appearance.Options.UseForeColor = true;
+            this.simpleButton2.Location = new System.Drawing.Point(686, 1);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton2.TabIndex = 60;
+            this.simpleButton2.Text = "确定";
+            // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.simpleButton6.Appearance.Options.UseFont = true;
+            this.simpleButton6.Appearance.Options.UseForeColor = true;
+            this.simpleButton6.Location = new System.Drawing.Point(895, 1);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(129, 36);
+            this.simpleButton6.TabIndex = 59;
+            this.simpleButton6.Text = "取消";
             // 
             // splitContainerControl1
             // 
@@ -1244,7 +1292,7 @@
             // 
             this.xtraTabPage8.Controls.Add(this.ucPatConsultInfo1);
             this.xtraTabPage8.Name = "xtraTabPage8";
-            this.xtraTabPage8.Size = new System.Drawing.Size(749, 441);
+            this.xtraTabPage8.Size = new System.Drawing.Size(749, 407);
             this.xtraTabPage8.Text = "沟通记录";
             // 
             // ucPatConsultInfo1
@@ -1255,153 +1303,25 @@
             this.ucPatConsultInfo1.Size = new System.Drawing.Size(743, 199);
             this.ucPatConsultInfo1.TabIndex = 0;
             // 
-            // labelControl6
+            // labelControl14
             // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(10, 64);
-            this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(70, 17);
-            this.labelControl6.TabIndex = 2;
-            this.labelControl6.Text = "回访人员：";
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.Location = new System.Drawing.Point(99, 426);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(56, 17);
+            this.labelControl14.TabIndex = 82;
+            this.labelControl14.Text = "暂无录音";
             // 
-            // dateEdit1
+            // labelControl13
             // 
-            this.dateEdit1.EditValue = null;
-            this.dateEdit1.Location = new System.Drawing.Point(86, 31);
-            this.dateEdit1.Name = "dateEdit1";
-            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd HH:mm";
-            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit1.Properties.EditFormat.FormatString = "yyyy-MM-dd HH:mm";
-            this.dateEdit1.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit1.Properties.Mask.EditMask = "yyyy-MM-dd HH:mm";
-            this.dateEdit1.Size = new System.Drawing.Size(178, 24);
-            this.dateEdit1.TabIndex = 1;
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(10, 32);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(70, 17);
-            this.labelControl5.TabIndex = 0;
-            this.labelControl5.Text = "回访时间：";
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.Location = new System.Drawing.Point(86, 61);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(178, 24);
-            this.comboBoxEdit1.TabIndex = 3;
-            // 
-            // comboBoxEdit2
-            // 
-            this.comboBoxEdit2.Location = new System.Drawing.Point(86, 91);
-            this.comboBoxEdit2.Name = "comboBoxEdit2";
-            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit2.Size = new System.Drawing.Size(178, 24);
-            this.comboBoxEdit2.TabIndex = 5;
-            // 
-            // labelControl7
-            // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(10, 94);
-            this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(70, 17);
-            this.labelControl7.TabIndex = 4;
-            this.labelControl7.Text = "主治医生：";
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(10, 126);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(70, 17);
-            this.labelControl8.TabIndex = 6;
-            this.labelControl8.Text = "回访状态：";
-            // 
-            // radioGroup1
-            // 
-            this.radioGroup1.Location = new System.Drawing.Point(86, 121);
-            this.radioGroup1.Name = "radioGroup1";
-            this.radioGroup1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioGroup1.Properties.Appearance.Options.UseFont = true;
-            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "已回访"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "做计划"),
-            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "待跟进")});
-            this.radioGroup1.Size = new System.Drawing.Size(210, 28);
-            this.radioGroup1.TabIndex = 7;
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(10, 179);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(70, 17);
-            this.labelControl9.TabIndex = 8;
-            this.labelControl9.Text = "回访内容：";
-            // 
-            // memoEdit1
-            // 
-            this.memoEdit1.Location = new System.Drawing.Point(86, 178);
-            this.memoEdit1.Name = "memoEdit1";
-            this.memoEdit1.Size = new System.Drawing.Size(241, 96);
-            this.memoEdit1.TabIndex = 9;
-            // 
-            // labelControl10
-            // 
-            this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.AppearanceHovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl10.AppearanceHovered.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.labelControl10.AppearanceHovered.Options.UseFont = true;
-            this.labelControl10.AppearanceHovered.Options.UseForeColor = true;
-            this.labelControl10.Location = new System.Drawing.Point(86, 155);
-            this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(70, 17);
-            this.labelControl10.TabIndex = 10;
-            this.labelControl10.Text = "回访内容语";
-            // 
-            // simpleButton10
-            // 
-            this.simpleButton10.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.simpleButton10.Appearance.BackColor2 = System.Drawing.Color.Transparent;
-            this.simpleButton10.Appearance.BorderColor = System.Drawing.Color.Transparent;
-            this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton10.Appearance.ForeColor = System.Drawing.Color.Transparent;
-            this.simpleButton10.Appearance.Options.UseBackColor = true;
-            this.simpleButton10.Appearance.Options.UseBorderColor = true;
-            this.simpleButton10.Appearance.Options.UseFont = true;
-            this.simpleButton10.Appearance.Options.UseForeColor = true;
-            this.simpleButton10.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
-            this.simpleButton10.AppearanceHovered.Options.UseBackColor = true;
-            this.simpleButton10.AppearancePressed.BackColor = System.Drawing.Color.Gray;
-            this.simpleButton10.AppearancePressed.Options.UseBackColor = true;
-            this.simpleButton10.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.simpleButton10.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton10.Image")));
-            this.simpleButton10.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.simpleButton10.Location = new System.Drawing.Point(171, 152);
-            this.simpleButton10.Name = "simpleButton10";
-            this.simpleButton10.Size = new System.Drawing.Size(30, 24);
-            this.simpleButton10.TabIndex = 76;
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl13.Appearance.Options.UseFont = true;
+            this.labelControl13.Location = new System.Drawing.Point(10, 426);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(56, 17);
+            this.labelControl13.TabIndex = 81;
+            this.labelControl13.Text = "回访录音";
             // 
             // simpleButton1
             // 
@@ -1457,73 +1377,153 @@
             this.labelControl12.TabIndex = 77;
             this.labelControl12.Text = "回访结果：";
             // 
-            // labelControl13
+            // simpleButton10
             // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl13.Appearance.Options.UseFont = true;
-            this.labelControl13.Location = new System.Drawing.Point(10, 426);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(56, 17);
-            this.labelControl13.TabIndex = 81;
-            this.labelControl13.Text = "回访录音";
+            this.simpleButton10.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.BackColor2 = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.BorderColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton10.Appearance.ForeColor = System.Drawing.Color.Transparent;
+            this.simpleButton10.Appearance.Options.UseBackColor = true;
+            this.simpleButton10.Appearance.Options.UseBorderColor = true;
+            this.simpleButton10.Appearance.Options.UseFont = true;
+            this.simpleButton10.Appearance.Options.UseForeColor = true;
+            this.simpleButton10.AppearanceHovered.BackColor = System.Drawing.Color.Silver;
+            this.simpleButton10.AppearanceHovered.Options.UseBackColor = true;
+            this.simpleButton10.AppearancePressed.BackColor = System.Drawing.Color.Gray;
+            this.simpleButton10.AppearancePressed.Options.UseBackColor = true;
+            this.simpleButton10.ButtonStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
+            this.simpleButton10.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton10.Image")));
+            this.simpleButton10.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.simpleButton10.Location = new System.Drawing.Point(171, 152);
+            this.simpleButton10.Name = "simpleButton10";
+            this.simpleButton10.Size = new System.Drawing.Size(30, 24);
+            this.simpleButton10.TabIndex = 76;
             // 
-            // labelControl14
+            // labelControl10
             // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl14.Appearance.Options.UseFont = true;
-            this.labelControl14.Location = new System.Drawing.Point(99, 426);
-            this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(56, 17);
-            this.labelControl14.TabIndex = 82;
-            this.labelControl14.Text = "暂无录音";
+            this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.Appearance.Options.UseFont = true;
+            this.labelControl10.AppearanceHovered.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.AppearanceHovered.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.labelControl10.AppearanceHovered.Options.UseFont = true;
+            this.labelControl10.AppearanceHovered.Options.UseForeColor = true;
+            this.labelControl10.Location = new System.Drawing.Point(86, 155);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(70, 17);
+            this.labelControl10.TabIndex = 10;
+            this.labelControl10.Text = "回访内容语";
             // 
-            // simpleButton2
+            // memoEdit1
             // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton2.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Appearance.Options.UseForeColor = true;
-            this.simpleButton2.Location = new System.Drawing.Point(686, 1);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(129, 36);
-            this.simpleButton2.TabIndex = 60;
-            this.simpleButton2.Text = "确定";
+            this.memoEdit1.Location = new System.Drawing.Point(86, 178);
+            this.memoEdit1.Name = "memoEdit1";
+            this.memoEdit1.Size = new System.Drawing.Size(241, 96);
+            this.memoEdit1.TabIndex = 9;
             // 
-            // simpleButton6
+            // labelControl9
             // 
-            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton6.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton6.Appearance.Options.UseFont = true;
-            this.simpleButton6.Appearance.Options.UseForeColor = true;
-            this.simpleButton6.Location = new System.Drawing.Point(895, 1);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(129, 36);
-            this.simpleButton6.TabIndex = 59;
-            this.simpleButton6.Text = "取消";
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl9.Appearance.Options.UseFont = true;
+            this.labelControl9.Location = new System.Drawing.Point(10, 179);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(70, 17);
+            this.labelControl9.TabIndex = 8;
+            this.labelControl9.Text = "回访内容：";
             // 
-            // simpleButton3
+            // radioGroup1
             // 
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Appearance.Options.UseForeColor = true;
-            this.simpleButton3.Location = new System.Drawing.Point(79, 1);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(129, 36);
-            this.simpleButton3.TabIndex = 61;
-            this.simpleButton3.Text = "复诊预约";
+            this.radioGroup1.Location = new System.Drawing.Point(86, 121);
+            this.radioGroup1.Name = "radioGroup1";
+            this.radioGroup1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioGroup1.Properties.Appearance.Options.UseFont = true;
+            this.radioGroup1.Properties.Items.AddRange(new DevExpress.XtraEditors.Controls.RadioGroupItem[] {
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "已回访"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "做计划"),
+            new DevExpress.XtraEditors.Controls.RadioGroupItem(null, "待跟进")});
+            this.radioGroup1.Size = new System.Drawing.Size(210, 28);
+            this.radioGroup1.TabIndex = 7;
             // 
-            // simpleButton4
+            // labelControl8
             // 
-            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton4.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.Appearance.Options.UseForeColor = true;
-            this.simpleButton4.Location = new System.Drawing.Point(227, 1);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(129, 36);
-            this.simpleButton4.TabIndex = 62;
-            this.simpleButton4.Text = "回访计划";
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl8.Appearance.Options.UseFont = true;
+            this.labelControl8.Location = new System.Drawing.Point(10, 126);
+            this.labelControl8.Name = "labelControl8";
+            this.labelControl8.Size = new System.Drawing.Size(70, 17);
+            this.labelControl8.TabIndex = 6;
+            this.labelControl8.Text = "回访状态：";
+            // 
+            // comboBoxEdit2
+            // 
+            this.comboBoxEdit2.Location = new System.Drawing.Point(86, 91);
+            this.comboBoxEdit2.Name = "comboBoxEdit2";
+            this.comboBoxEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit2.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit2.Size = new System.Drawing.Size(178, 24);
+            this.comboBoxEdit2.TabIndex = 5;
+            // 
+            // labelControl7
+            // 
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl7.Appearance.Options.UseFont = true;
+            this.labelControl7.Location = new System.Drawing.Point(10, 94);
+            this.labelControl7.Name = "labelControl7";
+            this.labelControl7.Size = new System.Drawing.Size(70, 17);
+            this.labelControl7.TabIndex = 4;
+            this.labelControl7.Text = "主治医生：";
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.Location = new System.Drawing.Point(86, 61);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(178, 24);
+            this.comboBoxEdit1.TabIndex = 3;
+            // 
+            // labelControl6
+            // 
+            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl6.Appearance.Options.UseFont = true;
+            this.labelControl6.Location = new System.Drawing.Point(10, 64);
+            this.labelControl6.Name = "labelControl6";
+            this.labelControl6.Size = new System.Drawing.Size(70, 17);
+            this.labelControl6.TabIndex = 2;
+            this.labelControl6.Text = "回访人员：";
+            // 
+            // dateEdit1
+            // 
+            this.dateEdit1.EditValue = null;
+            this.dateEdit1.Location = new System.Drawing.Point(86, 31);
+            this.dateEdit1.Name = "dateEdit1";
+            this.dateEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit1.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.DisplayFormat.FormatString = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.EditFormat.FormatString = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Properties.EditFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit1.Properties.Mask.EditMask = "yyyy-MM-dd HH:mm";
+            this.dateEdit1.Size = new System.Drawing.Size(178, 24);
+            this.dateEdit1.TabIndex = 1;
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(10, 32);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(70, 17);
+            this.labelControl5.TabIndex = 0;
+            this.labelControl5.Text = "回访时间：";
             // 
             // frmPatReivew
             // 
@@ -1574,13 +1574,13 @@
             ((System.ComponentModel.ISupportInitialize)(this.gridView4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit3)).EndInit();
             this.xtraTabPage8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.radioGroup1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.memoEdit2.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

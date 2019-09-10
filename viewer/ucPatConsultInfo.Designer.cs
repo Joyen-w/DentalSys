@@ -197,6 +197,7 @@
             this.simpleButton3.Size = new System.Drawing.Size(33, 36);
             this.simpleButton3.TabIndex = 156;
             this.simpleButton3.ToolTip = "新建处置";
+            this.simpleButton3.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
             // labelControl4
             // 

@@ -30,8 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFrame));
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup3 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
-            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup4 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup1 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
+            DevExpress.XtraBars.Ribbon.GalleryItemGroup galleryItemGroup2 = new DevExpress.XtraBars.Ribbon.GalleryItemGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.defaultLookAndFeel = new DevExpress.LookAndFeel.DefaultLookAndFeel(this.components);
             this.imageCollection1 = new DevExpress.Utils.ImageCollection(this.components);
@@ -398,7 +398,7 @@
             this.ribbonControl.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.Office2013;
             this.ribbonControl.ShowApplicationButton = DevExpress.Utils.DefaultBoolean.False;
             this.ribbonControl.ShowToolbarCustomizeItem = false;
-            this.ribbonControl.Size = new System.Drawing.Size(1602, 131);
+            this.ribbonControl.Size = new System.Drawing.Size(1404, 131);
             this.ribbonControl.StatusBar = this.ribbonStatusBar1;
             this.ribbonControl.Toolbar.ShowCustomizeItem = false;
             this.ribbonControl.TransparentEditors = true;
@@ -880,9 +880,9 @@
             // 
             // 
             // 
-            galleryItemGroup3.Caption = "Main";
+            galleryItemGroup1.Caption = "Main";
             this.rgbiFont.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup3});
+            galleryItemGroup1});
             this.rgbiFont.Gallery.ImageSize = new System.Drawing.Size(40, 40);
             this.rgbiFont.Id = 29;
             this.rgbiFont.Name = "rgbiFont";
@@ -904,9 +904,9 @@
             // 
             // 
             this.rgbiFontColor.Gallery.ColumnCount = 10;
-            galleryItemGroup4.Caption = "Main";
+            galleryItemGroup2.Caption = "Main";
             this.rgbiFontColor.Gallery.Groups.AddRange(new DevExpress.XtraBars.Ribbon.GalleryItemGroup[] {
-            galleryItemGroup4});
+            galleryItemGroup2});
             this.rgbiFontColor.Gallery.ImageSize = new System.Drawing.Size(20, 14);
             this.rgbiFontColor.Gallery.ItemImageLayout = DevExpress.Utils.Drawing.ImageLayoutMode.Stretch;
             this.rgbiFontColor.Id = 37;
@@ -1038,6 +1038,7 @@
             this.barButtonItem3.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem3.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem3.Name = "barButtonItem3";
+            this.barButtonItem3.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem3_ItemClick);
             // 
             // barStaticItem3
             // 
@@ -1153,6 +1154,7 @@
             this.barButtonItem8.ItemAppearance.Pressed.Font = new System.Drawing.Font("Tahoma", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.barButtonItem8.ItemAppearance.Pressed.Options.UseFont = true;
             this.barButtonItem8.Name = "barButtonItem8";
+            this.barButtonItem8.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem8_ItemClick);
             // 
             // barStaticItem8
             // 
@@ -2149,7 +2151,7 @@
             this.ribbonStatusBar1.Margin = new System.Windows.Forms.Padding(4);
             this.ribbonStatusBar1.Name = "ribbonStatusBar1";
             this.ribbonStatusBar1.Ribbon = this.ribbonControl;
-            this.ribbonStatusBar1.Size = new System.Drawing.Size(1602, 31);
+            this.ribbonStatusBar1.Size = new System.Drawing.Size(1404, 31);
             // 
             // xtraTabbedMdiManager
             // 
@@ -2160,7 +2162,7 @@
             this.Appearance.Options.UseFont = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1602, 915);
+            this.ClientSize = new System.Drawing.Size(1404, 915);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl);
             this.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

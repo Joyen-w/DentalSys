@@ -30,8 +30,14 @@
         {
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
@@ -47,14 +53,17 @@
             this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
             this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
             this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
@@ -70,16 +79,17 @@
             this.dateEdit3 = new DevExpress.XtraEditors.DateEdit();
             this.dateEdit4 = new DevExpress.XtraEditors.DateEdit();
             this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl1 = new DevExpress.XtraGrid.GridControl();
-            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn2 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn5 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn6 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn9 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn10 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
@@ -95,23 +105,13 @@
             this.dateEdit5 = new DevExpress.XtraEditors.DateEdit();
             this.dateEdit6 = new DevExpress.XtraEditors.DateEdit();
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.gridControl3 = new DevExpress.XtraGrid.GridControl();
-            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn11 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn12 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn13 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn14 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage3.SuspendLayout();
-            this.navigationPage4.SuspendLayout();
-            this.navigationPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit2.Properties)).BeginInit();
@@ -120,8 +120,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            this.navigationPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit1.Properties)).BeginInit();
@@ -130,8 +131,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.navigationPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).BeginInit();
@@ -140,14 +142,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // pcBase
             // 
             this.pcBase.Controls.Add(this.navigationPane1);
             this.pcBase.Size = new System.Drawing.Size(1207, 640);
+            // 
+            // defaultLookAndFeel
+            // 
+            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
             // 
             // navigationPane1
             // 
@@ -183,21 +187,87 @@
             this.navigationPage3.Name = "navigationPage3";
             this.navigationPage3.Size = new System.Drawing.Size(1089, 576);
             // 
-            // navigationPage4
+            // gridControl2
             // 
-            this.navigationPage4.Caption = "复盘盘亏单";
-            this.navigationPage4.Controls.Add(this.gridControl1);
-            this.navigationPage4.Controls.Add(this.panelControl2);
-            this.navigationPage4.Name = "navigationPage4";
-            this.navigationPage4.Size = new System.Drawing.Size(1089, 576);
+            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl2.Location = new System.Drawing.Point(0, 71);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.Size = new System.Drawing.Size(1089, 505);
+            this.gridControl2.TabIndex = 38;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
             // 
-            // navigationPage5
+            // gridView2
             // 
-            this.navigationPage5.Caption = "复盘盘盈单";
-            this.navigationPage5.Controls.Add(this.gridControl3);
-            this.navigationPage5.Controls.Add(this.panelControl3);
-            this.navigationPage5.Name = "navigationPage5";
-            this.navigationPage5.Size = new System.Drawing.Size(1089, 576);
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn4,
+            this.gridColumn15,
+            this.gridColumn16,
+            this.gridColumn17,
+            this.gridColumn18});
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.ShowGroupPanel = false;
+            this.gridView2.OptionsView.ShowIndicator = false;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn1.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn1.Caption = "初盘单号";
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 0;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn4.Caption = "初盘日期";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 1;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn15.Caption = "单据状态";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 2;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn16.Caption = "初盘人";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 3;
+            // 
+            // gridColumn17
+            // 
+            this.gridColumn17.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn17.Caption = "更新时间";
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 4;
+            // 
+            // gridColumn18
+            // 
+            this.gridColumn18.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn18.Caption = "备注";
+            this.gridColumn18.Name = "gridColumn18";
+            this.gridColumn18.Visible = true;
+            this.gridColumn18.VisibleIndex = 5;
             // 
             // panelControl1
             // 
@@ -383,87 +453,123 @@
             this.labelControl4.TabIndex = 15;
             this.labelControl4.Text = "初盘日期";
             // 
-            // gridControl2
+            // navigationPage4
             // 
-            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl2.Location = new System.Drawing.Point(0, 71);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.Size = new System.Drawing.Size(1089, 505);
-            this.gridControl2.TabIndex = 38;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2});
+            this.navigationPage4.Caption = "复盘盘亏单";
+            this.navigationPage4.Controls.Add(this.gridControl1);
+            this.navigationPage4.Controls.Add(this.panelControl2);
+            this.navigationPage4.Name = "navigationPage4";
+            this.navigationPage4.Size = new System.Drawing.Size(1089, 576);
             // 
-            // gridView2
+            // gridControl1
             // 
-            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn4,
-            this.gridColumn15,
-            this.gridColumn16,
-            this.gridColumn17,
-            this.gridColumn18});
-            this.gridView2.GridControl = this.gridControl2;
-            this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsView.ShowGroupPanel = false;
-            this.gridView2.OptionsView.ShowIndicator = false;
+            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl1.Location = new System.Drawing.Point(0, 71);
+            this.gridControl1.MainView = this.gridView1;
+            this.gridControl1.Name = "gridControl1";
+            this.gridControl1.Size = new System.Drawing.Size(1089, 505);
+            this.gridControl1.TabIndex = 39;
+            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView1});
             // 
-            // gridColumn1
+            // gridView1
             // 
-            this.gridColumn1.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.Caption = "初盘单号";
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn2,
+            this.gridColumn3,
+            this.gridColumn5,
+            this.gridColumn6,
+            this.gridColumn7,
+            this.gridColumn8,
+            this.gridColumn9,
+            this.gridColumn10});
+            this.gridView1.GridControl = this.gridControl1;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsView.ShowGroupPanel = false;
+            this.gridView1.OptionsView.ShowIndicator = false;
             // 
-            // gridColumn4
+            // gridColumn2
             // 
-            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn4.Caption = "初盘日期";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 1;
+            this.gridColumn2.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn2.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn2.Caption = "盘亏单号";
+            this.gridColumn2.Name = "gridColumn2";
+            this.gridColumn2.Visible = true;
+            this.gridColumn2.VisibleIndex = 0;
             // 
-            // gridColumn15
+            // gridColumn3
             // 
-            this.gridColumn15.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn15.Caption = "单据状态";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 2;
+            this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn3.Caption = "盘亏日期";
+            this.gridColumn3.Name = "gridColumn3";
+            this.gridColumn3.Visible = true;
+            this.gridColumn3.VisibleIndex = 1;
             // 
-            // gridColumn16
+            // gridColumn5
             // 
-            this.gridColumn16.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn16.Caption = "初盘人";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 3;
+            this.gridColumn5.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn5.Caption = "单据状态";
+            this.gridColumn5.Name = "gridColumn5";
+            this.gridColumn5.Visible = true;
+            this.gridColumn5.VisibleIndex = 2;
             // 
-            // gridColumn17
+            // gridColumn6
             // 
-            this.gridColumn17.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn17.Caption = "更新时间";
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 4;
+            this.gridColumn6.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn6.Caption = "总金额";
+            this.gridColumn6.Name = "gridColumn6";
+            this.gridColumn6.Visible = true;
+            this.gridColumn6.VisibleIndex = 3;
             // 
-            // gridColumn18
+            // gridColumn7
             // 
-            this.gridColumn18.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn18.Caption = "备注";
-            this.gridColumn18.Name = "gridColumn18";
-            this.gridColumn18.Visible = true;
-            this.gridColumn18.VisibleIndex = 5;
+            this.gridColumn7.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn7.Caption = "盘点人";
+            this.gridColumn7.Name = "gridColumn7";
+            this.gridColumn7.Visible = true;
+            this.gridColumn7.VisibleIndex = 4;
+            // 
+            // gridColumn8
+            // 
+            this.gridColumn8.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn8.Caption = "审核人";
+            this.gridColumn8.Name = "gridColumn8";
+            this.gridColumn8.Visible = true;
+            this.gridColumn8.VisibleIndex = 5;
+            // 
+            // gridColumn9
+            // 
+            this.gridColumn9.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn9.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn9.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn9.Caption = "更新时间";
+            this.gridColumn9.Name = "gridColumn9";
+            this.gridColumn9.Visible = true;
+            this.gridColumn9.VisibleIndex = 6;
+            // 
+            // gridColumn10
+            // 
+            this.gridColumn10.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn10.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn10.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn10.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn10.Caption = "备注";
+            this.gridColumn10.Name = "gridColumn10";
+            this.gridColumn10.Visible = true;
+            this.gridColumn10.VisibleIndex = 7;
             // 
             // panelControl2
             // 
@@ -649,115 +755,123 @@
             this.labelControl8.TabIndex = 15;
             this.labelControl8.Text = "盘亏日期";
             // 
-            // gridControl1
+            // navigationPage5
             // 
-            this.gridControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl1.Location = new System.Drawing.Point(0, 71);
-            this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1089, 505);
-            this.gridControl1.TabIndex = 39;
-            this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView1});
+            this.navigationPage5.Caption = "复盘盘盈单";
+            this.navigationPage5.Controls.Add(this.gridControl3);
+            this.navigationPage5.Controls.Add(this.panelControl3);
+            this.navigationPage5.Name = "navigationPage5";
+            this.navigationPage5.Size = new System.Drawing.Size(1084, 576);
             // 
-            // gridView1
+            // gridControl3
             // 
-            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn2,
-            this.gridColumn3,
-            this.gridColumn5,
-            this.gridColumn6,
-            this.gridColumn7,
-            this.gridColumn8,
-            this.gridColumn9,
-            this.gridColumn10});
-            this.gridView1.GridControl = this.gridControl1;
-            this.gridView1.Name = "gridView1";
-            this.gridView1.OptionsView.ShowGroupPanel = false;
-            this.gridView1.OptionsView.ShowIndicator = false;
+            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl3.Location = new System.Drawing.Point(0, 71);
+            this.gridControl3.MainView = this.gridView3;
+            this.gridControl3.Name = "gridControl3";
+            this.gridControl3.Size = new System.Drawing.Size(1084, 505);
+            this.gridControl3.TabIndex = 40;
+            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
             // 
-            // gridColumn2
+            // gridView3
             // 
-            this.gridColumn2.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn2.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn2.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn2.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn2.Caption = "盘亏单号";
-            this.gridColumn2.Name = "gridColumn2";
-            this.gridColumn2.Visible = true;
-            this.gridColumn2.VisibleIndex = 0;
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn11,
+            this.gridColumn12,
+            this.gridColumn13,
+            this.gridColumn14,
+            this.gridColumn19,
+            this.gridColumn20,
+            this.gridColumn21,
+            this.gridColumn22});
+            this.gridView3.GridControl = this.gridControl3;
+            this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsView.ShowGroupPanel = false;
+            this.gridView3.OptionsView.ShowIndicator = false;
             // 
-            // gridColumn3
+            // gridColumn11
             // 
-            this.gridColumn3.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn3.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn3.Caption = "盘亏日期";
-            this.gridColumn3.Name = "gridColumn3";
-            this.gridColumn3.Visible = true;
-            this.gridColumn3.VisibleIndex = 1;
+            this.gridColumn11.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn11.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn11.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn11.Caption = "盘盈单号";
+            this.gridColumn11.Name = "gridColumn11";
+            this.gridColumn11.Visible = true;
+            this.gridColumn11.VisibleIndex = 0;
             // 
-            // gridColumn5
+            // gridColumn12
             // 
-            this.gridColumn5.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn5.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn5.Caption = "单据状态";
-            this.gridColumn5.Name = "gridColumn5";
-            this.gridColumn5.Visible = true;
-            this.gridColumn5.VisibleIndex = 2;
+            this.gridColumn12.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn12.Caption = "盘盈日期";
+            this.gridColumn12.Name = "gridColumn12";
+            this.gridColumn12.Visible = true;
+            this.gridColumn12.VisibleIndex = 1;
             // 
-            // gridColumn6
+            // gridColumn13
             // 
-            this.gridColumn6.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn6.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn6.Caption = "总金额";
-            this.gridColumn6.Name = "gridColumn6";
-            this.gridColumn6.Visible = true;
-            this.gridColumn6.VisibleIndex = 3;
+            this.gridColumn13.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn13.Caption = "单据状态";
+            this.gridColumn13.Name = "gridColumn13";
+            this.gridColumn13.Visible = true;
+            this.gridColumn13.VisibleIndex = 2;
             // 
-            // gridColumn7
+            // gridColumn14
             // 
-            this.gridColumn7.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn7.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn7.Caption = "盘点人";
-            this.gridColumn7.Name = "gridColumn7";
-            this.gridColumn7.Visible = true;
-            this.gridColumn7.VisibleIndex = 4;
+            this.gridColumn14.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn14.Caption = "总金额";
+            this.gridColumn14.Name = "gridColumn14";
+            this.gridColumn14.Visible = true;
+            this.gridColumn14.VisibleIndex = 3;
             // 
-            // gridColumn8
+            // gridColumn19
             // 
-            this.gridColumn8.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn8.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn8.Caption = "审核人";
-            this.gridColumn8.Name = "gridColumn8";
-            this.gridColumn8.Visible = true;
-            this.gridColumn8.VisibleIndex = 5;
+            this.gridColumn19.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn19.Caption = "盘点人";
+            this.gridColumn19.Name = "gridColumn19";
+            this.gridColumn19.Visible = true;
+            this.gridColumn19.VisibleIndex = 4;
             // 
-            // gridColumn9
+            // gridColumn20
             // 
-            this.gridColumn9.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn9.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn9.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn9.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn9.Caption = "更新时间";
-            this.gridColumn9.Name = "gridColumn9";
-            this.gridColumn9.Visible = true;
-            this.gridColumn9.VisibleIndex = 6;
+            this.gridColumn20.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn20.Caption = "审核人";
+            this.gridColumn20.Name = "gridColumn20";
+            this.gridColumn20.Visible = true;
+            this.gridColumn20.VisibleIndex = 5;
             // 
-            // gridColumn10
+            // gridColumn21
             // 
-            this.gridColumn10.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn10.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn10.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn10.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn10.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn10.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn10.Caption = "备注";
-            this.gridColumn10.Name = "gridColumn10";
-            this.gridColumn10.Visible = true;
-            this.gridColumn10.VisibleIndex = 7;
+            this.gridColumn21.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn21.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn21.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn21.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn21.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn21.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn21.Caption = "更新时间";
+            this.gridColumn21.Name = "gridColumn21";
+            this.gridColumn21.Visible = true;
+            this.gridColumn21.VisibleIndex = 6;
+            // 
+            // gridColumn22
+            // 
+            this.gridColumn22.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.Caption = "备注";
+            this.gridColumn22.Name = "gridColumn22";
+            this.gridColumn22.Visible = true;
+            this.gridColumn22.VisibleIndex = 7;
             // 
             // panelControl3
             // 
@@ -778,7 +892,7 @@
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelControl3.Location = new System.Drawing.Point(0, 0);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(1089, 71);
+            this.panelControl3.Size = new System.Drawing.Size(1084, 71);
             this.panelControl3.TabIndex = 11;
             // 
             // simpleButton7
@@ -943,116 +1057,6 @@
             this.labelControl12.TabIndex = 15;
             this.labelControl12.Text = "盘盈日期";
             // 
-            // gridControl3
-            // 
-            this.gridControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl3.Location = new System.Drawing.Point(0, 71);
-            this.gridControl3.MainView = this.gridView3;
-            this.gridControl3.Name = "gridControl3";
-            this.gridControl3.Size = new System.Drawing.Size(1089, 505);
-            this.gridControl3.TabIndex = 40;
-            this.gridControl3.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView3});
-            // 
-            // gridView3
-            // 
-            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn11,
-            this.gridColumn12,
-            this.gridColumn13,
-            this.gridColumn14,
-            this.gridColumn19,
-            this.gridColumn20,
-            this.gridColumn21,
-            this.gridColumn22});
-            this.gridView3.GridControl = this.gridControl3;
-            this.gridView3.Name = "gridView3";
-            this.gridView3.OptionsView.ShowGroupPanel = false;
-            this.gridView3.OptionsView.ShowIndicator = false;
-            // 
-            // gridColumn11
-            // 
-            this.gridColumn11.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn11.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn11.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn11.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn11.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn11.Caption = "盘盈单号";
-            this.gridColumn11.Name = "gridColumn11";
-            this.gridColumn11.Visible = true;
-            this.gridColumn11.VisibleIndex = 0;
-            // 
-            // gridColumn12
-            // 
-            this.gridColumn12.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn12.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn12.Caption = "盘盈日期";
-            this.gridColumn12.Name = "gridColumn12";
-            this.gridColumn12.Visible = true;
-            this.gridColumn12.VisibleIndex = 1;
-            // 
-            // gridColumn13
-            // 
-            this.gridColumn13.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn13.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn13.Caption = "单据状态";
-            this.gridColumn13.Name = "gridColumn13";
-            this.gridColumn13.Visible = true;
-            this.gridColumn13.VisibleIndex = 2;
-            // 
-            // gridColumn14
-            // 
-            this.gridColumn14.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn14.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn14.Caption = "总金额";
-            this.gridColumn14.Name = "gridColumn14";
-            this.gridColumn14.Visible = true;
-            this.gridColumn14.VisibleIndex = 3;
-            // 
-            // gridColumn19
-            // 
-            this.gridColumn19.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn19.Caption = "盘点人";
-            this.gridColumn19.Name = "gridColumn19";
-            this.gridColumn19.Visible = true;
-            this.gridColumn19.VisibleIndex = 4;
-            // 
-            // gridColumn20
-            // 
-            this.gridColumn20.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn20.Caption = "审核人";
-            this.gridColumn20.Name = "gridColumn20";
-            this.gridColumn20.Visible = true;
-            this.gridColumn20.VisibleIndex = 5;
-            // 
-            // gridColumn21
-            // 
-            this.gridColumn21.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn21.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn21.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn21.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn21.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn21.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn21.Caption = "更新时间";
-            this.gridColumn21.Name = "gridColumn21";
-            this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 6;
-            // 
-            // gridColumn22
-            // 
-            this.gridColumn22.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn22.Caption = "备注";
-            this.gridColumn22.Name = "gridColumn22";
-            this.gridColumn22.Visible = true;
-            this.gridColumn22.VisibleIndex = 7;
-            // 
             // frmStoreMgtInventory
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -1066,8 +1070,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage3.ResumeLayout(false);
-            this.navigationPage4.ResumeLayout(false);
-            this.navigationPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -1077,8 +1081,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            this.navigationPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
@@ -1088,8 +1093,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.navigationPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             this.panelControl3.PerformLayout();
@@ -1099,8 +1105,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
 
         }

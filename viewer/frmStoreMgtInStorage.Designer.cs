@@ -29,12 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmStoreMgtInStorage));
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject7 = new DevExpress.Utils.SerializableAppearanceObject();
-            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject8 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject3 = new DevExpress.Utils.SerializableAppearanceObject();
+            DevExpress.Utils.SerializableAppearanceObject serializableAppearanceObject4 = new DevExpress.Utils.SerializableAppearanceObject();
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
+            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
             this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
@@ -52,41 +65,7 @@
             this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
             this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
             this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
-            this.gridControl2 = new DevExpress.XtraGrid.GridControl();
-            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.repositoryItemButtonEdit2 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn16 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn17 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn18 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn19 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn20 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn21 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn22 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn23 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.gridColumn24 = new DevExpress.XtraGrid.Columns.GridColumn();
-            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.labelControl8 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
-            this.comboBoxEdit6 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit8 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit9 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
-            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
-            this.comboBoxEdit10 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
-            this.dateEdit3 = new DevExpress.XtraEditors.DateEdit();
-            this.dateEdit4 = new DevExpress.XtraEditors.DateEdit();
+            this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn3 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -110,22 +89,26 @@
             this.gridColumn31 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn32 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemButtonEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemButtonEdit();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
-            this.comboBoxEdit11 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit12 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
-            this.comboBoxEdit13 = new DevExpress.XtraEditors.ComboBoxEdit();
-            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl19 = new DevExpress.XtraEditors.LabelControl();
-            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
-            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
-            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
-            this.dateEdit5 = new DevExpress.XtraEditors.DateEdit();
-            this.dateEdit6 = new DevExpress.XtraEditors.DateEdit();
-            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
+            this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            this.comboBoxEdit6 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl5 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit1 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl9 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit7 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit8 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit9 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl13 = new DevExpress.XtraEditors.LabelControl();
+            this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.comboBoxEdit10 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl14 = new DevExpress.XtraEditors.LabelControl();
+            this.dateEdit3 = new DevExpress.XtraEditors.DateEdit();
+            this.dateEdit4 = new DevExpress.XtraEditors.DateEdit();
+            this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.gridControl3 = new DevExpress.XtraGrid.GridControl();
             this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn33 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -137,13 +120,29 @@
             this.gridColumn39 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn40 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn41 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            this.comboBoxEdit11 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl15 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit12 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl16 = new DevExpress.XtraEditors.LabelControl();
+            this.comboBoxEdit13 = new DevExpress.XtraEditors.ComboBoxEdit();
+            this.labelControl17 = new DevExpress.XtraEditors.LabelControl();
+            this.labelControl18 = new DevExpress.XtraEditors.LabelControl();
+            this.textEdit2 = new DevExpress.XtraEditors.TextEdit();
+            this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton8 = new DevExpress.XtraEditors.SimpleButton();
+            this.labelControl20 = new DevExpress.XtraEditors.LabelControl();
+            this.dateEdit5 = new DevExpress.XtraEditors.DateEdit();
+            this.dateEdit6 = new DevExpress.XtraEditors.DateEdit();
+            this.labelControl21 = new DevExpress.XtraEditors.LabelControl();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage3.SuspendLayout();
-            this.navigationPage4.SuspendLayout();
-            this.navigationPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
             this.panelControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit5.Properties)).BeginInit();
@@ -154,9 +153,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).BeginInit();
+            this.navigationPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.panelControl2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
@@ -170,9 +170,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).BeginInit();
+            this.navigationPage5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.comboBoxEdit11.Properties)).BeginInit();
@@ -183,14 +183,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit5.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
             this.SuspendLayout();
             // 
             // pcBase
             // 
             this.pcBase.Controls.Add(this.navigationPane1);
             this.pcBase.Size = new System.Drawing.Size(1217, 628);
+            // 
+            // defaultLookAndFeel
+            // 
+            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
             // 
             // navigationPane1
             // 
@@ -226,21 +228,190 @@
             this.navigationPage3.Name = "navigationPage3";
             this.navigationPage3.Size = new System.Drawing.Size(1115, 564);
             // 
-            // navigationPage4
+            // gridControl2
             // 
-            this.navigationPage4.Caption = "入库明细";
-            this.navigationPage4.Controls.Add(this.gridControl1);
-            this.navigationPage4.Controls.Add(this.panelControl2);
-            this.navigationPage4.Name = "navigationPage4";
-            this.navigationPage4.Size = new System.Drawing.Size(1115, 564);
+            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridControl2.Location = new System.Drawing.Point(0, 71);
+            this.gridControl2.MainView = this.gridView2;
+            this.gridControl2.Name = "gridControl2";
+            this.gridControl2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
+            this.repositoryItemButtonEdit2});
+            this.gridControl2.Size = new System.Drawing.Size(1115, 493);
+            this.gridControl2.TabIndex = 36;
+            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
             // 
-            // navigationPage5
+            // gridView2
             // 
-            this.navigationPage5.Caption = "入库统计";
-            this.navigationPage5.Controls.Add(this.gridControl3);
-            this.navigationPage5.Controls.Add(this.panelControl3);
-            this.navigationPage5.Name = "navigationPage5";
-            this.navigationPage5.Size = new System.Drawing.Size(1115, 564);
+            this.gridView2.Appearance.GroupRow.Options.UseTextOptions = true;
+            this.gridView2.Appearance.GroupRow.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridView2.Appearance.GroupRow.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.gridColumn1,
+            this.gridColumn4,
+            this.gridColumn15,
+            this.gridColumn16,
+            this.gridColumn17,
+            this.gridColumn18,
+            this.gridColumn19,
+            this.gridColumn20,
+            this.gridColumn21,
+            this.gridColumn22,
+            this.gridColumn23,
+            this.gridColumn24});
+            this.gridView2.GridControl = this.gridControl2;
+            this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
+            this.gridView2.OptionsView.ShowDetailButtons = false;
+            this.gridView2.OptionsView.ShowGroupExpandCollapseButtons = false;
+            this.gridView2.OptionsView.ShowGroupPanel = false;
+            this.gridView2.OptionsView.ShowIndicator = false;
+            // 
+            // gridColumn1
+            // 
+            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn1.Caption = "操作";
+            this.gridColumn1.ColumnEdit = this.repositoryItemButtonEdit2;
+            this.gridColumn1.Name = "gridColumn1";
+            this.gridColumn1.Visible = true;
+            this.gridColumn1.VisibleIndex = 0;
+            // 
+            // repositoryItemButtonEdit2
+            // 
+            this.repositoryItemButtonEdit2.AutoHeight = false;
+            this.repositoryItemButtonEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit2.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject3, "取消入库", null, null, true)});
+            this.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2";
+            this.repositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
+            // 
+            // gridColumn4
+            // 
+            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn4.Caption = "入库单号";
+            this.gridColumn4.Name = "gridColumn4";
+            this.gridColumn4.Visible = true;
+            this.gridColumn4.VisibleIndex = 1;
+            // 
+            // gridColumn15
+            // 
+            this.gridColumn15.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn15.Caption = "入库日期";
+            this.gridColumn15.Name = "gridColumn15";
+            this.gridColumn15.Visible = true;
+            this.gridColumn15.VisibleIndex = 2;
+            // 
+            // gridColumn16
+            // 
+            this.gridColumn16.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn16.Caption = "单据状态";
+            this.gridColumn16.Name = "gridColumn16";
+            this.gridColumn16.Visible = true;
+            this.gridColumn16.VisibleIndex = 3;
+            // 
+            // gridColumn17
+            // 
+            this.gridColumn17.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn17.Caption = "入库类型";
+            this.gridColumn17.Name = "gridColumn17";
+            this.gridColumn17.Visible = true;
+            this.gridColumn17.VisibleIndex = 4;
+            // 
+            // gridColumn18
+            // 
+            this.gridColumn18.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn18.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn18.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn18.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn18.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn18.Caption = "总金额";
+            this.gridColumn18.Name = "gridColumn18";
+            this.gridColumn18.Visible = true;
+            this.gridColumn18.VisibleIndex = 5;
+            // 
+            // gridColumn19
+            // 
+            this.gridColumn19.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn19.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn19.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn19.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn19.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn19.Caption = "入库人";
+            this.gridColumn19.Name = "gridColumn19";
+            this.gridColumn19.Visible = true;
+            this.gridColumn19.VisibleIndex = 6;
+            // 
+            // gridColumn20
+            // 
+            this.gridColumn20.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn20.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn20.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn20.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn20.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn20.Caption = "供应商";
+            this.gridColumn20.Name = "gridColumn20";
+            this.gridColumn20.Visible = true;
+            this.gridColumn20.VisibleIndex = 7;
+            // 
+            // gridColumn21
+            // 
+            this.gridColumn21.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn21.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn21.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn21.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn21.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn21.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn21.Caption = "经手人";
+            this.gridColumn21.Name = "gridColumn21";
+            this.gridColumn21.Visible = true;
+            this.gridColumn21.VisibleIndex = 8;
+            // 
+            // gridColumn22
+            // 
+            this.gridColumn22.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn22.Caption = "审核人";
+            this.gridColumn22.Name = "gridColumn22";
+            this.gridColumn22.Visible = true;
+            this.gridColumn22.VisibleIndex = 9;
+            // 
+            // gridColumn23
+            // 
+            this.gridColumn23.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn23.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn23.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn23.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn23.Caption = "更新时间";
+            this.gridColumn23.Name = "gridColumn23";
+            this.gridColumn23.Visible = true;
+            this.gridColumn23.VisibleIndex = 10;
+            // 
+            // gridColumn24
+            // 
+            this.gridColumn24.AppearanceCell.Options.UseTextOptions = true;
+            this.gridColumn24.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn24.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn24.AppearanceHeader.Options.UseTextOptions = true;
+            this.gridColumn24.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
+            this.gridColumn24.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
+            this.gridColumn24.Caption = "备注";
+            this.gridColumn24.Name = "gridColumn24";
+            this.gridColumn24.Visible = true;
+            this.gridColumn24.VisibleIndex = 11;
             // 
             // panelControl1
             // 
@@ -465,464 +636,13 @@
             this.dateEdit1.Size = new System.Drawing.Size(123, 26);
             this.dateEdit1.TabIndex = 3;
             // 
-            // gridControl2
-            // 
-            this.gridControl2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gridControl2.Location = new System.Drawing.Point(0, 71);
-            this.gridControl2.MainView = this.gridView2;
-            this.gridControl2.Name = "gridControl2";
-            this.gridControl2.RepositoryItems.AddRange(new DevExpress.XtraEditors.Repository.RepositoryItem[] {
-            this.repositoryItemButtonEdit2});
-            this.gridControl2.Size = new System.Drawing.Size(1115, 493);
-            this.gridControl2.TabIndex = 36;
-            this.gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.gridView2});
-            // 
-            // gridView2
-            // 
-            this.gridView2.Appearance.GroupRow.Options.UseTextOptions = true;
-            this.gridView2.Appearance.GroupRow.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridView2.Appearance.GroupRow.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
-            this.gridColumn1,
-            this.gridColumn4,
-            this.gridColumn15,
-            this.gridColumn16,
-            this.gridColumn17,
-            this.gridColumn18,
-            this.gridColumn19,
-            this.gridColumn20,
-            this.gridColumn21,
-            this.gridColumn22,
-            this.gridColumn23,
-            this.gridColumn24});
-            this.gridView2.GridControl = this.gridControl2;
-            this.gridView2.Name = "gridView2";
-            this.gridView2.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Bottom;
-            this.gridView2.OptionsView.ShowDetailButtons = false;
-            this.gridView2.OptionsView.ShowGroupExpandCollapseButtons = false;
-            this.gridView2.OptionsView.ShowGroupPanel = false;
-            this.gridView2.OptionsView.ShowIndicator = false;
-            // 
-            // gridColumn1
-            // 
-            this.gridColumn1.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn1.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn1.Caption = "操作";
-            this.gridColumn1.ColumnEdit = this.repositoryItemButtonEdit2;
-            this.gridColumn1.Name = "gridColumn1";
-            this.gridColumn1.Visible = true;
-            this.gridColumn1.VisibleIndex = 0;
-            // 
-            // repositoryItemButtonEdit2
-            // 
-            this.repositoryItemButtonEdit2.AutoHeight = false;
-            this.repositoryItemButtonEdit2.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit2.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject7, "取消入库", null, null, true)});
-            this.repositoryItemButtonEdit2.Name = "repositoryItemButtonEdit2";
-            this.repositoryItemButtonEdit2.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
-            // 
-            // gridColumn4
-            // 
-            this.gridColumn4.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn4.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn4.Caption = "入库单号";
-            this.gridColumn4.Name = "gridColumn4";
-            this.gridColumn4.Visible = true;
-            this.gridColumn4.VisibleIndex = 1;
-            // 
-            // gridColumn15
-            // 
-            this.gridColumn15.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn15.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn15.Caption = "入库日期";
-            this.gridColumn15.Name = "gridColumn15";
-            this.gridColumn15.Visible = true;
-            this.gridColumn15.VisibleIndex = 2;
-            // 
-            // gridColumn16
-            // 
-            this.gridColumn16.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn16.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn16.Caption = "单据状态";
-            this.gridColumn16.Name = "gridColumn16";
-            this.gridColumn16.Visible = true;
-            this.gridColumn16.VisibleIndex = 3;
-            // 
-            // gridColumn17
-            // 
-            this.gridColumn17.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn17.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn17.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn17.Caption = "入库类型";
-            this.gridColumn17.Name = "gridColumn17";
-            this.gridColumn17.Visible = true;
-            this.gridColumn17.VisibleIndex = 4;
-            // 
-            // gridColumn18
-            // 
-            this.gridColumn18.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn18.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn18.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn18.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn18.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn18.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn18.Caption = "总金额";
-            this.gridColumn18.Name = "gridColumn18";
-            this.gridColumn18.Visible = true;
-            this.gridColumn18.VisibleIndex = 5;
-            // 
-            // gridColumn19
-            // 
-            this.gridColumn19.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn19.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn19.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn19.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn19.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn19.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn19.Caption = "入库人";
-            this.gridColumn19.Name = "gridColumn19";
-            this.gridColumn19.Visible = true;
-            this.gridColumn19.VisibleIndex = 6;
-            // 
-            // gridColumn20
-            // 
-            this.gridColumn20.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn20.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn20.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn20.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn20.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn20.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn20.Caption = "供应商";
-            this.gridColumn20.Name = "gridColumn20";
-            this.gridColumn20.Visible = true;
-            this.gridColumn20.VisibleIndex = 7;
-            // 
-            // gridColumn21
-            // 
-            this.gridColumn21.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn21.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn21.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn21.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn21.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn21.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn21.Caption = "经手人";
-            this.gridColumn21.Name = "gridColumn21";
-            this.gridColumn21.Visible = true;
-            this.gridColumn21.VisibleIndex = 8;
-            // 
-            // gridColumn22
-            // 
-            this.gridColumn22.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn22.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn22.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn22.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn22.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn22.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn22.Caption = "审核人";
-            this.gridColumn22.Name = "gridColumn22";
-            this.gridColumn22.Visible = true;
-            this.gridColumn22.VisibleIndex = 9;
-            // 
-            // gridColumn23
-            // 
-            this.gridColumn23.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn23.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn23.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn23.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn23.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn23.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn23.Caption = "更新时间";
-            this.gridColumn23.Name = "gridColumn23";
-            this.gridColumn23.Visible = true;
-            this.gridColumn23.VisibleIndex = 10;
-            // 
-            // gridColumn24
-            // 
-            this.gridColumn24.AppearanceCell.Options.UseTextOptions = true;
-            this.gridColumn24.AppearanceCell.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn24.AppearanceCell.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn24.AppearanceHeader.Options.UseTextOptions = true;
-            this.gridColumn24.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
-            this.gridColumn24.AppearanceHeader.TextOptions.VAlignment = DevExpress.Utils.VertAlignment.Center;
-            this.gridColumn24.Caption = "备注";
-            this.gridColumn24.Name = "gridColumn24";
-            this.gridColumn24.Visible = true;
-            this.gridColumn24.VisibleIndex = 11;
-            // 
-            // panelControl2
-            // 
-            this.panelControl2.Controls.Add(this.labelControl8);
-            this.panelControl2.Controls.Add(this.textEdit1);
-            this.panelControl2.Controls.Add(this.comboBoxEdit6);
-            this.panelControl2.Controls.Add(this.labelControl5);
-            this.panelControl2.Controls.Add(this.comboBoxEdit1);
-            this.panelControl2.Controls.Add(this.labelControl9);
-            this.panelControl2.Controls.Add(this.comboBoxEdit7);
-            this.panelControl2.Controls.Add(this.labelControl10);
-            this.panelControl2.Controls.Add(this.comboBoxEdit8);
-            this.panelControl2.Controls.Add(this.labelControl11);
-            this.panelControl2.Controls.Add(this.labelControl12);
-            this.panelControl2.Controls.Add(this.comboBoxEdit9);
-            this.panelControl2.Controls.Add(this.labelControl13);
-            this.panelControl2.Controls.Add(this.simpleButton5);
-            this.panelControl2.Controls.Add(this.simpleButton6);
-            this.panelControl2.Controls.Add(this.comboBoxEdit10);
-            this.panelControl2.Controls.Add(this.labelControl14);
-            this.panelControl2.Controls.Add(this.dateEdit3);
-            this.panelControl2.Controls.Add(this.dateEdit4);
-            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl2.Location = new System.Drawing.Point(0, 0);
-            this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(1115, 103);
-            this.panelControl2.TabIndex = 6;
-            // 
-            // labelControl8
-            // 
-            this.labelControl8.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl8.Appearance.ForeColor = System.Drawing.Color.Gray;
-            this.labelControl8.Appearance.Options.UseBackColor = true;
-            this.labelControl8.Appearance.Options.UseForeColor = true;
-            this.labelControl8.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.labelControl8.Location = new System.Drawing.Point(117, 75);
-            this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(180, 14);
-            this.labelControl8.TabIndex = 33;
-            this.labelControl8.Text = "请输入物品编号、名称和拼音查询";
-            // 
-            // textEdit1
-            // 
-            this.textEdit1.Location = new System.Drawing.Point(105, 70);
-            this.textEdit1.Name = "textEdit1";
-            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit1.Properties.Appearance.Options.UseFont = true;
-            this.textEdit1.Size = new System.Drawing.Size(551, 26);
-            this.textEdit1.TabIndex = 32;
-            // 
-            // comboBoxEdit6
-            // 
-            this.comboBoxEdit6.EditValue = "物品名称";
-            this.comboBoxEdit6.Location = new System.Drawing.Point(10, 70);
-            this.comboBoxEdit6.Name = "comboBoxEdit6";
-            this.comboBoxEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit6.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit6.Properties.Items.AddRange(new object[] {
-            "物品名称",
-            "入库单号"});
-            this.comboBoxEdit6.Size = new System.Drawing.Size(89, 26);
-            this.comboBoxEdit6.TabIndex = 31;
-            // 
-            // labelControl5
-            // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(657, 41);
-            this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(64, 19);
-            this.labelControl5.TabIndex = 30;
-            this.labelControl5.Text = "入库类型";
-            // 
-            // comboBoxEdit1
-            // 
-            this.comboBoxEdit1.EditValue = "全部";
-            this.comboBoxEdit1.Location = new System.Drawing.Point(727, 38);
-            this.comboBoxEdit1.Name = "comboBoxEdit1";
-            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit1.Properties.Items.AddRange(new object[] {
-            "全部",
-            "治疗",
-            "修复",
-            "种植",
-            "正畸",
-            "检查",
-            "洗牙",
-            "其他"});
-            this.comboBoxEdit1.Size = new System.Drawing.Size(130, 26);
-            this.comboBoxEdit1.TabIndex = 29;
-            // 
-            // labelControl9
-            // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(399, 41);
-            this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(48, 19);
-            this.labelControl9.TabIndex = 28;
-            this.labelControl9.Text = "供应商";
-            // 
-            // comboBoxEdit7
-            // 
-            this.comboBoxEdit7.EditValue = "全部";
-            this.comboBoxEdit7.Location = new System.Drawing.Point(453, 38);
-            this.comboBoxEdit7.Name = "comboBoxEdit7";
-            this.comboBoxEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit7.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit7.Properties.Items.AddRange(new object[] {
-            "全部",
-            "治疗",
-            "修复",
-            "种植",
-            "正畸",
-            "检查",
-            "洗牙",
-            "其他"});
-            this.comboBoxEdit7.Size = new System.Drawing.Size(187, 26);
-            this.comboBoxEdit7.TabIndex = 27;
-            // 
-            // labelControl10
-            // 
-            this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl10.Appearance.Options.UseFont = true;
-            this.labelControl10.Location = new System.Drawing.Point(10, 9);
-            this.labelControl10.Name = "labelControl10";
-            this.labelControl10.Size = new System.Drawing.Size(64, 19);
-            this.labelControl10.TabIndex = 26;
-            this.labelControl10.Text = "入库日期";
-            // 
-            // comboBoxEdit8
-            // 
-            this.comboBoxEdit8.EditValue = "全部";
-            this.comboBoxEdit8.Location = new System.Drawing.Point(449, 6);
-            this.comboBoxEdit8.Name = "comboBoxEdit8";
-            this.comboBoxEdit8.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit8.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit8.Properties.Items.AddRange(new object[] {
-            "全部",
-            "录单(待审核)",
-            "入库"});
-            this.comboBoxEdit8.Size = new System.Drawing.Size(101, 26);
-            this.comboBoxEdit8.TabIndex = 24;
-            // 
-            // labelControl11
-            // 
-            this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl11.Appearance.Options.UseFont = true;
-            this.labelControl11.Location = new System.Drawing.Point(10, 41);
-            this.labelControl11.Name = "labelControl11";
-            this.labelControl11.Size = new System.Drawing.Size(64, 19);
-            this.labelControl11.TabIndex = 22;
-            this.labelControl11.Text = "入库人员";
-            // 
-            // labelControl12
-            // 
-            this.labelControl12.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl12.Appearance.Options.UseFont = true;
-            this.labelControl12.Location = new System.Drawing.Point(209, 41);
-            this.labelControl12.Name = "labelControl12";
-            this.labelControl12.Size = new System.Drawing.Size(64, 19);
-            this.labelControl12.TabIndex = 21;
-            this.labelControl12.Text = "入库类型";
-            // 
-            // comboBoxEdit9
-            // 
-            this.comboBoxEdit9.Location = new System.Drawing.Point(282, 38);
-            this.comboBoxEdit9.Name = "comboBoxEdit9";
-            this.comboBoxEdit9.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit9.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit9.Properties.Items.AddRange(new object[] {
-            "收费医生",
-            "收款人",
-            "介绍人"});
-            this.comboBoxEdit9.Size = new System.Drawing.Size(111, 26);
-            this.comboBoxEdit9.TabIndex = 20;
-            // 
-            // labelControl13
-            // 
-            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl13.Appearance.Options.UseFont = true;
-            this.labelControl13.Location = new System.Drawing.Point(369, 10);
-            this.labelControl13.Name = "labelControl13";
-            this.labelControl13.Size = new System.Drawing.Size(64, 19);
-            this.labelControl13.TabIndex = 16;
-            this.labelControl13.Text = "单据状态";
-            // 
-            // simpleButton5
-            // 
-            this.simpleButton5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton5.Appearance.Options.UseFont = true;
-            this.simpleButton5.Location = new System.Drawing.Point(646, 6);
-            this.simpleButton5.Name = "simpleButton5";
-            this.simpleButton5.Size = new System.Drawing.Size(75, 26);
-            this.simpleButton5.TabIndex = 9;
-            this.simpleButton5.Text = "导出";
-            // 
-            // simpleButton6
-            // 
-            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton6.Appearance.Options.UseFont = true;
-            this.simpleButton6.Location = new System.Drawing.Point(565, 6);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(75, 26);
-            this.simpleButton6.TabIndex = 8;
-            this.simpleButton6.Text = "查询";
-            // 
-            // comboBoxEdit10
-            // 
-            this.comboBoxEdit10.Location = new System.Drawing.Point(80, 38);
-            this.comboBoxEdit10.Name = "comboBoxEdit10";
-            this.comboBoxEdit10.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit10.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit10.Properties.Items.AddRange(new object[] {
-            "收费医生",
-            "收款人",
-            "介绍人"});
-            this.comboBoxEdit10.Size = new System.Drawing.Size(123, 26);
-            this.comboBoxEdit10.TabIndex = 6;
-            // 
-            // labelControl14
-            // 
-            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl14.Appearance.Options.UseFont = true;
-            this.labelControl14.Location = new System.Drawing.Point(209, 8);
-            this.labelControl14.Name = "labelControl14";
-            this.labelControl14.Size = new System.Drawing.Size(16, 19);
-            this.labelControl14.TabIndex = 5;
-            this.labelControl14.Text = "至";
-            // 
-            // dateEdit3
-            // 
-            this.dateEdit3.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
-            this.dateEdit3.Location = new System.Drawing.Point(231, 5);
-            this.dateEdit3.Name = "dateEdit3";
-            this.dateEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit3.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit3.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit3.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit3.Size = new System.Drawing.Size(122, 26);
-            this.dateEdit3.TabIndex = 4;
-            // 
-            // dateEdit4
-            // 
-            this.dateEdit4.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
-            this.dateEdit4.Location = new System.Drawing.Point(80, 5);
-            this.dateEdit4.Name = "dateEdit4";
-            this.dateEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit4.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit4.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit4.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit4.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit4.Size = new System.Drawing.Size(123, 26);
-            this.dateEdit4.TabIndex = 3;
+            // navigationPage4
+            // 
+            this.navigationPage4.Caption = "入库明细";
+            this.navigationPage4.Controls.Add(this.gridControl1);
+            this.navigationPage4.Controls.Add(this.panelControl2);
+            this.navigationPage4.Name = "navigationPage4";
+            this.navigationPage4.Size = new System.Drawing.Size(1115, 564);
             // 
             // gridControl1
             // 
@@ -1217,215 +937,280 @@
             // 
             this.repositoryItemButtonEdit1.AutoHeight = false;
             this.repositoryItemButtonEdit1.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit1.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject8, "取消入库", null, null, true)});
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Glyph, "", -1, true, true, false, DevExpress.XtraEditors.ImageLocation.MiddleCenter, ((System.Drawing.Image)(resources.GetObject("repositoryItemButtonEdit1.Buttons"))), new DevExpress.Utils.KeyShortcut(System.Windows.Forms.Keys.None), serializableAppearanceObject4, "取消入库", null, null, true)});
             this.repositoryItemButtonEdit1.Name = "repositoryItemButtonEdit1";
             this.repositoryItemButtonEdit1.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.HideTextEditor;
             // 
-            // panelControl3
+            // panelControl2
             // 
-            this.panelControl3.Controls.Add(this.comboBoxEdit11);
-            this.panelControl3.Controls.Add(this.labelControl15);
-            this.panelControl3.Controls.Add(this.comboBoxEdit12);
-            this.panelControl3.Controls.Add(this.labelControl16);
-            this.panelControl3.Controls.Add(this.comboBoxEdit13);
-            this.panelControl3.Controls.Add(this.labelControl17);
-            this.panelControl3.Controls.Add(this.labelControl18);
-            this.panelControl3.Controls.Add(this.labelControl19);
-            this.panelControl3.Controls.Add(this.textEdit2);
-            this.panelControl3.Controls.Add(this.simpleButton7);
-            this.panelControl3.Controls.Add(this.simpleButton8);
-            this.panelControl3.Controls.Add(this.labelControl20);
-            this.panelControl3.Controls.Add(this.dateEdit5);
-            this.panelControl3.Controls.Add(this.dateEdit6);
-            this.panelControl3.Controls.Add(this.labelControl21);
-            this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl3.Location = new System.Drawing.Point(0, 0);
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(1115, 71);
-            this.panelControl3.TabIndex = 7;
+            this.panelControl2.Controls.Add(this.textEdit1);
+            this.panelControl2.Controls.Add(this.comboBoxEdit6);
+            this.panelControl2.Controls.Add(this.labelControl5);
+            this.panelControl2.Controls.Add(this.comboBoxEdit1);
+            this.panelControl2.Controls.Add(this.labelControl9);
+            this.panelControl2.Controls.Add(this.comboBoxEdit7);
+            this.panelControl2.Controls.Add(this.labelControl10);
+            this.panelControl2.Controls.Add(this.comboBoxEdit8);
+            this.panelControl2.Controls.Add(this.labelControl11);
+            this.panelControl2.Controls.Add(this.labelControl12);
+            this.panelControl2.Controls.Add(this.comboBoxEdit9);
+            this.panelControl2.Controls.Add(this.labelControl13);
+            this.panelControl2.Controls.Add(this.simpleButton5);
+            this.panelControl2.Controls.Add(this.simpleButton6);
+            this.panelControl2.Controls.Add(this.comboBoxEdit10);
+            this.panelControl2.Controls.Add(this.labelControl14);
+            this.panelControl2.Controls.Add(this.dateEdit3);
+            this.panelControl2.Controls.Add(this.dateEdit4);
+            this.panelControl2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl2.Location = new System.Drawing.Point(0, 0);
+            this.panelControl2.Name = "panelControl2";
+            this.panelControl2.Size = new System.Drawing.Size(1115, 103);
+            this.panelControl2.TabIndex = 6;
             // 
-            // comboBoxEdit11
+            // textEdit1
             // 
-            this.comboBoxEdit11.EditValue = "全部";
-            this.comboBoxEdit11.Location = new System.Drawing.Point(445, 40);
-            this.comboBoxEdit11.Name = "comboBoxEdit11";
-            this.comboBoxEdit11.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit11.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit11.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.textEdit1.Location = new System.Drawing.Point(105, 70);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit1.Properties.Appearance.Options.UseFont = true;
+            this.textEdit1.Properties.NullText = "请输入物品编号、名称和拼音查询";
+            this.textEdit1.Properties.NullValuePrompt = "请输入物品编号、名称和拼音查询";
+            this.textEdit1.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit1.Size = new System.Drawing.Size(551, 26);
+            this.textEdit1.TabIndex = 32;
+            // 
+            // comboBoxEdit6
+            // 
+            this.comboBoxEdit6.EditValue = "物品名称";
+            this.comboBoxEdit6.Location = new System.Drawing.Point(10, 70);
+            this.comboBoxEdit6.Name = "comboBoxEdit6";
+            this.comboBoxEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit6.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit11.Properties.Items.AddRange(new object[] {
+            this.comboBoxEdit6.Properties.Items.AddRange(new object[] {
+            "物品名称",
+            "入库单号"});
+            this.comboBoxEdit6.Size = new System.Drawing.Size(89, 26);
+            this.comboBoxEdit6.TabIndex = 31;
+            // 
+            // labelControl5
+            // 
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl5.Appearance.Options.UseFont = true;
+            this.labelControl5.Location = new System.Drawing.Point(657, 41);
+            this.labelControl5.Name = "labelControl5";
+            this.labelControl5.Size = new System.Drawing.Size(64, 19);
+            this.labelControl5.TabIndex = 30;
+            this.labelControl5.Text = "入库类型";
+            // 
+            // comboBoxEdit1
+            // 
+            this.comboBoxEdit1.EditValue = "全部";
+            this.comboBoxEdit1.Location = new System.Drawing.Point(727, 38);
+            this.comboBoxEdit1.Name = "comboBoxEdit1";
+            this.comboBoxEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit1.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit1.Properties.Items.AddRange(new object[] {
             "全部",
-            "进贷",
-            "退领",
-            "盘盈",
-            "调拨"});
-            this.comboBoxEdit11.Size = new System.Drawing.Size(133, 26);
-            this.comboBoxEdit11.TabIndex = 29;
+            "治疗",
+            "修复",
+            "种植",
+            "正畸",
+            "检查",
+            "洗牙",
+            "其他"});
+            this.comboBoxEdit1.Size = new System.Drawing.Size(130, 26);
+            this.comboBoxEdit1.TabIndex = 29;
             // 
-            // labelControl15
+            // labelControl9
             // 
-            this.labelControl15.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl15.Appearance.Options.UseFont = true;
-            this.labelControl15.Location = new System.Drawing.Point(375, 43);
-            this.labelControl15.Name = "labelControl15";
-            this.labelControl15.Size = new System.Drawing.Size(64, 19);
-            this.labelControl15.TabIndex = 28;
-            this.labelControl15.Text = "入库人员";
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl9.Appearance.Options.UseFont = true;
+            this.labelControl9.Location = new System.Drawing.Point(399, 41);
+            this.labelControl9.Name = "labelControl9";
+            this.labelControl9.Size = new System.Drawing.Size(48, 19);
+            this.labelControl9.TabIndex = 28;
+            this.labelControl9.Text = "供应商";
             // 
-            // comboBoxEdit12
+            // comboBoxEdit7
             // 
-            this.comboBoxEdit12.EditValue = "全部";
-            this.comboBoxEdit12.Location = new System.Drawing.Point(84, 40);
-            this.comboBoxEdit12.Name = "comboBoxEdit12";
-            this.comboBoxEdit12.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit12.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit12.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.comboBoxEdit7.EditValue = "全部";
+            this.comboBoxEdit7.Location = new System.Drawing.Point(453, 38);
+            this.comboBoxEdit7.Name = "comboBoxEdit7";
+            this.comboBoxEdit7.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit7.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit7.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit12.Properties.Items.AddRange(new object[] {
-            "全部"});
-            this.comboBoxEdit12.Size = new System.Drawing.Size(273, 26);
-            this.comboBoxEdit12.TabIndex = 27;
-            // 
-            // labelControl16
-            // 
-            this.labelControl16.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl16.Appearance.Options.UseFont = true;
-            this.labelControl16.Location = new System.Drawing.Point(14, 43);
-            this.labelControl16.Name = "labelControl16";
-            this.labelControl16.Size = new System.Drawing.Size(63, 19);
-            this.labelControl16.TabIndex = 26;
-            this.labelControl16.Text = "供  应 商";
-            // 
-            // comboBoxEdit13
-            // 
-            this.comboBoxEdit13.EditValue = "全部";
-            this.comboBoxEdit13.Location = new System.Drawing.Point(445, 8);
-            this.comboBoxEdit13.Name = "comboBoxEdit13";
-            this.comboBoxEdit13.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBoxEdit13.Properties.Appearance.Options.UseFont = true;
-            this.comboBoxEdit13.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
-            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.comboBoxEdit13.Properties.Items.AddRange(new object[] {
+            this.comboBoxEdit7.Properties.Items.AddRange(new object[] {
             "全部",
-            "进贷",
-            "退领",
-            "盘盈",
-            "调拨"});
-            this.comboBoxEdit13.Size = new System.Drawing.Size(133, 26);
-            this.comboBoxEdit13.TabIndex = 25;
+            "治疗",
+            "修复",
+            "种植",
+            "正畸",
+            "检查",
+            "洗牙",
+            "其他"});
+            this.comboBoxEdit7.Size = new System.Drawing.Size(187, 26);
+            this.comboBoxEdit7.TabIndex = 27;
             // 
-            // labelControl17
+            // labelControl10
             // 
-            this.labelControl17.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl17.Appearance.Options.UseFont = true;
-            this.labelControl17.Location = new System.Drawing.Point(375, 11);
-            this.labelControl17.Name = "labelControl17";
-            this.labelControl17.Size = new System.Drawing.Size(64, 19);
-            this.labelControl17.TabIndex = 24;
-            this.labelControl17.Text = "入库类型";
+            this.labelControl10.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl10.Appearance.Options.UseFont = true;
+            this.labelControl10.Location = new System.Drawing.Point(10, 9);
+            this.labelControl10.Name = "labelControl10";
+            this.labelControl10.Size = new System.Drawing.Size(64, 19);
+            this.labelControl10.TabIndex = 26;
+            this.labelControl10.Text = "入库日期";
             // 
-            // labelControl18
+            // comboBoxEdit8
             // 
-            this.labelControl18.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl18.Appearance.Options.UseFont = true;
-            this.labelControl18.Location = new System.Drawing.Point(584, 43);
-            this.labelControl18.Name = "labelControl18";
-            this.labelControl18.Size = new System.Drawing.Size(64, 19);
-            this.labelControl18.TabIndex = 23;
-            this.labelControl18.Text = "物品名称";
-            // 
-            // labelControl19
-            // 
-            this.labelControl19.Appearance.BackColor = System.Drawing.Color.White;
-            this.labelControl19.Appearance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.labelControl19.Appearance.Options.UseBackColor = true;
-            this.labelControl19.Appearance.Options.UseForeColor = true;
-            this.labelControl19.Location = new System.Drawing.Point(675, 46);
-            this.labelControl19.Name = "labelControl19";
-            this.labelControl19.Size = new System.Drawing.Size(192, 14);
-            this.labelControl19.TabIndex = 22;
-            this.labelControl19.Text = "请输入物品编号、名称、和拼音查询";
-            // 
-            // textEdit2
-            // 
-            this.textEdit2.Location = new System.Drawing.Point(666, 39);
-            this.textEdit2.Name = "textEdit2";
-            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textEdit2.Properties.Appearance.Options.UseFont = true;
-            this.textEdit2.Size = new System.Drawing.Size(237, 26);
-            this.textEdit2.TabIndex = 21;
-            // 
-            // simpleButton7
-            // 
-            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton7.Appearance.Options.UseFont = true;
-            this.simpleButton7.Location = new System.Drawing.Point(686, 7);
-            this.simpleButton7.Name = "simpleButton7";
-            this.simpleButton7.Size = new System.Drawing.Size(75, 26);
-            this.simpleButton7.TabIndex = 20;
-            this.simpleButton7.Text = "导出";
-            // 
-            // simpleButton8
-            // 
-            this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton8.Appearance.Options.UseFont = true;
-            this.simpleButton8.Location = new System.Drawing.Point(593, 7);
-            this.simpleButton8.Name = "simpleButton8";
-            this.simpleButton8.Size = new System.Drawing.Size(75, 26);
-            this.simpleButton8.TabIndex = 19;
-            this.simpleButton8.Text = "查询";
-            // 
-            // labelControl20
-            // 
-            this.labelControl20.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl20.Appearance.Options.UseFont = true;
-            this.labelControl20.Location = new System.Drawing.Point(213, 11);
-            this.labelControl20.Name = "labelControl20";
-            this.labelControl20.Size = new System.Drawing.Size(16, 19);
-            this.labelControl20.TabIndex = 18;
-            this.labelControl20.Text = "至";
-            // 
-            // dateEdit5
-            // 
-            this.dateEdit5.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
-            this.dateEdit5.Location = new System.Drawing.Point(235, 8);
-            this.dateEdit5.Name = "dateEdit5";
-            this.dateEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit5.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.comboBoxEdit8.EditValue = "全部";
+            this.comboBoxEdit8.Location = new System.Drawing.Point(449, 6);
+            this.comboBoxEdit8.Name = "comboBoxEdit8";
+            this.comboBoxEdit8.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit8.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit8.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit5.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.comboBoxEdit8.Properties.Items.AddRange(new object[] {
+            "全部",
+            "录单(待审核)",
+            "入库"});
+            this.comboBoxEdit8.Size = new System.Drawing.Size(101, 26);
+            this.comboBoxEdit8.TabIndex = 24;
+            // 
+            // labelControl11
+            // 
+            this.labelControl11.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl11.Appearance.Options.UseFont = true;
+            this.labelControl11.Location = new System.Drawing.Point(10, 41);
+            this.labelControl11.Name = "labelControl11";
+            this.labelControl11.Size = new System.Drawing.Size(64, 19);
+            this.labelControl11.TabIndex = 22;
+            this.labelControl11.Text = "入库人员";
+            // 
+            // labelControl12
+            // 
+            this.labelControl12.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl12.Appearance.Options.UseFont = true;
+            this.labelControl12.Location = new System.Drawing.Point(209, 41);
+            this.labelControl12.Name = "labelControl12";
+            this.labelControl12.Size = new System.Drawing.Size(64, 19);
+            this.labelControl12.TabIndex = 21;
+            this.labelControl12.Text = "入库类型";
+            // 
+            // comboBoxEdit9
+            // 
+            this.comboBoxEdit9.Location = new System.Drawing.Point(282, 38);
+            this.comboBoxEdit9.Name = "comboBoxEdit9";
+            this.comboBoxEdit9.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit9.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit9.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit5.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit5.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit5.Size = new System.Drawing.Size(122, 26);
-            this.dateEdit5.TabIndex = 17;
+            this.comboBoxEdit9.Properties.Items.AddRange(new object[] {
+            "收费医生",
+            "收款人",
+            "介绍人"});
+            this.comboBoxEdit9.Size = new System.Drawing.Size(111, 26);
+            this.comboBoxEdit9.TabIndex = 20;
             // 
-            // dateEdit6
+            // labelControl13
             // 
-            this.dateEdit6.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
-            this.dateEdit6.Location = new System.Drawing.Point(84, 8);
-            this.dateEdit6.Name = "dateEdit6";
-            this.dateEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateEdit6.Properties.Appearance.Options.UseFont = true;
-            this.dateEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.labelControl13.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl13.Appearance.Options.UseFont = true;
+            this.labelControl13.Location = new System.Drawing.Point(369, 10);
+            this.labelControl13.Name = "labelControl13";
+            this.labelControl13.Size = new System.Drawing.Size(64, 19);
+            this.labelControl13.TabIndex = 16;
+            this.labelControl13.Text = "单据状态";
+            // 
+            // simpleButton5
+            // 
+            this.simpleButton5.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton5.Appearance.Options.UseFont = true;
+            this.simpleButton5.Location = new System.Drawing.Point(646, 6);
+            this.simpleButton5.Name = "simpleButton5";
+            this.simpleButton5.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton5.TabIndex = 9;
+            this.simpleButton5.Text = "导出";
+            // 
+            // simpleButton6
+            // 
+            this.simpleButton6.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton6.Appearance.Options.UseFont = true;
+            this.simpleButton6.Location = new System.Drawing.Point(565, 6);
+            this.simpleButton6.Name = "simpleButton6";
+            this.simpleButton6.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton6.TabIndex = 8;
+            this.simpleButton6.Text = "查询";
+            // 
+            // comboBoxEdit10
+            // 
+            this.comboBoxEdit10.Location = new System.Drawing.Point(80, 38);
+            this.comboBoxEdit10.Name = "comboBoxEdit10";
+            this.comboBoxEdit10.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit10.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit10.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit6.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            this.comboBoxEdit10.Properties.Items.AddRange(new object[] {
+            "收费医生",
+            "收款人",
+            "介绍人"});
+            this.comboBoxEdit10.Size = new System.Drawing.Size(123, 26);
+            this.comboBoxEdit10.TabIndex = 6;
+            // 
+            // labelControl14
+            // 
+            this.labelControl14.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl14.Appearance.Options.UseFont = true;
+            this.labelControl14.Location = new System.Drawing.Point(209, 8);
+            this.labelControl14.Name = "labelControl14";
+            this.labelControl14.Size = new System.Drawing.Size(16, 19);
+            this.labelControl14.TabIndex = 5;
+            this.labelControl14.Text = "至";
+            // 
+            // dateEdit3
+            // 
+            this.dateEdit3.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
+            this.dateEdit3.Location = new System.Drawing.Point(231, 5);
+            this.dateEdit3.Name = "dateEdit3";
+            this.dateEdit3.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit3.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit3.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dateEdit6.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
-            this.dateEdit6.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
-            this.dateEdit6.Size = new System.Drawing.Size(123, 26);
-            this.dateEdit6.TabIndex = 16;
+            this.dateEdit3.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit3.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit3.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit3.Size = new System.Drawing.Size(122, 26);
+            this.dateEdit3.TabIndex = 4;
             // 
-            // labelControl21
+            // dateEdit4
             // 
-            this.labelControl21.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelControl21.Appearance.Options.UseFont = true;
-            this.labelControl21.Location = new System.Drawing.Point(14, 11);
-            this.labelControl21.Name = "labelControl21";
-            this.labelControl21.Size = new System.Drawing.Size(64, 19);
-            this.labelControl21.TabIndex = 15;
-            this.labelControl21.Text = "入库日期";
+            this.dateEdit4.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
+            this.dateEdit4.Location = new System.Drawing.Point(80, 5);
+            this.dateEdit4.Name = "dateEdit4";
+            this.dateEdit4.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit4.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit4.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit4.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit4.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit4.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit4.Size = new System.Drawing.Size(123, 26);
+            this.dateEdit4.TabIndex = 3;
+            // 
+            // navigationPage5
+            // 
+            this.navigationPage5.Caption = "入库统计";
+            this.navigationPage5.Controls.Add(this.gridControl3);
+            this.navigationPage5.Controls.Add(this.panelControl3);
+            this.navigationPage5.Name = "navigationPage5";
+            this.navigationPage5.Size = new System.Drawing.Size(1115, 564);
             // 
             // gridControl3
             // 
@@ -1545,6 +1330,202 @@
             this.gridColumn41.Visible = true;
             this.gridColumn41.VisibleIndex = 8;
             // 
+            // panelControl3
+            // 
+            this.panelControl3.Controls.Add(this.comboBoxEdit11);
+            this.panelControl3.Controls.Add(this.labelControl15);
+            this.panelControl3.Controls.Add(this.comboBoxEdit12);
+            this.panelControl3.Controls.Add(this.labelControl16);
+            this.panelControl3.Controls.Add(this.comboBoxEdit13);
+            this.panelControl3.Controls.Add(this.labelControl17);
+            this.panelControl3.Controls.Add(this.labelControl18);
+            this.panelControl3.Controls.Add(this.textEdit2);
+            this.panelControl3.Controls.Add(this.simpleButton7);
+            this.panelControl3.Controls.Add(this.simpleButton8);
+            this.panelControl3.Controls.Add(this.labelControl20);
+            this.panelControl3.Controls.Add(this.dateEdit5);
+            this.panelControl3.Controls.Add(this.dateEdit6);
+            this.panelControl3.Controls.Add(this.labelControl21);
+            this.panelControl3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl3.Location = new System.Drawing.Point(0, 0);
+            this.panelControl3.Name = "panelControl3";
+            this.panelControl3.Size = new System.Drawing.Size(1115, 71);
+            this.panelControl3.TabIndex = 7;
+            // 
+            // comboBoxEdit11
+            // 
+            this.comboBoxEdit11.EditValue = "全部";
+            this.comboBoxEdit11.Location = new System.Drawing.Point(445, 40);
+            this.comboBoxEdit11.Name = "comboBoxEdit11";
+            this.comboBoxEdit11.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit11.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit11.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit11.Properties.Items.AddRange(new object[] {
+            "全部",
+            "进贷",
+            "退领",
+            "盘盈",
+            "调拨"});
+            this.comboBoxEdit11.Size = new System.Drawing.Size(133, 26);
+            this.comboBoxEdit11.TabIndex = 29;
+            // 
+            // labelControl15
+            // 
+            this.labelControl15.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl15.Appearance.Options.UseFont = true;
+            this.labelControl15.Location = new System.Drawing.Point(375, 43);
+            this.labelControl15.Name = "labelControl15";
+            this.labelControl15.Size = new System.Drawing.Size(64, 19);
+            this.labelControl15.TabIndex = 28;
+            this.labelControl15.Text = "入库人员";
+            // 
+            // comboBoxEdit12
+            // 
+            this.comboBoxEdit12.EditValue = "全部";
+            this.comboBoxEdit12.Location = new System.Drawing.Point(84, 40);
+            this.comboBoxEdit12.Name = "comboBoxEdit12";
+            this.comboBoxEdit12.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit12.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit12.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit12.Properties.Items.AddRange(new object[] {
+            "全部"});
+            this.comboBoxEdit12.Size = new System.Drawing.Size(273, 26);
+            this.comboBoxEdit12.TabIndex = 27;
+            // 
+            // labelControl16
+            // 
+            this.labelControl16.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl16.Appearance.Options.UseFont = true;
+            this.labelControl16.Location = new System.Drawing.Point(14, 43);
+            this.labelControl16.Name = "labelControl16";
+            this.labelControl16.Size = new System.Drawing.Size(63, 19);
+            this.labelControl16.TabIndex = 26;
+            this.labelControl16.Text = "供  应 商";
+            // 
+            // comboBoxEdit13
+            // 
+            this.comboBoxEdit13.EditValue = "全部";
+            this.comboBoxEdit13.Location = new System.Drawing.Point(445, 8);
+            this.comboBoxEdit13.Name = "comboBoxEdit13";
+            this.comboBoxEdit13.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxEdit13.Properties.Appearance.Options.UseFont = true;
+            this.comboBoxEdit13.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.comboBoxEdit13.Properties.Items.AddRange(new object[] {
+            "全部",
+            "进贷",
+            "退领",
+            "盘盈",
+            "调拨"});
+            this.comboBoxEdit13.Size = new System.Drawing.Size(133, 26);
+            this.comboBoxEdit13.TabIndex = 25;
+            // 
+            // labelControl17
+            // 
+            this.labelControl17.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl17.Appearance.Options.UseFont = true;
+            this.labelControl17.Location = new System.Drawing.Point(375, 11);
+            this.labelControl17.Name = "labelControl17";
+            this.labelControl17.Size = new System.Drawing.Size(64, 19);
+            this.labelControl17.TabIndex = 24;
+            this.labelControl17.Text = "入库类型";
+            // 
+            // labelControl18
+            // 
+            this.labelControl18.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl18.Appearance.Options.UseFont = true;
+            this.labelControl18.Location = new System.Drawing.Point(584, 43);
+            this.labelControl18.Name = "labelControl18";
+            this.labelControl18.Size = new System.Drawing.Size(64, 19);
+            this.labelControl18.TabIndex = 23;
+            this.labelControl18.Text = "物品名称";
+            // 
+            // textEdit2
+            // 
+            this.textEdit2.Location = new System.Drawing.Point(666, 39);
+            this.textEdit2.Name = "textEdit2";
+            this.textEdit2.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textEdit2.Properties.Appearance.Options.UseFont = true;
+            this.textEdit2.Properties.NullText = "请输入物品编号、名称、和拼音查询";
+            this.textEdit2.Properties.NullValuePrompt = "请输入物品编号、名称、和拼音查询";
+            this.textEdit2.Properties.NullValuePromptShowForEmptyValue = true;
+            this.textEdit2.Size = new System.Drawing.Size(272, 26);
+            this.textEdit2.TabIndex = 21;
+            // 
+            // simpleButton7
+            // 
+            this.simpleButton7.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton7.Appearance.Options.UseFont = true;
+            this.simpleButton7.Location = new System.Drawing.Point(686, 7);
+            this.simpleButton7.Name = "simpleButton7";
+            this.simpleButton7.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton7.TabIndex = 20;
+            this.simpleButton7.Text = "导出";
+            // 
+            // simpleButton8
+            // 
+            this.simpleButton8.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton8.Appearance.Options.UseFont = true;
+            this.simpleButton8.Location = new System.Drawing.Point(593, 7);
+            this.simpleButton8.Name = "simpleButton8";
+            this.simpleButton8.Size = new System.Drawing.Size(75, 26);
+            this.simpleButton8.TabIndex = 19;
+            this.simpleButton8.Text = "查询";
+            // 
+            // labelControl20
+            // 
+            this.labelControl20.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl20.Appearance.Options.UseFont = true;
+            this.labelControl20.Location = new System.Drawing.Point(213, 11);
+            this.labelControl20.Name = "labelControl20";
+            this.labelControl20.Size = new System.Drawing.Size(16, 19);
+            this.labelControl20.TabIndex = 18;
+            this.labelControl20.Text = "至";
+            // 
+            // dateEdit5
+            // 
+            this.dateEdit5.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
+            this.dateEdit5.Location = new System.Drawing.Point(235, 8);
+            this.dateEdit5.Name = "dateEdit5";
+            this.dateEdit5.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit5.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit5.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit5.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit5.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit5.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit5.Size = new System.Drawing.Size(122, 26);
+            this.dateEdit5.TabIndex = 17;
+            // 
+            // dateEdit6
+            // 
+            this.dateEdit6.EditValue = new System.DateTime(2019, 8, 7, 16, 35, 45, 0);
+            this.dateEdit6.Location = new System.Drawing.Point(84, 8);
+            this.dateEdit6.Name = "dateEdit6";
+            this.dateEdit6.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateEdit6.Properties.Appearance.Options.UseFont = true;
+            this.dateEdit6.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit6.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit6.Properties.DisplayFormat.FormatString = "yyyy-MM-dd";
+            this.dateEdit6.Properties.DisplayFormat.FormatType = DevExpress.Utils.FormatType.DateTime;
+            this.dateEdit6.Size = new System.Drawing.Size(123, 26);
+            this.dateEdit6.TabIndex = 16;
+            // 
+            // labelControl21
+            // 
+            this.labelControl21.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelControl21.Appearance.Options.UseFont = true;
+            this.labelControl21.Location = new System.Drawing.Point(14, 11);
+            this.labelControl21.Name = "labelControl21";
+            this.labelControl21.Size = new System.Drawing.Size(64, 19);
+            this.labelControl21.TabIndex = 15;
+            this.labelControl21.Text = "入库日期";
+            // 
             // frmStoreMgtInStorage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -1558,8 +1539,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage3.ResumeLayout(false);
-            this.navigationPage4.ResumeLayout(false);
-            this.navigationPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
             this.panelControl1.ResumeLayout(false);
             this.panelControl1.PerformLayout();
@@ -1571,9 +1553,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit2)).EndInit();
+            this.navigationPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.panelControl2.ResumeLayout(false);
             this.panelControl2.PerformLayout();
@@ -1588,9 +1571,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit4.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.repositoryItemButtonEdit1)).EndInit();
+            this.navigationPage5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             this.panelControl3.PerformLayout();
@@ -1602,8 +1585,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit5.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties.CalendarTimeProperties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dateEdit6.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridControl3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1647,7 +1628,6 @@
         private DevExpress.XtraEditors.DateEdit dateEdit2;
         private DevExpress.XtraEditors.DateEdit dateEdit1;
         private DevExpress.XtraEditors.PanelControl panelControl2;
-        private DevExpress.XtraEditors.LabelControl labelControl8;
         private DevExpress.XtraEditors.TextEdit textEdit1;
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit6;
         private DevExpress.XtraEditors.LabelControl labelControl5;
@@ -1697,7 +1677,6 @@
         private DevExpress.XtraEditors.ComboBoxEdit comboBoxEdit13;
         private DevExpress.XtraEditors.LabelControl labelControl17;
         private DevExpress.XtraEditors.LabelControl labelControl18;
-        private DevExpress.XtraEditors.LabelControl labelControl19;
         private DevExpress.XtraEditors.TextEdit textEdit2;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.SimpleButton simpleButton8;

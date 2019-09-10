@@ -30,10 +30,6 @@
         {
             this.navigationPane1 = new DevExpress.XtraBars.Navigation.NavigationPane();
             this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridColumn1 = new DevExpress.XtraGrid.Columns.GridColumn();
@@ -45,21 +41,29 @@
             this.gridColumn7 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn15 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.gridColumn8 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.panelControl4 = new DevExpress.XtraEditors.PanelControl();
+            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             ((System.ComponentModel.ISupportInitialize)(this.pcBase)).BeginInit();
             this.pcBase.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).BeginInit();
             this.navigationPane1.SuspendLayout();
             this.navigationPage5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
-            this.panelControl4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).BeginInit();
+            this.panelControl4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pcBase
             // 
             this.pcBase.Controls.Add(this.navigationPane1);
             this.pcBase.Size = new System.Drawing.Size(1179, 636);
+            // 
+            // defaultLookAndFeel
+            // 
+            this.defaultLookAndFeel.LookAndFeel.SkinName = "Office 2016 Colorful";
             // 
             // navigationPane1
             // 
@@ -89,48 +93,7 @@
             this.navigationPage5.Controls.Add(this.gridControl1);
             this.navigationPage5.Controls.Add(this.panelControl4);
             this.navigationPage5.Name = "navigationPage5";
-            this.navigationPage5.Size = new System.Drawing.Size(1061, 572);
-            // 
-            // panelControl4
-            // 
-            this.panelControl4.Controls.Add(this.simpleButton4);
-            this.panelControl4.Controls.Add(this.simpleButton3);
-            this.panelControl4.Controls.Add(this.simpleButton2);
-            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl4.Location = new System.Drawing.Point(0, 0);
-            this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(1061, 40);
-            this.panelControl4.TabIndex = 9;
-            // 
-            // simpleButton4
-            // 
-            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.Location = new System.Drawing.Point(257, 5);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(87, 30);
-            this.simpleButton4.TabIndex = 26;
-            this.simpleButton4.Text = "删除";
-            // 
-            // simpleButton3
-            // 
-            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton3.Appearance.Options.UseFont = true;
-            this.simpleButton3.Location = new System.Drawing.Point(150, 5);
-            this.simpleButton3.Name = "simpleButton3";
-            this.simpleButton3.Size = new System.Drawing.Size(87, 30);
-            this.simpleButton3.TabIndex = 25;
-            this.simpleButton3.Text = "修改";
-            // 
-            // simpleButton2
-            // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.Location = new System.Drawing.Point(23, 3);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(110, 30);
-            this.simpleButton2.TabIndex = 24;
-            this.simpleButton2.Text = "新增供应商";
+            this.navigationPage5.Size = new System.Drawing.Size(1056, 572);
             // 
             // gridControl1
             // 
@@ -138,7 +101,7 @@
             this.gridControl1.Location = new System.Drawing.Point(0, 40);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1061, 532);
+            this.gridControl1.Size = new System.Drawing.Size(1056, 532);
             this.gridControl1.TabIndex = 39;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -265,6 +228,47 @@
             this.gridColumn8.Visible = true;
             this.gridColumn8.VisibleIndex = 8;
             // 
+            // panelControl4
+            // 
+            this.panelControl4.Controls.Add(this.simpleButton4);
+            this.panelControl4.Controls.Add(this.simpleButton3);
+            this.panelControl4.Controls.Add(this.simpleButton2);
+            this.panelControl4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelControl4.Location = new System.Drawing.Point(0, 0);
+            this.panelControl4.Name = "panelControl4";
+            this.panelControl4.Size = new System.Drawing.Size(1056, 40);
+            this.panelControl4.TabIndex = 9;
+            // 
+            // simpleButton4
+            // 
+            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton4.Appearance.Options.UseFont = true;
+            this.simpleButton4.Location = new System.Drawing.Point(257, 5);
+            this.simpleButton4.Name = "simpleButton4";
+            this.simpleButton4.Size = new System.Drawing.Size(87, 30);
+            this.simpleButton4.TabIndex = 26;
+            this.simpleButton4.Text = "删除";
+            // 
+            // simpleButton3
+            // 
+            this.simpleButton3.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton3.Appearance.Options.UseFont = true;
+            this.simpleButton3.Location = new System.Drawing.Point(150, 5);
+            this.simpleButton3.Name = "simpleButton3";
+            this.simpleButton3.Size = new System.Drawing.Size(87, 30);
+            this.simpleButton3.TabIndex = 25;
+            this.simpleButton3.Text = "修改";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Location = new System.Drawing.Point(23, 3);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(110, 30);
+            this.simpleButton2.TabIndex = 24;
+            this.simpleButton2.Text = "新增供应商";
+            // 
             // frmStoreMgtProducer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
@@ -278,10 +282,10 @@
             ((System.ComponentModel.ISupportInitialize)(this.navigationPane1)).EndInit();
             this.navigationPane1.ResumeLayout(false);
             this.navigationPage5.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
-            this.panelControl4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl4)).EndInit();
+            this.panelControl4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

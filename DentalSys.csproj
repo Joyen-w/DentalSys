@@ -97,6 +97,24 @@
   <ItemGroup>
     <Compile Include="entity\EntityDicDoctor.cs" />
     <Compile Include="entity\EntityDsPatient.cs" />
+    <Compile Include="frmTodayWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTodayWork.Designer.cs">
+      <DependentUpon>frmTodayWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\frmPatReturnVisit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewer\frmPatReturnVisit.Designer.cs">
+      <DependentUpon>frmPatReturnVisit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewer\ucPatBseInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="viewer\ucPatBseInfo.Designer.cs">
+      <DependentUpon>ucPatBseInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="viewer\frmCureCharge.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -539,6 +557,15 @@
     <Compile Include="viewer\frmPatVip.Designer.cs">
       <DependentUpon>frmPatVip.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="frmTodayWork.resx">
+      <DependentUpon>frmTodayWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\frmPatReturnVisit.resx">
+      <DependentUpon>frmPatReturnVisit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewer\ucPatBseInfo.resx">
+      <DependentUpon>ucPatBseInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="viewer\frmCureCharge.resx">
       <DependentUpon>frmCureCharge.cs</DependentUpon>
     </EmbeddedResource>

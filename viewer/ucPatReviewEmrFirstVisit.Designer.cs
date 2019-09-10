@@ -48,6 +48,10 @@
             this.labelControl12 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
             this.ucPatEmrCommon1 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon2 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon3 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon4 = new DentalSys.ucPatEmrCommon();
+            this.ucPatEmrCommon5 = new DentalSys.ucPatEmrCommon();
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,7 +62,7 @@
             this.panelControl2.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
             this.panelControl2.Location = new System.Drawing.Point(1, 0);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(5, 428);
+            this.panelControl2.Size = new System.Drawing.Size(5, 527);
             this.panelControl2.TabIndex = 0;
             // 
             // labelControl18
@@ -67,7 +71,7 @@
             this.labelControl18.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl18.Appearance.Options.UseFont = true;
             this.labelControl18.Appearance.Options.UseForeColor = true;
-            this.labelControl18.Location = new System.Drawing.Point(17, 385);
+            this.labelControl18.Location = new System.Drawing.Point(17, 469);
             this.labelControl18.Name = "labelControl18";
             this.labelControl18.Size = new System.Drawing.Size(33, 17);
             this.labelControl18.TabIndex = 150;
@@ -79,7 +83,7 @@
             this.labelControl17.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl17.Appearance.Options.UseFont = true;
             this.labelControl17.Appearance.Options.UseForeColor = true;
-            this.labelControl17.Location = new System.Drawing.Point(17, 327);
+            this.labelControl17.Location = new System.Drawing.Point(17, 411);
             this.labelControl17.Name = "labelControl17";
             this.labelControl17.Size = new System.Drawing.Size(33, 17);
             this.labelControl17.TabIndex = 149;
@@ -91,7 +95,7 @@
             this.labelControl16.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl16.Appearance.Options.UseFont = true;
             this.labelControl16.Appearance.Options.UseForeColor = true;
-            this.labelControl16.Location = new System.Drawing.Point(17, 280);
+            this.labelControl16.Location = new System.Drawing.Point(17, 342);
             this.labelControl16.Name = "labelControl16";
             this.labelControl16.Size = new System.Drawing.Size(61, 17);
             this.labelControl16.TabIndex = 148;
@@ -103,7 +107,7 @@
             this.labelControl15.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl15.Appearance.Options.UseFont = true;
             this.labelControl15.Appearance.Options.UseForeColor = true;
-            this.labelControl15.Location = new System.Drawing.Point(18, 231);
+            this.labelControl15.Location = new System.Drawing.Point(17, 270);
             this.labelControl15.Name = "labelControl15";
             this.labelControl15.Size = new System.Drawing.Size(33, 17);
             this.labelControl15.TabIndex = 147;
@@ -115,7 +119,7 @@
             this.labelControl14.Appearance.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.labelControl14.Appearance.Options.UseFont = true;
             this.labelControl14.Appearance.Options.UseForeColor = true;
-            this.labelControl14.Location = new System.Drawing.Point(17, 183);
+            this.labelControl14.Location = new System.Drawing.Point(17, 201);
             this.labelControl14.Name = "labelControl14";
             this.labelControl14.Size = new System.Drawing.Size(61, 17);
             this.labelControl14.TabIndex = 146;
@@ -279,16 +283,53 @@
             // 
             // ucPatEmrCommon1
             // 
+            this.ucPatEmrCommon1.AutoSize = true;
             this.ucPatEmrCommon1.Location = new System.Drawing.Point(86, 124);
             this.ucPatEmrCommon1.Name = "ucPatEmrCommon1";
-            this.ucPatEmrCommon1.Size = new System.Drawing.Size(604, 46);
+            this.ucPatEmrCommon1.Size = new System.Drawing.Size(604, 62);
             this.ucPatEmrCommon1.TabIndex = 151;
+            // 
+            // ucPatEmrCommon2
+            // 
+            this.ucPatEmrCommon2.AutoSize = true;
+            this.ucPatEmrCommon2.Location = new System.Drawing.Point(86, 192);
+            this.ucPatEmrCommon2.Name = "ucPatEmrCommon2";
+            this.ucPatEmrCommon2.Size = new System.Drawing.Size(604, 62);
+            this.ucPatEmrCommon2.TabIndex = 152;
+            // 
+            // ucPatEmrCommon3
+            // 
+            this.ucPatEmrCommon3.AutoSize = true;
+            this.ucPatEmrCommon3.Location = new System.Drawing.Point(86, 260);
+            this.ucPatEmrCommon3.Name = "ucPatEmrCommon3";
+            this.ucPatEmrCommon3.Size = new System.Drawing.Size(604, 62);
+            this.ucPatEmrCommon3.TabIndex = 153;
+            // 
+            // ucPatEmrCommon4
+            // 
+            this.ucPatEmrCommon4.AutoSize = true;
+            this.ucPatEmrCommon4.Location = new System.Drawing.Point(86, 328);
+            this.ucPatEmrCommon4.Name = "ucPatEmrCommon4";
+            this.ucPatEmrCommon4.Size = new System.Drawing.Size(604, 62);
+            this.ucPatEmrCommon4.TabIndex = 154;
+            // 
+            // ucPatEmrCommon5
+            // 
+            this.ucPatEmrCommon5.AutoSize = true;
+            this.ucPatEmrCommon5.Location = new System.Drawing.Point(86, 402);
+            this.ucPatEmrCommon5.Name = "ucPatEmrCommon5";
+            this.ucPatEmrCommon5.Size = new System.Drawing.Size(604, 62);
+            this.ucPatEmrCommon5.TabIndex = 155;
             // 
             // ucPatReviewEmrFirstVisit
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.ucPatEmrCommon5);
+            this.Controls.Add(this.ucPatEmrCommon4);
+            this.Controls.Add(this.ucPatEmrCommon3);
+            this.Controls.Add(this.ucPatEmrCommon2);
             this.Controls.Add(this.ucPatEmrCommon1);
             this.Controls.Add(this.labelControl18);
             this.Controls.Add(this.labelControl17);
@@ -310,7 +351,7 @@
             this.Controls.Add(this.labelControl1);
             this.Controls.Add(this.panelControl2);
             this.Name = "ucPatReviewEmrFirstVisit";
-            this.Size = new System.Drawing.Size(701, 427);
+            this.Size = new System.Drawing.Size(701, 525);
             ((System.ComponentModel.ISupportInitialize)(this.panelControl2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -338,5 +379,9 @@
         public DevExpress.XtraEditors.LabelControl labelControl13;
         public DevExpress.XtraEditors.LabelControl labelControl12;
         public DevExpress.XtraEditors.LabelControl labelControl1;
+        private ucPatEmrCommon ucPatEmrCommon2;
+        private ucPatEmrCommon ucPatEmrCommon3;
+        private ucPatEmrCommon ucPatEmrCommon4;
+        private ucPatEmrCommon ucPatEmrCommon5;
     }
 }

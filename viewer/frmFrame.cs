@@ -89,19 +89,16 @@ namespace DentalSys
 
         private void bbi001_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            //frm1 frm01 = new frm1();
-            //frm01.MdiParent = this;
-            //frm01.Show();
-            frmtest2 frm01 = new frmtest2();
-            frm01.MdiParent = this;
-            frm01.Show();
+            frmStatBusiness frm = new frmStatBusiness();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         private void bbi002_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            frmtest frm01 = new frmtest();
-            frm01.MdiParent = this;
-            frm01.Show();
+            frmStatBusiness frm = new frmStatBusiness();
+            frm.MdiParent = this;
+            frm.Show();
         }
 
         #endregion
@@ -305,6 +302,20 @@ namespace DentalSys
         private void barButtonItem38_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             frmRecipelCompose frm = new frmRecipelCompose();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem8_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmTodayWork frm = new frmTodayWork();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void barButtonItem3_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            frmPatReturnVisit frm = new frmPatReturnVisit();
             frm.MdiParent = this;
             frm.Show();
         }

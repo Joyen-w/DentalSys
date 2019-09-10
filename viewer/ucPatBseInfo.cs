@@ -9,17 +9,11 @@ using System.Windows.Forms;
 
 namespace DentalSys
 {
-    public partial class ucPatEmrFirstVisit : UserControl
+    public partial class ucPatBseInfo : UserControl
     {
-        public ucPatEmrFirstVisit()
+        public ucPatBseInfo()
         {
             InitializeComponent();
-        }
-
-        private void simpleButton3_Click(object sender, EventArgs e)
-        {
-            frmPatEmrInfo frm = new frmPatEmrInfo();
-            frm.ShowDialog();
         }
     }
 }
